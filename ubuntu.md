@@ -56,7 +56,7 @@ Firefox以外のブラウザを利用したい場合は、[Chrome](http://www.go
 
 プロキシサーバを利用している環境では、`sudo pear config-set http_proxy proxy.example.net:3128`などとしておく。
 
-PEAR Http_Requestをインストールする。
+PEAR HTTP_Requestをインストールする。
 
 ```bash
 sudo pear install http_request

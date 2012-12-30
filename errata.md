@@ -6,8 +6,8 @@
 
 **p. 72 ソースコードの6行目**
 
-+ 誤：public class PublicTimelineTest {
-+ 正：public class PublicTimeline {
++ 誤：`public class PublicTimelineTest {`
++ 正：`public class PublicTimeline {`
 
 **p. 146 表9.1**
 
@@ -34,18 +34,18 @@ office
 
 **p. 71 上から2行目**
 
-+ 誤：sudo pear install Http-Request
-+ 正：sudo pear install Http_Request
++ 誤：`sudo pear install Http-Request`
++ 正：`sudo pear install Http_Request`
 
 **p. 71 gettext.phpの3行目**
 
-+ 誤：header('Content-Type: text/plain; charset=utf-8;');
-+ 正：header('Content-Type: text/plain; charset=utf-8');
++ 誤：`header('Content-Type: text/plain; charset=utf-8;');`
++ 正：`header('Content-Type: text/plain; charset=utf-8');`
 
 **p. 74 publictimeline.phpの2行目**
 
-+ 誤：header('Content-Type: text/plain; charset=utf-8;');
-+ 正：header('Content-Type: text/plain; charset=utf-8');
++ 誤：`header('Content-Type: text/plain; charset=utf-8;');`
++ 正：`header('Content-Type: text/plain; charset=utf-8');`
 
 **p. 133 演習**
 
@@ -59,6 +59,6 @@ office
 
 **p. 181 上から3行目**
 
-+ 誤：System.out.printf("Run! %s! Run!\n", getFirstName);
-+ 正：System.out.printf("Run! %s! Run!\n", getFirstName());
++ 誤：`System.out.printf("Run! %s! Run!\n", getFirstName);`
++ 正：`System.out.printf("Run! %s! Run!\n", getFirstName());`
 

@@ -1,19 +1,6 @@
 <!doctype html>
 <html>
   <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <script>
-$(document).ready(function() {
-  $.getJSON('http://www.unfindable.net/web-app-book2/related-blogs.json.php?callback=?',
-  function(result) {
-    var blogs = result.blogs;
-    for (var i = 0; i < blogs.length; i++) {
-      var blog = blogs[i];
-      $("#blogs").append("<li><a href='"+blog.url+"'>"+blog.title+"</a></li>");
-    }
-  });
-});
-    </script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Webbook2 by taroyabuki</title>
@@ -77,6 +64,18 @@ $(document).ready(function() {
       </footer>
     </div>
     <script src="javascripts/scale.fix.js"></script>
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script>
+$(document).ready(function() {
+  $.getJSON('http://www.unfindable.net/web-app-book2/related-blogs.json.php?callback=?',
+  function(result) {
+    var blogs = result.blogs;
+    for (var i = 0; i < blogs.length; i++) {
+      var blog = blogs[i];
+      $("#blogs").append("<li><a href='"+blog.url+"'>"+blog.title+"</a></li>");
+    }
+  });
+});
+    </script>    
   </body>
 </html>

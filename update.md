@@ -66,9 +66,8 @@ Apache Commons Langは、バージョン2系列とバージョン3系列があ�
 
 **p. 106 (7.6.1 phpMyAdminのインストール)**
 
-MacでphpMyAdminにログインできないときは、[補足](https://www.facebook.com/notes/web%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E6%A7%8B%E7%AF%89%E5%85%A5%E9%96%80/%E8%A3%9C%E8%B6%B3/165540553507071)を参考に、/etc/php.iniのmysqli.default_socketの設定を確認してください。
+MacでphpMyAdminにログインできないときは、[補足](https://github.com/taroyabuki/webbook2/blob/master/supplement.md)を参考に、/etc/php.iniのmysqli.default_socketの設定を確認してください。
 
 **p. 135 (8.2.3 PHPからデータベースへのアクセス)**
 
-MacでPHPからMySQLにアクセスできないときは、[補足](https://www.facebook.com/notes/web%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E6%A7%8B%E7%AF%89%E5%85%A5%E9%96%80/%E8%A3%9C%E8%B6%B3/165540553507071)を参考に、/etc/php.iniのpdo_mysql.default_socketの設定を確認してください。
-
+MacでPHPからMySQLにアクセスできないときは、[補足](https://github.com/taroyabuki/webbook2/blob/master/supplement.md)を参考に、/etc/php.iniのpdo_mysql.default_socketの設定を確認してください。

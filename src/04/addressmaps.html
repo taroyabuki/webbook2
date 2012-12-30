@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style type="text/css">
+      html, body { height: 100%; }
+    </style>
+    <script type="text/javascript"
+    src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("jquery", "1.5.0");
+    </script>
+    <script type="text/javascript" src="addressmaps.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $("#button").click(function() {
+          var address = $("#address").val(); // input要素の値を取得
+          drawMap(address); // 地図を生成する
+        });
+      });
+    </script>
+    <title>指定した住所を中心とする地図</title>
+  </head>
+  <body>
+    <p>
+      <input id="address" type="text" value="東京都世田谷区新町3丁目" size="50" />
+      <button id="button">地図を作る</button>
+    </p>
+    <div id="map_canvas" style="width:100%; height:90%;"></div>
+  </body>
+</html>
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("jquery", "1.5.0");
+    </script>
+    <script type="text/javascript">
+      //<![CDATA[
+      $(document).ready(function() {
+        $.getJSON('http://api.twitter.com/1/statuses/public_timeline.json?callback=?',
+        function(statuses) {
+          console.log(statuses); // 結果を表示してみると，配列になっていることがわかる
+          for (var i = 0; i < statuses.length; i++) {
+            console.log(statuses[i]); // textプロパティがつぶやきの本文であることがわかる
+ 
+            var p = $('<p>' + statuses[i].text + '<\/p>'); // 要素を生成し，
+            $('body').append(p); // body要素内に追記する
+          }
+        });
+      });
+      //]]>
+    </script>
+    <title>Twitter Public Timeline</title>
+  </head>
+  <body>
+  </body>
+</html>
+

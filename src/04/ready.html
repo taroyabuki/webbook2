@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>ページが読み込まれたときの動作</title>
+    <!-- jQueryの読み込み -->
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("jquery", "1.5.0");
+    </script>
+    <script type="text/javascript">
+      $(document).ready(function() { // ページが読み込まれたら
+        alert("ページが読み込まれた"); // アラートを出して
+        $("body").css("background-color", "black"); // body要素の背景を黒にする
+      });
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
+

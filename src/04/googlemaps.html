@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style type="text/css">
+      html, body { height: 100%; }
+    </style>
+    <script type="text/javascript"
+            src="http://maps.google.com/maps/api/js?sensor=false">
+    </script>
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("jquery", "1.5.0");
+    </script>
+    <script type="text/javascript" src="googlemaps.js"></script>
+    <title>指定した位置を中心とする地図</title>
+  </head>
+  <body>
+    <p>
+      緯度<input id="lat" type="text" value="35.632997" />
+      経度<input id="lng" type="text" value="139.648609" />
+      <button id="button">地図を作る</button>
+    </p>
+    <div id="map_canvas" style="width: 100%; height: 90%;"></div>
+  </body>
+</html>
+

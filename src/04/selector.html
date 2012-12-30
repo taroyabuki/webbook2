@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>要素へのアクセス</title>
+    <!-- jQueryの読み込み -->
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("jquery", "1.5.0");
+    </script>
+    <script type="text/javascript">
+      $(document).ready(function() { // ページが読み込まれたら
+        $(".foo").each(function() { // class属性値がfooのものを一つずつ
+          alert($(this).text()); // 内容を表示する
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <p class="foo">intellect</p>
+    <p class="foo">conscience</p>
+  </body>
+</html>
+

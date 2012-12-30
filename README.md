@@ -24,3 +24,5 @@
 ## [正誤表](https://github.com/taroyabuki/webbook2/blob/master/errata.md)
 
 ## [参考文献とリンク](https://github.com/taroyabuki/webbook2/blob/master/links.md)
+
+<iframe src="http://www.unfindable.net/web-app-book2/related-blogs.php"></iframe>

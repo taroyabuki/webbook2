@@ -13,6 +13,6 @@
 
 ## [解説動画](https://github.com/taroyabuki/webbook2/blob/master/movies.md)
 
-## ノート
+## [新しいバージョンへの対応](https://github.com/taroyabuki/webbook2/blob/master/update.md)
 
-### [新しいバージョンへの対応](https://github.com/taroyabuki/webbook2/blob/master/update.md)
+## [Ubuntuでの環境構築のまとめ](https://github.com/taroyabuki/webbook2/blob/master/ubuntu.md)

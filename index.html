@@ -1,6 +1,19 @@
 <!doctype html>
 <html>
   <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script>
+$(document).ready(function() {
+  $.getJSON('http://www.unfindable.net/web-app-book2/related-blogs.json.php?callback=?',
+  function(result) {
+    var blogs = result.blogs;
+    for (var i = 0; i < blogs.length; i++) {
+      var blog = blogs[i];
+      $("#blogs").append("<li><a href='"+blog.url+"'>"+blog.title+"</a></li>");
+    }
+  });
+});
+    </script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Webbook2 by taroyabuki</title>
@@ -55,7 +68,7 @@
 
 <h2><a href="https://github.com/taroyabuki/webbook2/blob/master/links.md">参考文献とリンク</a></h2>
 
-<iframe src="http://www.unfindable.net/web-app-book2/related-blogs.php"></iframe>
+<h2>関連する話題</h2><ul id="blogs"></ul>
 
       </section>
       <footer>

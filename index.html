@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Webbook2 by taroyabuki</title>
+    <title>Webアプリケーション構築入門</title>
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
@@ -15,7 +15,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1>Webbook2</h1>
+        <h1>Webアプリケーション構築入門</h1>
         <p>矢吹太朗『Webアプリケーション構築入門』（森北出版, 第2版, 2011）のサポートサイトです。</p>
 
         <p class="view"><a href="https://github.com/taroyabuki/webbook2">View the Project on GitHub <small>taroyabuki/webbook2</small></a></p>
@@ -66,16 +66,16 @@
     <script src="javascripts/scale.fix.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script>
-$(document).ready(function() {
-  $.getJSON('http://www.unfindable.net/web-app-book2/related-blogs.json.php?callback=?',
-  function(result) {
-    var blogs = result.blogs;
-    for (var i = 0; i < blogs.length; i++) {
-      var blog = blogs[i];
-      $("#blogs").append("<li><a href='"+blog.url+"'>"+blog.title+"</a></li>");
-    }
-  });
-});
-    </script>    
+      $(document).ready(function() {
+        $.getJSON('http://www.unfindable.net/web-app-book2/related-blogs.json.php?callback=?',        
+        function(result) {
+          var blogs = result.blogs;
+          for (var i = 0; i < blogs.length; i++) {
+            var blog = blogs[i];
+            $("#blogs").append("<li><a href='"+blog.url+"'>"+blog.title+"</a></li>");
+          }
+        });
+      });
+    </script>
   </body>
 </html>

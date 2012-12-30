@@ -41,7 +41,7 @@
 + [Cascading Style Sheets, level 2 Specification](http://www.y-adagio.com/public/standards/tr_css2/forwrd.html)
 + [W3C CSS 検証サービス](http://jigsaw.w3.org/css-validator/)
 + [初心者のためのホームページ作り](http://www.scollabo.com/banban/)
-+ [<img src="http://ecx.images-amazon.com/images/I/51GU1NOlL1L._SL75_.jpg" alt=""></img>大藤幹『詳解 HTML & XHTML & CSS辞典』（秀和システム, 第5版, 2011）](http://www.amazon.co.jp/exec/obidos/ASIN/4798031127/inquisitor-22/)（改訂されました。）
++ [<img src="http://ecx.images-amazon.com/images/I/51GU1NOlL1L._SL75_.jpg" alt=""></img>大藤幹『詳解 HTML & XHTML & CSS辞典』（秀和システム, 第5版, 2011）](http://www.amazon.co.jp/exec/obidos/ASIN/4798031127/inquisitor-22/)<strong>（改訂されました。）</strong>
 + [<img src="http://ec2.images-amazon.com/images/I/412Z7VZFGDL._SL75_.jpg" alt=""></img>Norman『誰のためのデザイン？』（新曜社, 1990）](http://www.amazon.co.jp/exec/obidos/ASIN/478850362X/inquisitor-22/)
 + [ニールセン博士のAlertbox](http://www.usability.gr.jp/alertbox/)
 + [<img src="http://ecx.images-amazon.com/images/I/51xwxPUCp0L._SL75_.jpg" alt=""></img>Tidwell『デザイニングインターフェース』（オライリー・ジャパン, 2007）](http://www.amazon.co.jp/exec/obidos/ASIN/4873113164/inquisitor-22/)
@@ -178,7 +178,7 @@
 + [CHARACTER SETS (IANA)](http://www.iana.org/assignments/character-sets)
 + [RFC 3986 Uniform Resource Identifier (URI): 一般的構文](http://www.studyinghttp.net/rfc_ja/rfc3986)
 + [<img src="http://ec2.images-amazon.com/images/I/51b7R1hZL-L._SL75_.jpg" alt=""></img>矢野啓介『プログラマのための文字コード技術入門』（技術評論社, 2010）](http://www.amazon.co.jp/exec/obidos/ASIN/477414164X/inquisitor-22/)
-+ [<img src="http://ecx.images-amazon.com/images/I/413gx6m4keL._SL75_.jpg" alt=""></img>深沢千尋『文字コード超研究 改訂第2版』（ラトルズ, 改訂第2版, 2011）](http://www.amazon.co.jp/exec/obidos/ASIN/4899772939/inquisitor-22/)（改訂されました。）
++ [<img src="http://ecx.images-amazon.com/images/I/413gx6m4keL._SL75_.jpg" alt=""></img>深沢千尋『文字コード超研究 改訂第2版』（ラトルズ, 改訂第2版, 2011）](http://www.amazon.co.jp/exec/obidos/ASIN/4899772939/inquisitor-22/)<strong>（改訂されました。）</strong>
 +  [小形克宏「文字の海，ビットの舟—文字コードが私たちに問いかけるもの」](http://internet.watch.impress.co.jp/www/column/ogata/)
 + [豊島正之「JIS漢字批判の基礎知識」](http://www.joao-roiz.jp/mtoyo/on-JCS/index.html)
 + [<img src="http://ec2.images-amazon.com/images/I/517FA5WHP6L._SL75_.jpg" alt=""></img>Hofstadter『メタマジック・ゲーム』（白揚社, 新装版, 2005）](http://www.amazon.co.jp/exec/obidos/ASIN/4826901267/inquisitor-22/)

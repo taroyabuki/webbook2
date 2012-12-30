@@ -10,3 +10,5 @@
 * [丸善＆ジュンク堂](http://www.junkudo.co.jp/detail.jsp?ISBN=9784627847323)
 
 ## [ソースコード](https://github.com/taroyabuki/webbook2/tree/master/src)
+
+## [解説動画](https://github.com/taroyabuki/webbook2/blob/master/movies.md)

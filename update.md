@@ -17,18 +17,15 @@
 
 Ubuntu 11.04では、Unityと呼ばれる新しいデスクトップが採用されています。本書の説明のとおり、つまりUnityを使わずに作業したいときは、ログイン画面で「Ubuntu クラシック」を選択してください。
 
-**p. 19**
-**2.2.3 キーボードの設定**
+**p. 19 (2.2.3 キーボードの設定)**
 
 Ubuntu 11.04などで導入されているUnityでは、「iBusの設定」がわかりにくくなっています。Dashメニューの検索窓に「ibus」と入力すると、「Keyboard Input Methods」あるいは「キーボード・インプット」という項目が現れるのでそれをクリックしてください。図2.8のようなウィンドウが現れます。
 
-**p. 20**
-**2.2.4 プロキシサーバの設定**
+**p. 20 (2.2.4 プロキシサーバの設定)**
 
 Ubuntu 12.04のUnityでは、右上の電源アイコンをクリック→「システム設定」→「ネットワーク」→「ネットワークプロキシ」→メソッドを「手動」にすると、図2.9のようなウィンドウが現れます。左上のアイコンをクリックして「network」と入力してもいいでしょう。
 
-**p. 21**
-**2.3.1 Ubuntu**
+**p. 21 (2.3.1 Ubuntu)**
 
 ディレクトリ/var/wwwを書き込み可能にするためのコマンドは、本文の代わりに以下のものを使ってください（Ubuntu 12.04への対応ですが、10.04でも有効です）。
 
@@ -37,8 +34,7 @@ sudo chmod 775 /var/www
 sudo chown root:adm /var/www
 ```
 
-**p.23**
-**2.4.1 Java Development Kit**
+**p.23 (2.4.1 Java Development Kit)**
 
 Ubuntu 12.04ではJava 7を簡単に導入できます。p.23のコマンドの代わりに、以下のコマンドを実行してください。
 
@@ -50,33 +46,27 @@ WindowsでJava 7を使う場合は、p.23 脚註7のURLではなく、[Java SE D
 
 Mac OS 10.7以降にはJDKが含まれていません。Javaが必要になった時にインストールを促すダイアログが現れるので、その指示に従ってください。インストールの様子は[解説動画](https://github.com/taroyabuki/webbook2/blob/master/movies.md)で見られます。
 
-**p. 25**
-**2.4.3 Eclipse**
+**p. 25 (2.4.3 Eclipse)**
 
 Ubuntu 12.04でEclipseを起動するときは、Dash メニューで「eclipse」を検索してください。見つからないときは、コンソールで「~/glassfishBundle/eclipse」として起動してください。
 
-**p. 31**
-**Firefoxのバージョンアップ**
+**p. 31 (Firefoxのバージョンアップ)**
 
 Firefoxのバージョンによっては、対応するHTML Validatorがない場合があるので注意してください。HTML Validatorの最新情報は、http://users.skynet.be/mgueury/mozilla/ でチェックしてください。
 
-**p. 37**
-**3.5 HTML Validator**
+**p. 37 (3.5 HTML Validator)**
 
 Firefox 4では`Ctrl + /`でアドオンバーを表示させてください。
 
-**p. 86**
-**サニタイジング**
+**p. 86 (サニタイジング)**
 
 Apache Commons Langは、バージョン2系列とバージョン3系列があります。本書で採用しているのはバージョン2系列です。バージョン3系列を採用する場合は、「sudo apt-get install libcommons-lang3-java」などとし、ソースコードの「org.apache.commons.lang.*」を「org.apache.commons.lang3.*」に変更してください。
 
-**p. 106**
-**7.6.1 phpMyAdminのインストール**
+**p. 106 (7.6.1 phpMyAdminのインストール)**
 
 MacでphpMyAdminにログインできないときは、[補足](https://www.facebook.com/notes/web%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E6%A7%8B%E7%AF%89%E5%85%A5%E9%96%80/%E8%A3%9C%E8%B6%B3/165540553507071)を参考に、/etc/php.iniのmysqli.default_socketの設定を確認してください。
 
-**p. 135**
-**8.2.3 PHPからデータベースへのアクセス**
+**p. 135 (8.2.3 PHPからデータベースへのアクセス)**
 
 MacでPHPからMySQLにアクセスできないときは、[補足](https://www.facebook.com/notes/web%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E6%A7%8B%E7%AF%89%E5%85%A5%E9%96%80/%E8%A3%9C%E8%B6%B3/165540553507071)を参考に、/etc/php.iniのpdo_mysql.default_socketの設定を確認してください。
 

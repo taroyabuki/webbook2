@@ -72,7 +72,7 @@ sudo apt-get install libcommons-lang-java
 
 ## 第7章
 
-MySQLとPhpMyAdminをインストールする。
+MySQLとphpMyAdminをインストールする。
 
 ```bash
 sudo apt-get install mysql-server mysql-client

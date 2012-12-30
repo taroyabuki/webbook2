@@ -1,4 +1,4 @@
-![カバー](https://github.com/taroyabuki/webbook2/blob/master/cover.jpg?raw=true)
+<a href="http://www.amazon.co.jp/exec/obidos/ASIN/4627847327/inquisitor-22/"><img src="https://github.com/taroyabuki/webbook2/blob/master/cover.jpg?raw=true" alt="カバー" /></a>
 
 矢吹太朗『Webアプリケーション構築入門』（森北出版, 第2版, 2011）のサポートサイトです。
 

@@ -11,6 +11,8 @@
 
 ## [ソースコード](https://github.com/taroyabuki/webbook2/tree/master/src)
 
+## [図録（PowerPoint）](https://github.com/taroyabuki/webbook2/blob/master/figures.pptx?raw=true)
+
 ## [解説動画](https://github.com/taroyabuki/webbook2/blob/master/movies.md)
 
 ## [新しいバージョンへの対応](https://github.com/taroyabuki/webbook2/blob/master/update.md)

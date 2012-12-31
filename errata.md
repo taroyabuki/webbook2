@@ -49,13 +49,13 @@ office
 
 **p. 133 演習**
 
-+ 誤：message.jspを実装し
-+ 正：messageform.jspを実装し
++ 誤：`message.jsp`を実装し
++ 正：`messageform.jsp`を実装し
 
 **p. 136 演習**
 
-+ 誤：message.phpを実装し
-+ 正：messageform.phpを実装し
++ 誤：`message.php`を実装し
++ 正：`messageform.php`を実装し
 
 **p. 181 上から3行目**
 

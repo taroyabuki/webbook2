@@ -70,7 +70,7 @@ error_reporting(E_ALL ^ E_STRICT ^ E_DEPRECATED);
 
 **p. 74 (脚註14)**
 
-PHP 5.4以降では、以下のようにすることでintの範囲を超える整数を文字列として取り出せます。
+PHP 5.4以降では、以下のようにすることでintの範囲（32ビット版と64ビット版で異なる）を超える整数を文字列として取り出せます。
 
 ```PHP
 $json = json_decode($http_request->getREsponseBody(), true, 512, JSON_BIGINT_AS_STRING);

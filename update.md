@@ -60,6 +60,22 @@ Firefoxのバージョンによっては、対応するHTML Validatorがない�
 
 Firefox 4では`Ctrl + /`でアドオンバーを表示させてください。
 
+**p. 74 (publictimeline.php)**
+
+HTTP/Request.phpは非推奨になりましたが、それに関する警告等がうるさいときは、以下のコードを`require_once()`の前に追加してください。
+
+```PHP
+error_reporting(E_ALL ^ E_STRICT ^ E_DEPRECATED);
+```
+
+**p. 74 (脚註14)**
+
+PHP 5.4以降では、以下のようにすることでintの範囲を超える整数を文字列として取り出せます。
+
+```PHP
+$json = json_decode($http_request->getREsponseBody(), true, 512, JSON_BIGINT_AS_STRING);
+```
+
 **p. 86 (サニタイジング)**
 
 Apache Commons Langは、バージョン2系列とバージョン3系列があります。本書で採用しているのはバージョン2系列です。バージョン3系列を採用する場合は、「sudo apt-get install libcommons-lang3-java」などとし、ソースコードの「org.apache.commons.lang.*」を「org.apache.commons.lang3.*」に変更してください。

@@ -10,7 +10,7 @@
     <script type="text/javascript">
       //<![CDATA[
       $(document).ready(function() {
-        $.getJSON('http://api.twitter.com/1/statuses/public_timeline.json?callback=?',
+        $.getJSON('http://labs.unfindable.net/public_timeline/json.php?callback=?',
         function(statuses) {
           console.log(statuses); // 結果を表示してみると，配列になっていることがわかる
           for (var i = 0; i < statuses.length; i++) {

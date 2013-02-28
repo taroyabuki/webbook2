@@ -1,7 +1,6 @@
 <?php
 
 //This script emulates https://dev.twitter.com/docs/api/1/get/statuses/public_timeline.xml.
-//Options except callback are not supported.
 
 require_once 'OAuth.php';
 $api = 'https://stream.twitter.com/1.1/statuses/sample.json';

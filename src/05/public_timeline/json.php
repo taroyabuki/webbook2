@@ -29,7 +29,7 @@ $result = rtrim($result, ",") . ']';
 
 if (isset($_GET['callback'])) {
   header("Content-Type:application/javascript; charset=utf-8");
-  printf("%s(%s)", $_GET['callback'], $result);
+  printf("%s(%s)", htmlspecialchars($_GET['callback'], ENT_QUOTES, 'UTF-8'), $result);
 } else {
   header("Content-Type:application/json; charset=utf-8");
   echo $result;

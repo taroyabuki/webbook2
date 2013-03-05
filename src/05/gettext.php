@@ -2,6 +2,8 @@
 //UTF-8のテキストとしてウェブブラウザで表示する
 header('Content-Type: text/plain; charset=utf-8');
  
+error_reporting(E_ALL ^ E_STRICT ^ E_DEPRECATED); //for HTTP_Request
+
 //HTTPリクエスト
 require_once('HTTP/Request.php');
 $http_request = new HTTP_Request();

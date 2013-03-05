@@ -87,6 +87,14 @@ Firefoxのバージョンによっては、「表示」メニュー→Firebugで
 
 pearのチャネルを更新するときは、`pear channel-update pear.php.net`とします。Windowsの場合はコマンドプロンプトを管理者として起動してください。GNU/LinuxやMacでは、先頭に「`sudo `」を付けてください。
 
+**p. 71 (gettext.php), p. 74 (publictimeline.php)**
+
+HTTP_Requestを利用するときに表示される警告は、そのままでかまいませんが、表示させないようにしたい場合は、`require_once()`の前に以下のコードを挿入してください。
+
+```
+error_reporting(E_ALL ^ E_STRICT ^ E_DEPRECATED);
+```
+
 **p. 72**
 
 http://api.twitter.com/1/statuses/public_timeline.xml は以下のような構造になっています。

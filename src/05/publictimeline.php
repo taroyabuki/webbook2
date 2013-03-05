@@ -1,6 +1,7 @@
 <?php
 header('Content-Type: text/plain; charset=utf-8');
- 
+
+error_reporting(E_ALL ^ E_STRICT ^ E_DEPRECATED); //for HTTP_Request
 require_once 'HTTP/Request.php';
 $http_request = new HTTP_Request();
 $http_request->setUrl('http://labs.unfindable.net/public_timeline/json.php');

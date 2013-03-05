@@ -8,7 +8,7 @@ public class PublicTimeline2 {
   public static void main(String[] args) {
     try {
       // HTTP通信
-      URL url = new URL("http://api.twitter.com/1/statuses/public_timeline.xml");
+      URL url = new URL("http://labs.unfindable.net/public_timeline/xml.php");
       HttpURLConnection connection = (HttpURLConnection) url.openConnection();
  
       // ステータスコード

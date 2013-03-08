@@ -5,7 +5,7 @@
 require_once 'MyStream.php';
 $myStream = new MyStream();
 
-error_reporting(E_ALL ^ E_STRICT); //for XML_Serializer
+error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE); //for XML_Serializer
 require_once 'XML/Serializer.php';
 $result = '';
 $i = 0;

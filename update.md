@@ -36,21 +36,21 @@ sudo chmod 775 /var/www
 sudo chown root:adm /var/www
 ```
 
-**p.23 (2.4.1 Java Development Kit)**
+**p. 23 (2.4.1 Java Development Kit)**
 
-Ubuntu 12.04ではJava 7を簡単に導入できます。p.23のコマンドの代わりに、以下のコマンドを実行してください。
+Ubuntu 12.04ではJava 7を簡単に導入できます。p. 23のコマンドの代わりに、以下のコマンドを実行してください。
 
 ```bash
 sudo apt-get install openjdk-7-jdk
 ```
 
-WindowsでJava 7を使う場合は、p.23 脚註7のURLではなく、[Java SE Downloads](http://www.oracle.com/technetwork/java/javase/downloads/index.html)からJDKをダウンロードしてください。
+WindowsでJava 7を使う場合は、p. 23 脚註7のURLではなく、[Java SE Downloads](http://www.oracle.com/technetwork/java/javase/downloads/index.html)からJDKをダウンロードしてください。
 
 Mac OS 10.7以降にはJDKが含まれていません。Javaが必要になった時にインストールを促すダイアログが現れるので、その指示に従ってください。インストールの様子は[解説動画](https://github.com/taroyabuki/webbook2/blob/master/movies.md)で見られます。
 
 **p. 25 (2.4.3 Eclipse)**
 
-Ubuntu 12.04でEclipseを起動するときは、Dash メニューで「eclipse」を検索してください。見つからないときは、コンソールで「~/glassfishBundle/eclipse」として起動してください。
+Ubuntu 12.04でEclipseを起動するときは、Dash メニューで「eclipse」を検索してください。見つからないときは、コンソールで「`~/glassfishBundle/eclipse`」として起動してください。
 
 **p. 31 (Firefoxのバージョンアップ)**
 
@@ -72,7 +72,7 @@ Mac OS 10.7 (Lion)以降では、PEARを使うために、以下のような作�
 HTTP/Request.phpは非推奨になりましたが、それに関する警告等がうるさいときは、以下のコードを`require_once()`の前に追加してください。
 
 ```PHP
-error_reporting(E_ALL ^ E_STRICT ^ E_DEPRECATED);
+error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
 ```
 
 **p. 74 (脚註14)**
@@ -85,7 +85,7 @@ $json = json_decode($http_request->getREsponseBody(), true, 512, JSON_BIGINT_AS_
 
 **p. 86 (サニタイジング)**
 
-Apache Commons Langは、バージョン2系列とバージョン3系列があります。本書で採用しているのはバージョン2系列です。バージョン3系列を採用する場合は、「sudo apt-get install libcommons-lang3-java」などとし、ソースコードの「org.apache.commons.lang.*」を「org.apache.commons.lang3.*」に変更してください。
+Apache Commons Langは、バージョン2系列とバージョン3系列があります。本書で採用しているのはバージョン2系列です。バージョン3系列を採用する場合は、「`sudo apt-get install libcommons-lang3-java`」などとし、ソースコードの「`org.apache.commons.lang.*`」を「`org.apache.commons.lang3.*`」に変更してください。
 
 **p. 106 (7.6.1 phpMyAdminのインストール)**
 

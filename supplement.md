@@ -92,7 +92,7 @@ pearのチャネルを更新するときは、`pear channel-update pear.php.net`
 HTTP_Requestを利用するときに表示される警告は、そのままでかまいませんが、表示させないようにしたい場合は、`require_once()`の前に以下のコードを挿入してください。
 
 ```
-error_reporting(E_ALL ^ E_STRICT ^ E_DEPRECATED);
+error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
 ```
 
 **p. 72**

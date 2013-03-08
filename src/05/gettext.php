@@ -2,7 +2,7 @@
 //UTF-8のテキストとしてウェブブラウザで表示する
 header('Content-Type: text/plain; charset=utf-8');
  
-error_reporting(E_ALL ^ E_STRICT ^ E_DEPRECATED); //for HTTP_Request
+error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE); //for HTTP_Request
 
 //HTTPリクエスト
 require_once('HTTP/Request.php');
@@ -21,4 +21,3 @@ printf("%d %s\n", $http_request->getResponseCode(),
  
 // レスポンスボディの表示
 echo $http_request->getResponseBody();
-

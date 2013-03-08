@@ -60,6 +60,13 @@ Firefoxのバージョンによっては、対応するHTML Validatorがない�
 
 Firefox 4では`Ctrl + /`でアドオンバーを表示させてください。
 
+**p. 71（PHPのHTTPクライアント）**
+
+Mac OS 10.7 (Lion)以降では、PEARを使うために、以下のような作業が必要です。
+
+1. 「`sudo php /usr/lib/php/install-pear-nozlib.phar`」としてPEARをインストールする。
+1. 2.3.3項（p. 22）の要領でphp.iniを編集し、「`include_path = ".:/php/includes:/usr/lib/php/pear"`」という行を追加する。
+
 **p. 74 (publictimeline.php)**
 
 HTTP/Request.phpは非推奨になりましたが、それに関する警告等がうるさいときは、以下のコードを`require_once()`の前に追加してください。

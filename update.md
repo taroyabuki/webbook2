@@ -60,6 +60,10 @@ Firefoxのバージョンによっては、対応するHTML Validatorがない�
 
 Firefox 4では`Ctrl + /`でアドオンバーを表示させてください。
 
+**p. 71 (5.3 Twitter)**
+
+TwitterのAPIが変更されたので、「`https://api.twitter.com/1/statuses/public_timeline.xml`」の代わりに「`http://labs.unfindable.net/public_timeline/xml.php`」を、「`https://api.twitter.com/1/statuses/public_timeline.json`」の代わりに「`http://labs.unfindable.net/public_timeline/json.php`」を使ってください。（詳細：[Twitter APIのパブリックタイムラインが亡くなっていました](http://blog.unfindable.net/archives/5603)）
+
 **p. 71（PHPのHTTPクライアント）**
 
 Mac OS 10.7 (Lion)以降では、PEARを使うために、以下のような作業が必要です。

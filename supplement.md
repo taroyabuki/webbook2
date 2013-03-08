@@ -17,7 +17,7 @@ Guest Additionsに相当するプログラムを以下の手順で簡単にイ�
 
 **p. 20（2.3.1 Ubuntu）**
 
-「端末」は「Ctrl + Alt + T」で起動します。
+「端末」は「`Ctrl + Alt + T`」で起動します。
 
 **p. 21（2.3.2 Windows）**
 

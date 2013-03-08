@@ -81,7 +81,7 @@ Firefoxのバージョンによっては、「表示」メニュー→Firebugで
 
 この節では、HTTP通信の内容を調べるために、FirefoxのアドオンであるFirebugを使っています。Firebugは4.4節でインストールしています。4.4節を飛ばした場合でも、Firebugのインストールだけは済ませて先に進んでください。
 
-**p. 71 （5.3 Twitter）**
+**p. 71 (5.3 Twitter)**
 
 TwitterのAPIが変更されたので、「`https://api.twitter.com/1/statuses/public_timeline.xml`」の代わりに「`http://labs.unfindable.net/public_timeline/xml.php`」を、「`https://api.twitter.com/1/statuses/public_timeline.json`」の代わりに「`http://labs.unfindable.net/public_timeline/json.php`」を使ってください。（詳細：[Twitter APIのパブリックタイムラインが亡くなっていました](http://blog.unfindable.net/archives/5603)）
 

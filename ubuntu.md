@@ -40,7 +40,7 @@ JDKをインストールする。
 sudo apt-get install openjdk-6-jdk
 ```
 
-NetBeansを利用する場合は、`apt-get`ではなく、[ウェブサイト](ttp://ja.netbeans.org/)からダウンロードできるインストーラを利用する。
+NetBeansを利用する場合は、`apt-get`ではなく、[ウェブサイト](http://ja.netbeans.org/)からダウンロードできるインストーラを利用する。
 
 ## 第3章
 

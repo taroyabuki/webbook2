@@ -64,7 +64,7 @@ sudo pear install http_request
 
 ## 第6章
 
-Commons Landをインストールする。
+Commons Langをインストールする。
 
 ```bash
 sudo apt-get install libcommons-lang-java

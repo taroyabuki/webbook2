@@ -46,7 +46,7 @@ NetBeansを利用する場合は、`apt-get`ではなく、[ウェブサイト](
 
 [Http Validator](http://users.skynet.be/mgueury/mozilla/)をインストールする。
 
-Firefox以外のブラウザを利用したい場合は、[Chrome](http://www.google.co.jp/intl/ja/chrome/browser/)や[Chromium]、[Opera](http://jp.opera.com/)を導入する。Chromiumなら、`sudo apt-get install chromium-browser`でインストールできる。
+Firefox以外のブラウザを利用したい場合は、[Chrome](http://www.google.co.jp/intl/ja/chrome/browser/)や[Chromium](http://www.chromium.org/Home)、[Opera](http://jp.opera.com/)を導入する。Chromiumなら、`sudo apt-get install chromium-browser`でインストールできる。
 
 ## 第4章
 
@@ -86,4 +86,3 @@ Lhaとnkfをインストールする。
 ```bash
 sudo apt-get install lha nkf
 ```
-

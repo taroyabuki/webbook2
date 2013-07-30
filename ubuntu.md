@@ -34,10 +34,10 @@ sudo chown root:adm /var/www
 
 ここで`/etc/php5/apache2/php.ini`を編集し、Apacheを再起動する。 (p. 21)
 
-JDKをインストールする。
+JDKをインストールする。（最新版のGlassFishのために、JDK 7をインストールします。）
 
 ```bash
-sudo apt-get install openjdk-6-jdk
+sudo apt-get install openjdk-7-jdk
 ```
 
 NetBeansを利用する場合は、`apt-get`ではなく、[ウェブサイト](http://ja.netbeans.org/)からダウンロードできるインストーラを利用する。

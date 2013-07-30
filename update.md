@@ -7,7 +7,7 @@
 * Apache HTTP Server 2.2
 * GlassFish 3, **3.1**
 * MySQL 5.1, **5.5**
-* NetBeans 6.9.1, **7.1**
+* NetBeans 6.9.1, **7.1, 7.3** （7.3のためにはJava 7が必要です。）
 * Eclipse 3.5.1
 * Java 6, **7**
 * PHP 5.3

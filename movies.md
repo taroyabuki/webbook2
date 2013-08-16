@@ -31,9 +31,9 @@
 
 ### 2.3 Apache HTTP ServerとPHP
 
-#### 2.3.3 Mac
+#### [2.3.1 Ubuntu 12.04](http://youtu.be/LBU6ihgCEuk)
 
-[動画：Mac OS XでApache HTTP ServerとPHPを有効にする方法](http://youtu.be/heiXSqh3mDQ)
+#### [2.3.3 Mac](http://youtu.be/heiXSqh3mDQ)
 
 ### 2.4 GlassFishと統合開発環境
 

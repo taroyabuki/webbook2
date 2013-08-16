@@ -18,7 +18,12 @@
 
 #### 2.2.2 Guest Additionsのインストール
 
-[動画：Ubuntu 10.04にVirtualBox 4.0 Guest Additionをインストールする方法](http://youtu.be/DlShag2A5Nk)（本書で紹介したよりも簡単な方法を、[補足](https://github.com/taroyabuki/webbook2/blob/master/supplement.md)で紹介しています。本書のとおりにしたい場合はこの動画を参考にしてください。）
+* [方法1：書籍と同じ方針。Ubuntu 12.04 in VirtualBox 4.2.16](http://youtu.be/HXP9FJK6apk)
+* [方法2：aptの利用。Ubuntu 12.04 in VirtualBox 4.2.16](http://youtu.be/ey_V6nDIHME)
+
+以下は旧バージョンです。
+
+* [動画：Ubuntu 10.04にVirtualBox 4.0 Guest Additionをインストールする方法](http://youtu.be/DlShag2A5Nk)（本書で紹介したよりも簡単な方法を、[補足](https://github.com/taroyabuki/webbook2/blob/master/supplement.md)で紹介しています。本書のとおりにしたい場合はこの動画を参考にしてください。）
 
 ### 2.3 Apache HTTP ServerとPHP
 

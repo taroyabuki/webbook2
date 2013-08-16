@@ -10,16 +10,16 @@ sudo apt-get upgrade
 sudo reboot
 ```
 
-VirtualBox Guest Utilsをインストールする。
+VirtualBox Guest Utilsをインストールする。（[動画](http://youtu.be/ey_V6nDIHME)）
 
 ```bash
 sudo apt-get install virtualbox-ose-guest-utils
 sudo reboot
 ```
 
-ここで、iBusの設定を変更する。Ubuntu 12.04では、キーボードの設定（図2.8）のウィンドウは、Dashホームで「ibus」を検索し、アイコン「キーボード・インプット」をクリックすると出てくる。
+ここで、iBusの設定を変更する。Ubuntu 12.04では、キーボードの設定（図2.8）のウィンドウは、Dashホームで「ibus」を検索し、アイコン「キーボード・インプット」をクリックすると出てくる。（[動画](http://youtu.be/nZZJxYX-FHk)）
 
-Apache HTTP ServerとPHPをインストールする。
+Apache HTTP ServerとPHPをインストールする。（[動画](http://youtu.be/LBU6ihgCEuk)）
 
 ```bash
 sudo apt-get install apache2 php5 php-pear

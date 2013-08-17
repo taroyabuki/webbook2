@@ -47,8 +47,6 @@ chown root:admin /Library/WebServer/Documents
 
 **p. 23（2.4.2 NetBeans）**
 
-Ubuntu 12.04では、NetBeansをインストールする前に、3.1.1項の方法でFirefoxを最新版にしておきましょう（バージョンが古いとセキュリティの警告が出ることがあるようです）。
-
 NetBeansのインストール中に、JUnitについて訊かれたら、「JUnitをインストール」を選択してください。
 
 **p. 24（2.4.2 NetBeans, 2.4.3 Eclipse）**

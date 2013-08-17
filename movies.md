@@ -18,8 +18,8 @@
 
 #### 2.2.2 Guest Additionsのインストール
 
-* [方法1：書籍と同じ方針。Ubuntu 12.04 in VirtualBox 4.2.16](http://youtu.be/HXP9FJK6apk)
-* [方法2：aptの利用。Ubuntu 12.04 in VirtualBox 4.2.16](http://youtu.be/ey_V6nDIHME)
+* [動画：（方法1）書籍と同じ方針。Ubuntu 12.04 in VirtualBox 4.2.16](http://youtu.be/HXP9FJK6apk)
+* [動画：（方法2）aptの利用。Ubuntu 12.04 in VirtualBox 4.2.16](http://youtu.be/ey_V6nDIHME)
 
 以下は旧バージョンです。
 
@@ -27,13 +27,13 @@
 
 #### 2.2.3 キーボードの設定
 
-* [Ubuntu 12.04の場合](http://youtu.be/nZZJxYX-FHk)
+* [動画：Ubuntu 12.04の場合](http://youtu.be/nZZJxYX-FHk)
 
 ### 2.3 Apache HTTP ServerとPHP
 
-#### [2.3.1 Ubuntu 12.04](http://youtu.be/LBU6ihgCEuk)
+#### [2.3.1 Ubuntu 12.04（動画）](http://youtu.be/LBU6ihgCEuk)
 
-#### [2.3.3 Mac](http://youtu.be/heiXSqh3mDQ)
+#### [2.3.3 Mac（動画）](http://youtu.be/heiXSqh3mDQ)
 
 ### 2.4 GlassFishと統合開発環境
 

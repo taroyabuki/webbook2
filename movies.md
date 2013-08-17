@@ -37,11 +37,13 @@
 
 ### 2.4 GlassFishと統合開発環境
 
-* [動画：Ubuntu 12.04へのNetBeans 7.3.1のインストール](http://youtu.be/mmZQwtLBqSM)
-
 #### 2.4.1 Java Development Kit
 
 * [動画：Mac OS 10.7上のJava](http://youtu.be/36R485Rul7I)（p.23の脚註で述べたように、Mac OS 10.7 Lion以降にはJDKが含まれていません。最初にJavaを利用する時にインストールされます。）
+
+#### 2.4.2 NetBeans
+
+* [動画：Ubuntu 12.04へのNetBeans 7.3.1のインストール](http://youtu.be/mmZQwtLBqSM)
 
 ### 2.5 プロジェクトの作成
 

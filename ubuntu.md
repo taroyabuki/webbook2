@@ -40,7 +40,7 @@ JDKをインストールする。（最新版のGlassFishのために、JDK 7を
 sudo apt-get install openjdk-7-jdk
 ```
 
-NetBeansを利用する場合は、`apt-get`ではなく、[ウェブサイト](http://ja.netbeans.org/)からダウンロードできるインストーラを利用する。
+NetBeansを利用する場合は、`apt-get`ではなく、[NetBeansのウェブサイト](https://netbeans.org/downloads/)からダウンロードできるインストーラを利用する。
 
 ## 第3章
 

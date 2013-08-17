@@ -11,19 +11,30 @@
 * [honto](http://honto.jp/netstore/pd-book_03397461.html)
 * [丸善＆ジュンク堂](http://www.junkudo.co.jp/detail.jsp?ISBN=9784627847323)
 
-## [ソースコード](https://github.com/taroyabuki/webbook2/tree/master/src)
+## [正誤表](https://github.com/taroyabuki/webbook2/blob/master/errata.md)
 
-## [図録（PowerPoint）](https://github.com/taroyabuki/webbook2/blob/master/figures.pptx?raw=true)
-
-## [解説動画](https://github.com/taroyabuki/webbook2/blob/master/movies.md)
-
-## [新しいバージョンへの対応](https://github.com/taroyabuki/webbook2/blob/master/update.md)
+## [動作を確認したバージョン](https://github.com/taroyabuki/webbook2/blob/master/softwares.md)
 
 ## [Ubuntuでの環境構築のまとめ](https://github.com/taroyabuki/webbook2/blob/master/ubuntu.md)
 
-## [補足](https://github.com/taroyabuki/webbook2/blob/master/supplement.md)
+## [解説動画](https://github.com/taroyabuki/webbook2/blob/master/movies.md)
 
-## [正誤表](https://github.com/taroyabuki/webbook2/blob/master/errata.md)
+## 補足
+
+* [2章](https://github.com/taroyabuki/webbook2/blob/master/update/update2.md)
+* [3章](https://github.com/taroyabuki/webbook2/blob/master/update/update3.md)
+* [4章](https://github.com/taroyabuki/webbook2/blob/master/update/update4.md)
+* [5章](https://github.com/taroyabuki/webbook2/blob/master/update/update5.md)
+* [6章](https://github.com/taroyabuki/webbook2/blob/master/update/update6.md)
+* [7章](https://github.com/taroyabuki/webbook2/blob/master/update/update7.md)
+* [8章](https://github.com/taroyabuki/webbook2/blob/master/update/update8.md)
+* [9章](https://github.com/taroyabuki/webbook2/blob/master/update/update9.md)
+* [付録A](https://github.com/taroyabuki/webbook2/blob/master/update/updateA.md)
+* [付録B](https://github.com/taroyabuki/webbook2/blob/master/update/updateB.md)
+
+## [ソースコード](https://github.com/taroyabuki/webbook2/tree/master/src)
+
+## [図録（PowerPoint）](https://github.com/taroyabuki/webbook2/blob/master/figures.pptx?raw=true)
 
 ## [参考文献とリンク](https://github.com/taroyabuki/webbook2/blob/master/links.md)
 

@@ -2,13 +2,20 @@
 
 **p. 19（2.2.2 Guest Additionsのインストール）**
 
+Guest Additionsをインストールする前に、以下のようにしてパッケージを更新しておきましょう。
+
+```bash
+sudo apt-get update
+sudo apt-get upgrade
+sudo reboot
+```
+
 Guest Additionsに相当するプログラムを以下の手順で簡単にインストールできます。つまり、2.2.2項の作業は不要です。ただし、VirtualBoxのバージョンによっては、うまく機能しないこともあるようです。ウィンドウサイズが動的に変更できないようなときは、2.2.2項の方法を試してください。
 
 1. プロキシサーバを使う環境では、2.2.4項の設定をする
-1. アプリケーション→アクセサリ→端末
-1. `sudo apt-get update`
-1. パスワードを訊かれたら入力する
+1. アプリケーション→アクセサリ→端末（あるいは`Ctrl + Alt + T`）
 1. `sudo apt-get install virtualbox-ose-guest-utils`
+1. パスワードを訊かれたら入力する
 1. 再起動する（`sudo reboot`）
 
 **p. 20（2.2.4 プロキシサーバの設定）**
@@ -39,6 +46,8 @@ chown root:admin /Library/WebServer/Documents
 2.4.2 NetBeansと2.4.3 Eclipseは、どちらか一方だけでかまいません。
 
 **p. 23（2.4.2 NetBeans）**
+
+Ubuntu 12.04では、NetBeansをインストールする前に、3.1.1項の方法でFirefoxを最新版にしておきましょう（バージョンが古いとセキュリティの警告が出ることがあるようです）。
 
 NetBeansのインストール中に、JUnitについて訊かれたら、「JUnitをインストール」を選択してください。
 

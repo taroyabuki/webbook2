@@ -47,6 +47,12 @@
 
 ### 2.5 プロジェクトの作成
 
+#### 2.5.1 Java Web アプリケーション
+
+* [動画：NetBeans 7.3.1の場合](http://youtu.be/NzNJ6M33QAo)
+
+以下は旧バージョンです。
+
 * [動画：NetBeans上でのJavaウェブアプリ](http://youtu.be/YwWZNSE3e94)
 * [動画：Eclipse上でのJavaウェブアプリ](http://youtu.be/RqRFsQjYq-E)
 * [動画：NetBeans上でのPHPウェブアプリ](http://youtu.be/3118hz3bZpA)

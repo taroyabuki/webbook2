@@ -4,10 +4,14 @@
 
 ### 2.2.1 仮想マシンの新規作成
 
+**p. 16** 参考動画：[VirtualBox 4.2.16のインストール](http://youtu.be/6mVr4APoPN8)
+
 **p. 16** 新しいバージョンのVirtualBoxでは、仮想マシンの作成手続きが、本書に掲載したものとは少し違っています。基本的には、デフォルトのまま作成手続きを進めてかまいません。（[動画](http://youtu.be/HMGZSxsU_CQ)）
 
 * 図2.4の前に仮想ハードドライブのファイルタイプを訊かれたら、「VDI」を選択してください（デフォルト）。
 * 物理ハードドライブにあるストレージは、「可変サイズ」を選択してください（デフォルト）。
+
+参考動画：[Ubuntu 12.04のインストール](http://youtu.be/9Bb2l05pHSA)
 
 ### 2.2.2 Guest Additionsのインストール
 
@@ -19,7 +23,7 @@ sudo apt-get upgrade
 sudo reboot
 ```
 
-Guest Additionsに相当するプログラムを以下の手順で簡単にインストールできます。つまり、2.2.2項の作業は不要です。ただし、VirtualBoxのバージョンによっては、うまく機能しないこともあるようです。ウィンドウサイズが動的に変更できないようなときは、2.2.2項の方法を試してください。
+Guest Additionsに相当するプログラムを以下の手順で簡単にインストールできます（[動画](http://youtu.be/ey_V6nDIHME)）。つまり、2.2.2項の作業は不要です。ただし、VirtualBoxのバージョンによっては、うまく機能しないこともあるようです。ウィンドウサイズが動的に変更できないようなときは、2.2.2項の方法（[動画](http://youtu.be/HXP9FJK6apk)）を試してください。
 
 1. プロキシサーバを使う環境では、2.2.4項の設定をする
 1. アプリケーション→アクセサリ→端末（あるいは`Ctrl + Alt + T`）
@@ -41,9 +45,11 @@ Guest Additionsに相当するプログラムを以下の手順で簡単にイ�
 
 ### 2.3.1 Ubuntu
 
+**p. 20** 参考動画：[Ubuntu 12.04の場合](http://youtu.be/LBU6ihgCEuk)
+
 **p. 20** 「端末」は「`Ctrl + Alt + T`」で起動します。
 
-**p. 21** ディレクトリ/var/wwwを書き込み可能にするためのコマンドは、本文の代わりに以下のものを使ってください（Ubuntu 12.04への対応ですが、10.04でも有効です）。（[動画](http://youtu.be/LBU6ihgCEuk)）
+**p. 21** ディレクトリ/var/wwwを書き込み可能にするためのコマンドは、本文の代わりに以下のものを使ってください（Ubuntu 12.04への対応ですが、10.04でも有効です）。
 
 ```bash
 sudo chmod 775 /var/www
@@ -55,6 +61,8 @@ sudo chown root:adm /var/www
 **p. 21** XAMPPはhttp://www.apachefriends.org/jp/xampp-windows.html で公開されています。
 
 ### 2.3.3 Mac
+
+**p. 22** 参考動画：[Macの場合](http://youtu.be/heiXSqh3mDQ)
 
 **p. 22** Ubuntuの場合(p. 21)と同様、以下のようにしてドキュメントルートを書き込み可能にしておきます。
 
@@ -85,6 +93,8 @@ Mac OS 10.7以降にはJDKが含まれていません。Javaが必要になっ�
 
 ### 2.4.2 NetBeans
 
+**p. 23** 参考動画：[Ubuntu 12.04へのNetBeans 7.3.1のインストール](http://youtu.be/mmZQwtLBqSM)
+
 **p. 23** NetBeansのインストール中に、JUnitについて訊かれたら、「JUnitをインストール」を選択してください。
 
 ### 2.4.3 Eclipse
@@ -99,6 +109,14 @@ Mac OS 10.7以降にはJDKが含まれていません。Javaが必要になっ�
 ## 2.5 プロジェクトの作成
 
 ### 2.5.1 Java Webアプリケーション
+
+#### NetBeans
+
+**p. 26** 参考動画：[NetBeans 7.3.1の場合](http://youtu.be/NzNJ6M33QAo)
+
+**p. 26** プロジェクトの中にindex.jspがないときは、上記の動画を参考に作成してください。
+
+#### Eclipse
 
 **p. 26** Eclipseの中でページが開かれないときは、ウェブブラウザで`http://localhost:8084/javaweb/`にアクセスしてください。
 

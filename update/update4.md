@@ -10,7 +10,7 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
 ```
 
-ウェブサーバで配信しない場合も有効にしたいときは、次のように書くといいでしょう。
+この記法には、httpとhttpsの両方に対応できるというメリットがあります。しかし、ウェブサーバで配信しない場合（file://...）には対応できません。そのような場合には、次のように書くといいでしょう。
 
 ```html
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>

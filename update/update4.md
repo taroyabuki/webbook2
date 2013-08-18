@@ -10,6 +10,12 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
 ```
 
+ウェブサーバで配信しない場合も有効にしたいときは、次のように書くといいでしょう。
+
+```html
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+```
+
 ## 4.4 FirebugによるJavaScriptの動作の調査
 
 **p. 55** Firefoxのバージョンによっては、「表示」メニュー→FirebugでFirebugを起動するものがあります。Firebugのアイコンが右下ではなく右上にある場合もあります。

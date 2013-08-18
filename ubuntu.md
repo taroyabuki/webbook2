@@ -25,7 +25,7 @@ Apache HTTP ServerとPHPをインストールする。（[動画](http://youtu.b
 sudo apt-get install apache2 php5 php-pear
 ```
 
-ドキュメントルートを書き込み可能にする。教科書では「`root:admin`」になっているが、Ubuntu 12.04では初期ユーザがグループadminに属さなくなったため、グループadmを使うことにする。
+ドキュメントルートを書き込み可能にする。書籍では「`root:admin`」になっているが、Ubuntu 12.04では初期ユーザがグループadminに属さなくなったため、グループadmを使うことにする。
 
 ```bash
 sudo chmod 775 /var/www
@@ -40,11 +40,15 @@ JDKをインストールする。（最新版のGlassFishのために、JDK 7を
 sudo apt-get install openjdk-7-jdk
 ```
 
-NetBeansを利用する場合は、`apt-get`ではなく、[NetBeansのウェブサイト](https://netbeans.org/downloads/)からダウンロードできるインストーラを利用する。
+以下のいずれかをインストールする。いずれもapt-getではなく、リンク先からダウンロードしてインストールする。
+
+* [NetBeans](https://netbeans.org/downloads/)
+* [Java用Eclipse](http://dlc.sun.com.edgesuite.net/glassfish/eclipse/)
+* [PHP用Eclipse](http://www.zend.com/en/company/community/pdt/downloads)
 
 ## 第3章
 
-[Http Validator](http://users.skynet.be/mgueury/mozilla/)をインストールする。
+[HTML Validator](http://users.skynet.be/mgueury/mozilla/)をインストールする。
 
 Firefox以外のブラウザを利用したい場合は、[Chrome](http://www.google.co.jp/intl/ja/chrome/browser/)や[Chromium](http://www.chromium.org/Home)、[Opera](http://jp.opera.com/)を導入する。Chromiumなら、`sudo apt-get install chromium-browser`でインストールできる。
 

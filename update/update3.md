@@ -4,16 +4,16 @@
 
 ### 3.1.1 Firefox
 
-**p. 31** Firefoxのバージョンによっては、対応するHTML Validatorがない場合があるので注意してください。HTML Validatorの最新情報は、http://users.skynet.be/mgueury/mozilla/ でチェックしてください。
+**p. 31** [HTML Validatorのウェブサイト](http://users.skynet.be/mgueury/mozilla/)
 
 ## 3.2 HTML入門
 
-**p. 31** Windowsでは、エクスプローラで拡張子が表示されるように設定しておくといいでしょう。
+**p. 31** Windowsでは、エクスプローラで拡張子が表示されるように設定しておくといいでしょう。参考：[ファイルの拡張子を表示するには?](http://support.microsoft.com/kb/978449/ja)
 
 ## 3.3 統合開発環境とウェブサーバの利用
 
-**p. 35** ウェブブラウザのアドレス欄は、PHPで試している場合は`http://localhost/phpweb/hello.html`、Javaで試している場合は`http://localhost/javaweb/hello.html`になります。
+**p. 35** ウェブブラウザのアドレス欄は、NetBeans上でJavaで試している場合は`http://localhost:8080/javaweb/hello.html`、Eclipse上でJavaで試している場合は`http://localhost:8084/javaweb/hello.html`、PHPで試している場合は`http://localhost/phpweb/hello.html`になります。
 
 ## 3.5 HTML Validator
 
-**p. 37** Firefox 4では`Ctrl + /`でアドオンバーを表示させてください。
+**p. 37** [**動画**：HTML Validatorのインストールと利用（FIrefox 23）](http://youtu.be/9OtirlgPuv8)

@@ -4,18 +4,17 @@
 
 ### 2.2.1 仮想マシンの新規作成
 
-**p. 16** 参考動画：[VirtualBox 4.2.16のインストール](http://youtu.be/6mVr4APoPN8)
+**p. 16** [**動画**：VirtualBox 4.2.16のインストール（Windows 7）](http://youtu.be/6mVr4APoPN8)
 
-**p. 16** 新しいバージョンのVirtualBoxでは、仮想マシンの作成手続きが、本書に掲載したものとは少し違っています。基本的には、デフォルトのまま作成手続きを進めてかまいません。（[動画](http://youtu.be/HMGZSxsU_CQ)）
+**p. 16** [**動画**：仮想マシンの新規作成（VirtualBox 4.2.16）](http://youtu.be/HMGZSxsU_CQ)
 
-* 図2.4の前に仮想ハードドライブのファイルタイプを訊かれたら、「VDI」を選択してください（デフォルト）。
-* 物理ハードドライブにあるストレージは、「可変サイズ」を選択してください（デフォルト）。
+新しいバージョンのVirtualBoxでは、仮想マシンの作成手続きが、本書に掲載したものとは違っています。基本的には、デフォルトのまま作成手続きを進めてかまいません。
 
-**p. 18** 参考動画：[Ubuntu 12.04のインストール](http://youtu.be/9Bb2l05pHSA)
+**p. 18** [**動画**：Ubuntu 12.04のインストール](http://youtu.be/9Bb2l05pHSA)
 
 ### 2.2.2 Guest Additionsのインストール
 
-**p. 19** Guest Additionsをインストールする前に、以下のようにしてパッケージを更新しておきましょう。
+**p. 19** Guest Additionsをインストールする前に、以下のコマンドでパッケージを更新しておきましょう。
 
 ```bash
 sudo apt-get update
@@ -23,29 +22,29 @@ sudo apt-get upgrade
 sudo reboot
 ```
 
-Guest Additionsに相当するプログラムを以下の手順で簡単にインストールできます（[動画](http://youtu.be/ey_V6nDIHME)）。つまり、2.2.2項の作業は不要です。ただし、VirtualBoxのバージョンによっては、うまく機能しないこともあるようです。ウィンドウサイズが動的に変更できないようなときは、2.2.2項の方法（[動画](http://youtu.be/HXP9FJK6apk)）を試してください。
+**p. 19** [**動画**：Guest Additionsのインストール（Ubuntu 12.04）](http://youtu.be/HXP9FJK6apk)
 
-1. プロキシサーバを使う環境では、2.2.4項の設定をする
-1. アプリケーション→アクセサリ→端末（あるいは`Ctrl + Alt + T`）
-1. `sudo apt-get install virtualbox-ose-guest-utils`
-1. パスワードを訊かれたら入力する
-1. 再起動する（`sudo reboot`）
+**p. 19** [**動画**：パッケージ`virtualbox-ose-guest-utils`のインストール](http://youtu.be/ey_V6nDIHME)
+
+Guest Additionsはパッケージ`virtualbox-ose-guest-utils`で代用できます。この方が、書籍の方法より簡単です。
 
 ### 2.2.3 キーボードの設定
 
-**p. 19** Ubuntu 11.04などで導入されているUnityでは、「iBusの設定」がわかりにくくなっています。Dashメニューの検索窓に「ibus」と入力すると、「Keyboard Input Methods」あるいは「キーボード・インプットメソッド」という項目が現れるのでそれをクリックしてください。図2.8のようなウィンドウが現れます。（[動画](http://youtu.be/nZZJxYX-FHk)）
+**p. 19** **p. 19** [**動画**：キーボードの設定（Ubuntu 12.04）](http://youtu.be/nZZJxYX-FHk)
+
+Dashメニューの検索窓に「ibus」と入力すると、「Keyboard Input Methods」あるいは「キーボード・インプットメソッド」という項目が現れるのでそれをクリックしてください。図2.8のようなウィンドウが現れます。
 
 ### 2.2.4 プロキシサーバの設定
 
 **p. 20** サーバ情報を入力したら、「システム全体に適用」をクリックしてください。
 
-**p. 20** Ubuntu 12.04のUnityでは、右上の電源アイコンをクリック→「システム設定」→「ネットワーク」→「ネットワークプロキシ」→メソッドを「手動」にすると、図2.9のようなウィンドウが現れます。左上のアイコンをクリックして「network」と入力してもいいでしょう。
+**p. 20** Ubuntu 12.04では、右上の電源アイコンをクリック→「システム設定」→「ネットワーク」→「ネットワークプロキシ」→メソッドを「手動」にすると、図2.9のようなウィンドウが現れます。左上のアイコンをクリックして「network」と入力してもいいでしょう。
 
 ## Apache HTTP ServerとPHP
 
 ### 2.3.1 Ubuntu
 
-**p. 20** 参考動画：[Ubuntu 12.04の場合](http://youtu.be/LBU6ihgCEuk)
+**p. 20** [**動画**：ApacheとPHPのインストール（Ubuntu 12.04）](http://youtu.be/LBU6ihgCEuk)
 
 **p. 20** 「端末」は「`Ctrl + Alt + T`」で起動します。
 
@@ -62,7 +61,7 @@ sudo chown root:adm /var/www
 
 ### 2.3.3 Mac
 
-**p. 22** 参考動画：[Macの場合](http://youtu.be/heiXSqh3mDQ)
+**p. 22** [**動画**：ApacheとPHPの設定（Mac）](http://youtu.be/heiXSqh3mDQ)
 
 **p. 22** Ubuntuの場合(p. 21)と同様、以下のようにしてドキュメントルートを書き込み可能にしておきます。
 
@@ -71,7 +70,7 @@ sudo chmod 775 /Library/WebServer/Documents
 chown root:admin /Library/WebServer/Documents
 ```
 
-エラーメッセージを表示させる必要が無い場合も、php.iniは作成してください。そうしないと、magic_quotes_gpcがOffになりません。
+エラーメッセージを表示させる必要が無い場合も、php.iniは作成してください（そうしないと、magic_quotes_gpcがOffになりません）。
 
 ## 2.4 GlassFishhと統合開発環境
 
@@ -81,30 +80,47 @@ Ubuntuのコンソールで「ダウンロード」などど入力するのが�
 
 ### 2.4.1 Java Development Kit
 
-**p. 23** Ubuntu 12.04ではJava 7を簡単に導入できます。p. 23のコマンドの代わりに、以下のコマンドを実行してください。
+**p. 23** Java 7のパッケージが利用可能になったので、Java 6ではなくJava 7を使ってください（NetBeans 7.3のためには、Java 7が必要です）。
 
 ```bash
 sudo apt-get install openjdk-7-jdk
 ```
 
-WindowsでJava 7を使う場合は、p. 23 脚註7のURLではなく、[Java SE Downloads](http://www.oracle.com/technetwork/java/javase/downloads/index.html)からJDKをダウンロードしてください。
+**p. 23** WindowsでJava 7を使う場合は、脚註7のURLではなく、[Java SE Downloads](http://www.oracle.com/technetwork/java/javase/downloads/index.html)からJDKをダウンロードしてください。
 
-Mac OS 10.7以降にはJDKが含まれていません。Javaが必要になった時にインストールを促すダイアログが現れるので、その指示に従ってください。（[動画](http://youtu.be/36R485Rul7I)）
+**p. 23** [**動画**：JDKのインストール（Mac OS 10.7）](http://youtu.be/36R485Rul7I)）
+
+Mac OS 10.7以降にはJDKが含まれていません。Javaが必要になった時にインストールを促すダイアログが現れるので、その指示に従ってください。
 
 ### 2.4.2 NetBeans
 
-**p. 23** 参考動画：[Ubuntu 12.04へのNetBeans 7.3.1のインストール](http://youtu.be/mmZQwtLBqSM)
+**p. 23** [**動画**：NetBeans 7.3.1のインストール（Ubuntu 12.04）](http://youtu.be/mmZQwtLBqSM)
 
-**p. 23** NetBeansのインストール中に、JUnitについて訊かれたら、「JUnitをインストール」を選択してください。
+NetBeansのインストール中に、JUnitについて訊かれたら、「JUnitをインストール」を選択してください。
 
 ### 2.4.3 Eclipse
 
-**p. 24**
+#### Ubuntu
 
-* JavaとPHPで異なるEclipseを使う（非推奨）：Eclipse上でPHPのウェブアプリを開発したい場合は、Eclipse for PHP Developerの代わりに、Zend Software Development Kitを使ってください。http://code.google.com/p/zend-sdk/ からダウンロードできます。
-* JavaとPHPで同じEclipseを使う（推奨）：本書で利用しているEclipseであるGalileo（バージョン3.5.1）にPDTを追加するには、HELP→「Install New Software...」→「Add...」ボタンを押すと現れる「Add Site」ダイアログで、Nameを`Galileo`（これは任意）、Location:を`http://download.eclipse.org/releases/galileo/`として登録したサイトに対して、type filter textに「pdt」を入力すると現れる「PHP Development Tools (PDT) SDK Feature」を選択します。
+##### Java用のEclipse
 
-**p. 25** Ubuntu 12.04でEclipseを起動するときは、Dash メニューで「eclipse」を検索してください。見つからないときは、コンソールで「`~/glassfishBundle/eclipse`」として起動してください。
+**p. 24** [**動画**：GlassFish Tools Bundle For Eclipseのインストール（Ubuntu 12.04）](http://youtu.be/AeIDTPOmN8Q)
+
+**p. 24** Ubuntu 12.04でダウンロードした`glassfish...install.jar`を実行する際は、TABキーによる補間が効かないようです。`ls ~/ダウンロード/glassfish（TABキー）`などとしてから修正するといいかもしれません。バージョンが変わっていなければ、以下のコマンドで実行できます。
+
+```bash
+java -jar ~/ダウンロード/glassfish-tools-bundle-for-eclipse-nojdk-1.2-linux-pack200-install.jar
+```
+
+**p. 25** Ubuntu 12.04でGlassFish Tools Bundle For Eclipseを起動するときは、コンソールで「`~/glassfishBundle/eclipse`」とするのが簡単です。
+
+**p. 25** [**動画**：EclipseのウェブブラウザをFirefoxに設定する（Eclipse 3.5.1, Ubuntu）](http://youtu.be/AaSF57DE7R8)
+
+**（書籍不掲載の設定）** Eclipseが起動したら、Exlipse内蔵ウェブブラウザではなく、Firefoxを使うように設定します。Window→Preferences→General→Web Browser→「New...」で、Nameを`Firefox`、Locationを`/usr/bin/firefox`、Parametersを`-url %URL%`とします。
+
+##### PHP用のEclipse
+
+**p. 24** [**動画**：PDT 3.2.0 with Eclipse 3.7.2 Indigoのインストールとウェブブラウザの設定（Ubuntu 12.04）](http://youtu.be/1E-wkGY8oc4)
 
 ## 2.5 プロジェクトの作成
 
@@ -112,19 +128,22 @@ Mac OS 10.7以降にはJDKが含まれていません。Javaが必要になっ�
 
 #### NetBeans
 
-**p. 26** 参考動画：[NetBeans 7.3.1の場合](http://youtu.be/NzNJ6M33QAo)
+**p. 26** [**動画**：Java Webアプリケーションの作成（NetBeans 7.3.1）](http://youtu.be/NzNJ6M33QAo)
 
-**p. 26** プロジェクトの中にindex.jspがないときは、上記の動画を参考に作成してください。
+プロジェクトの中にindex.jspがないときは、この動画を参考に作成してください。
 
 #### Eclipse
 
-**p. 26** Eclipseの中でページが開かれないときは、ウェブブラウザで`http://localhost:8084/javaweb/`にアクセスしてください。
+**p. 26** [**動画**：Java Webアプリケーションの作成（Eclipse 3.5.1, Ubuntu 12.04）](http://youtu.be/_22aPaskXx0)
 
-**p. 26** プロキシサーバを利用する環境では、Eclipse内蔵のウェブブラウザで`http://localhost:8084/javaweb/index.jsp`にアクセスしようとしても、`http://www.localhost.com/javaweb/index.jsp`にアクセスしてしまいます。この問題は、以下のいずれかの方法で解決できます（参考：http://stackoverflow.com/questions/3396485/eclipse-help-wont-show-under-ubuntu ）。
-
-* Window→Web Browser→Default system Web browser、これによって、Eclipse内蔵のウェブブラウザの代わりにFirefoxが使われるようになる。
-* コンソールで、`cd ~/glassfishBundle`、`export no_proxy=127.0.0.1,localhost`、`./eclipse &`としてEclipseを起動する。
+**p. 26** [**動画**：Java Webアプリケーションの作成（Eclipse 3.5.1, Mac）](http://youtu.be/RqRFsQjYq-E)
 
 ### 2.5.2 PHPアプリケーション
 
-**p. 29** ウェブブラウザが起動しない場合は、Firefoxを使うように設定してください。Window→Preferences→General→Web Browser→「New...」で、Nameを`Firefox`、Locationを`/usr/bin/firefox`、Parametersを`-url %URL%`とします。
+**p. 28** [**動画**：PHPアプリケーションの作成（NetBeans 7.3.1）](http://youtu.be/sxnOdjB0qBM)
+
+**p. 28** [**動画**：PHPアプリケーションの作成（Eclipse 3.5.1, Mac）](http://youtu.be/DcPCQK0qqgY)
+
+**p. 28** [**動画**：PHPアプリケーションの作成（Eclipse 3.7.2, Ubuntu 12.04）](http://youtu.be/8blBY1pQplY)
+
+EclipseでPHPアプリケーションを作成する際は、プロジェクトのディレクトリがApacheのドキュメントルート（Ubuntuなら`/var/www/`、Windowsなら`C:/xampp/htdocs`、Macなら`Library/WebServer/Documents`）に置かれるようにします。

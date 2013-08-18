@@ -11,7 +11,7 @@
 * Eclipse 3.5.1
 * Java 6, **7**
 * PHP 5.3, **5.5**
-* jQuery 1.5.0, **1.6, 1.7.1**（i.7.2以降では、[Google Hosted Libraries](https://developers.google.com/speed/libraries/devguide?hl=ja#jquery)で紹介されている方法を使うといいでしょう。）
+* jQuery 1.5.0, **1.6, 1.7.1, 2.0.3**（1.7.2以降では、書籍の方法は使えません。[Google Hosted Libraries](https://developers.google.com/speed/libraries/devguide?hl=ja#jquery)で紹介されている方法を使うといいでしょう。）
 * XAMPP 1.7.3, **1.7.7, 1.8.1**
 * Ubuntu 10.04, **11.04, 11.10, 12.04**
 * Windows XP, Vista, 7

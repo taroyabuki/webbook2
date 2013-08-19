@@ -47,7 +47,6 @@
 #### 2.4.2 NetBeans
 
 * [**動画**：NetBeans 7.3.1のインストール（Ubuntu 12.04）](http://youtu.be/mmZQwtLBqSM)
-* [**動画**：GlassFish Tools Bundle For Eclipseのインストール（Ubuntu 12.04）](http://youtu.be/AeIDTPOmN8Q)
 
 #### 2.4.3 Eclipse
 

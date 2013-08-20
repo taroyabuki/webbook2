@@ -43,10 +43,6 @@
 
 * [**動画**：ApacheとPHPの設定（Mac OS X v10.8 Mountain Lion）](http://youtu.be/k9eAmhgbILc)
 
-以下は旧バージョンです。
-
-* **（旧）**[動画：ApacheとPHPの設定（Mac OS X v10.6 Snow Leopard）](http://youtu.be/heiXSqh3mDQ)
-
 ### 2.4 GlassFishと統合開発環境
 
 #### 2.4.1 Java Development Kit

@@ -119,19 +119,29 @@ NetBeansのインストール中に、JUnitについて訊かれたら、「JUni
 
 ##### Java用のEclipse
 
+###### Ubuntu
+
 **p. 24** [**動画**：GlassFish Tools Bundle For Eclipseのインストール（Ubuntu 12.04）](http://youtu.be/NIgFt5u0fsY)
 
-**p. 24** Ubuntu 12.04でダウンロードした`glassfish...install.jar`を実行する際は、TABキーによる補間が効かないようです。動画のように、`java -jar `まで入力してから、ファイルをターミナルにドラッグ＆ドロップするのが簡単です。
+Ubuntu 12.04でダウンロードした`glassfish...install.jar`を実行する際は、TABキーによる補間が効かないようです。動画のように、`java -jar `まで入力してから、ファイルをターミナルにドラッグ＆ドロップするのが簡単です。
 
 **p. 25** Ubuntu 12.04でGlassFish Tools Bundle For Eclipseを起動するときは、コンソールで「`~/glassfishBundle/eclipse`」とするのが簡単です。
 
 **p. 25** [**動画**：EclipseのウェブブラウザをFirefoxに設定する（Eclipse 3.5.1, Ubuntu）](http://youtu.be/AaSF57DE7R8)
 
-**（書籍不掲載の設定）** Eclipseが起動したら、Exlipse内蔵ウェブブラウザではなく、Firefoxを使うように設定します。Window→Preferences→General→Web Browser→「New...」で、Nameを`Firefox`、Locationを`/usr/bin/firefox`、Parametersを`-url %URL%`とします。
+**（書籍不掲載の設定）** Eclipseが起動したら、Exlipse内蔵ウェブブラウザではなく、Firefoxを使うように設定します。Window→Preferences→General→Web Browser→「New...」で、Nameを`Firefox`、Locationを`/usr/bin/firefox`、Parametersを`-url %URL%`とします。（Firefox自体は3.1.1項で紹介しています。）
+
+###### Windows
+
+**p. 25** [**動画**：GlassFish Tools Bundle For Eclipseのインストール（Windows 7）](http://youtu.be/coh48h6F1wo)
 
 ##### PHP用のEclipse
 
-**p. 24** [**動画**：PDT 3.2.0 with Eclipse 3.7.2 Indigoのインストールとウェブブラウザの設定（Ubuntu 12.04）](http://youtu.be/1E-wkGY8oc4)
+**p. 24**
+
+* [**動画**：PDT 3.2.0 with Eclipse 3.7.2 Indigoのインストールとウェブブラウザの設定（Ubuntu 12.04）](http://youtu.be/1E-wkGY8oc4)
+* [**動画**：PDT 3.2.0 with Eclipse 3.7.2 Indigoのインストール（Windows 7）](http://youtu.be/ibFRZHfgEGY)
+* [**動画**：PDT 3.2.0 with Eclipse 3.7.2 Indigoのインストール（Mac OS X v10.8 Mountain Lion）](http://youtu.be/WYRk79RSOKs)
 
 ## 2.5 プロジェクトの作成
 
@@ -145,16 +155,25 @@ NetBeansのインストール中に、JUnitについて訊かれたら、「JUni
 
 #### Eclipse
 
-**p. 26** [**動画**：Java Webアプリケーションの作成（Eclipse 3.5.1, Ubuntu 12.04）](http://youtu.be/_22aPaskXx0)
+**p. 26**
 
-**p. 26** [**動画**：Java Webアプリケーションの作成（Eclipse 3.5.1, Mac）](http://youtu.be/RqRFsQjYq-E)
+* [**動画**：Java Webアプリケーションの作成（Eclipse 3.5.1, Ubuntu 12.04）](http://youtu.be/_22aPaskXx0)
+* [**動画**：Java Webアプリケーションの作成（Eclipse 3.5.1, Windows 7）](http://youtu.be/y5J0h4UJPUw)
+* [**動画**：Java Webアプリケーションの作成（Eclipse 3.5.1, Mac）](http://youtu.be/RqRFsQjYq-E)
 
 ### 2.5.2 PHPアプリケーション
 
-**p. 28** [**動画**：PHPアプリケーションの作成（NetBeans 7.3.1）](http://youtu.be/sxnOdjB0qBM)
+**p. 28**
 
-**p. 28** [**動画**：PHPアプリケーションの作成（Eclipse 3.5.1, Mac）](http://youtu.be/DcPCQK0qqgY)
+#### NetBeans
 
-**p. 28** [**動画**：PHPアプリケーションの作成（Eclipse 3.7.2, Ubuntu 12.04）](http://youtu.be/8blBY1pQplY)
+* [**動画**：PHPアプリケーションの作成（NetBeans 7.3.1）](http://youtu.be/sxnOdjB0qBM)
+
+#### Eclipse
+
+* [**動画**：PHPアプリケーションの作成（Eclipse 3.7.2, Ubuntu 12.04）](http://youtu.be/8blBY1pQplY)
+* [**動画**：PHPアプリケーションの作成（Eclipse 3.7.2, Windows）](http://youtu.be/0JfxMs3Jd-M)
+* [**動画**：PHPアプリケーションの作成（Eclipse 3.7.2, Mac）](http://youtu.be/Y7nChTOC5_U)
+* [**動画**：PHPアプリケーションの作成（Eclipse 3.5.1, Mac）](http://youtu.be/DcPCQK0qqgY)
 
 EclipseでPHPアプリケーションを作成する際は、プロジェクトのディレクトリがApacheのドキュメントルート（Ubuntuなら`/var/www/`、Windowsなら`C:/xampp/htdocs`、Macなら`Library/WebServer/Documents`）に置かれるようにします。

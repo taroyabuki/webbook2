@@ -2,6 +2,8 @@
 
 ## 第2章 開発環境の構築
 
+参考：[第2章についての補足](https://github.com/taroyabuki/webbook2/blob/master/update/update2.md)
+
 ### 2.2 仮想マシンの構築
 
 #### 2.2.1 仮想マシンの新規作成
@@ -64,19 +66,33 @@
 
 ##### Java用のEclipse
 
+###### Ubuntu
+
 * [**動画**：GlassFish Tools Bundle For Eclipseのインストール（Ubuntu 12.04）](http://youtu.be/NIgFt5u0fsY)
 * [**動画**：EclipseのウェブブラウザをFirefoxに設定する（Eclipse 3.5.1, Ubuntu）](http://youtu.be/AaSF57DE7R8)
 
+###### Windows
+
+* [**動画**：GlassFish Tools Bundle For Eclipseのインストール（Windows 7）](http://youtu.be/coh48h6F1wo)
+
 ##### PHP用のEclipse
 
-[**動画**：PDT 3.2.0 with Eclipse 3.7.2 Indigoのインストールとウェブブラウザの設定（Ubuntu 12.04）](http://youtu.be/1E-wkGY8oc4)
+* [**動画**：PDT 3.2.0 with Eclipse 3.7.2 Indigoのインストールとウェブブラウザの設定（Ubuntu 12.04）](http://youtu.be/1E-wkGY8oc4)
+* [**動画**：PDT 3.2.0 with Eclipse 3.7.2 Indigoのインストール（Windows 7）](http://youtu.be/ibFRZHfgEGY)
+* [**動画**：PDT 3.2.0 with Eclipse 3.7.2 Indigoのインストール（Mac OS X v10.8 Mountain Lion）](http://youtu.be/WYRk79RSOKs)
 
 ### 2.5 プロジェクトの作成
 
 #### 2.5.1 Java Webアプリケーション
 
+##### NetBeans
+
 * [**動画**：Java Webアプリケーションの作成（NetBeans 7.3.1）](http://youtu.be/NzNJ6M33QAo)
+
+##### Eclipse
+
 * [**動画**：Java Webアプリケーションの作成（Eclipse 3.5.1, Ubuntu 12.04）](http://youtu.be/_22aPaskXx0)
+* [**動画**：Java Webアプリケーションの作成（Eclipse 3.5.1, Windows 7）](http://youtu.be/y5J0h4UJPUw)
 * [**動画**：Java Webアプリケーションの作成（Eclipse 3.5.1, Mac）](http://youtu.be/RqRFsQjYq-E)
 
 以下は旧バージョンです。
@@ -85,14 +101,27 @@
 
 #### 2.5.2 PHPアプリケーション
 
+##### NetBeans
+
 * [**動画**：PHPアプリケーションの作成（NetBeans 7.3.1）](http://youtu.be/sxnOdjB0qBM)
-* [**動画**：PHPアプリケーションの作成（Eclipse 3.5.1, Mac）](http://youtu.be/DcPCQK0qqgY)
 
 以下は旧バージョンです。
 
 * **（旧）**[動画：PHPアプリケーションの作成（NetBeans 6.9.1）](http://youtu.be/3118hz3bZpA)
 
+##### Eclipse
+
+* [**動画**：PHPアプリケーションの作成（Eclipse 3.7.2, Ubuntu 12.04）](http://youtu.be/8blBY1pQplY)
+* [**動画**：PHPアプリケーションの作成（Eclipse 3.7.2, Windows）](http://youtu.be/0JfxMs3Jd-M)
+* [**動画**：PHPアプリケーションの作成（Eclipse 3.7.2, Mac）](http://youtu.be/Y7nChTOC5_U)
+
+以下は旧バージョンです。
+
+* **（旧）**[動画：PHPアプリケーションの作成（Eclipse 3.5.1, Mac）](http://youtu.be/DcPCQK0qqgY)
+
 ## 第3章 ウェブページの書き方
+
+参考：[第3章についての補足](https://github.com/taroyabuki/webbook2/blob/master/update/update3.md)
 
 ### 3.5 HTML Validator
 

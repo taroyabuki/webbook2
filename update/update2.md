@@ -4,11 +4,11 @@
 
 ### 2.2.1 仮想マシンの新規作成
 
-**p. 16** [**動画**：VirtualBox 4.2.16のインストール（Windows 7）](http://youtu.be/6mVr4APoPN8)
+**p. 16**
 
-**p. 16** [**動画**：VirtualBox 4.2.16のインストール（Mac OS X v10.8 Mountain Lion）](http://youtu.be/1o0h83ZNlyQ)
-
-**p. 16** [**動画**：仮想マシンの新規作成（VirtualBox 4.2.16）](http://youtu.be/HMGZSxsU_CQ)
+* [**動画**：VirtualBox 4.2.16のインストール（Windows 7）](http://youtu.be/6mVr4APoPN8)
+* [**動画**：VirtualBox 4.2.16のインストール（Mac OS X v10.8 Mountain Lion）](http://youtu.be/1o0h83ZNlyQ)
+* [**動画**：仮想マシンの新規作成（VirtualBox 4.2.16）](http://youtu.be/HMGZSxsU_CQ)
 
 新しいバージョンのVirtualBoxでは、仮想マシンの作成手続きが、本書に掲載したものとは違っています。基本的には、デフォルトのまま作成手続きを進めてかまいません。
 
@@ -32,7 +32,7 @@ Guest Additionsはパッケージ`virtualbox-ose-guest-utils`で代用できま�
 
 ### 2.2.3 キーボードの設定
 
-**p. 19** **p. 19** [**動画**：キーボードの設定（Ubuntu 12.04）](http://youtu.be/nZZJxYX-FHk)
+**p. 19** [**動画**：キーボードの設定（Ubuntu 12.04）](http://youtu.be/nZZJxYX-FHk)
 
 Dashメニューの検索窓に「ibus」と入力すると、「Keyboard Input Methods」あるいは「キーボード・インプットメソッド」という項目が現れるのでそれをクリックしてください。図2.8のようなウィンドウが現れます。
 
@@ -69,7 +69,7 @@ sudo chown root:adm /var/www
 
 **p. 22** [**動画**：ApacheとPHPの設定（Mac OS X v10.8 Mountain Lion）](http://youtu.be/k9eAmhgbILc)
 
-**p. 22** [sudo コマンドには非ブランク管理パスワードが必要](http://support.apple.com/kb/HT4103?viewlocale=ja_JP)
+**p. 22** [sudo コマンドには非ブランク管理パスワードが必要](http://support.apple.com/kb/HT4103?viewlocale=ja_JP)です。
 
 **p. 22** Ubuntuの場合(p. 21)と同様、以下のようにしてドキュメントルートを書き込み可能にしておきます。
 
@@ -163,13 +163,13 @@ Ubuntu 12.04でダウンロードした`glassfish...install.jar`を実行する�
 
 ### 2.5.2 PHPアプリケーション
 
-**p. 28**
-
 #### NetBeans
 
-* [**動画**：PHPアプリケーションの作成（NetBeans 7.3.1）](http://youtu.be/sxnOdjB0qBM)
+**p. 28** [**動画**：PHPアプリケーションの作成（NetBeans 7.3.1）](http://youtu.be/sxnOdjB0qBM)
 
 #### Eclipse
+
+**p. 28**
 
 * [**動画**：PHPアプリケーションの作成（Eclipse 3.7.2, Ubuntu 12.04）](http://youtu.be/8blBY1pQplY)
 * [**動画**：PHPアプリケーションの作成（Eclipse 3.7.2, Windows）](http://youtu.be/0JfxMs3Jd-M)

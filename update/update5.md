@@ -14,10 +14,13 @@
 
 pearのチャネルを更新するときは、`pear channel-update pear.php.net`とします。Windowsの場合はコマンドプロンプトを管理者として起動してください。GNU/LinuxやMacでは、先頭に「`sudo `」を付けてください。
 
-**p. 71** Mac OS 10.7 (Lion)以降では、PEARを使うために、以下のような作業が必要です。
+**p. 71** [**動画**：PHP PEARの利用（Mac OS X v10.8 Mountain Lion）](http://youtu.be/XsFjv3Drrek)
+
+Mac OS X v10.7 Lion以降では、PEARを使うために、以下のような作業が必要です。
 
 1. 「`sudo php /usr/lib/php/install-pear-nozlib.phar`」としてPEARをインストールする。
-1. 2.3.3項（p. 22）の要領でphp.iniを編集し、「`include_path = ".:/php/includes:/usr/lib/php/pear"`」という行を追加する。
+1. 2.3.3項（p. 22）の要領で/etc/php.iniを編集し、「`include_path = ".:/php/includes:/usr/lib/php/pear"`」という行を追加する。
+1. 「`sudo apachectl graceful`」としてApacheを再起動する。
 
 ### gettext.php
 

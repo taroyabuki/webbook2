@@ -126,3 +126,15 @@
 ### 3.5 HTML Validator
 
 * [**動画**：HTML Validatorのインストールと利用（FIrefox 23）](http://youtu.be/9OtirlgPuv8)
+
+## 第5章 ウェブの通信方式
+
+参考：[第5章についての補足](https://github.com/taroyabuki/webbook2/blob/master/update/update5.md)
+
+### 5.2 HTTPクライアント
+
+#### 5.2.2 HTTPクライアントとなるプログラム
+
+##### PHPのHTTPクライアント
+
+* [**動画**：PHP PEARの利用（Mac OS X v10.8 Mountain Lion）](http://youtu.be/XsFjv3Drrek)

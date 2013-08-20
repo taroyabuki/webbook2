@@ -4,7 +4,13 @@
 
 ### 7.2.1 MySQLのインストール
 
+#### Windows
+
 **p. 94** Windows 7の標準ユーザがPATHを変更するには、「コントロールパネル→ユーザー アカウントと家族のための安全設定→ユーザー アカウント→環境変数の変更」です。管理者もこの方法でPATHを変更できます。コントロールパネルの検索窓に「環境変数」と入力してもいいでしょう。
+
+#### Mac
+
+**p. 94** [**動画**：MySQL 5.6のインストール（Mac OS X v10.8 Mountain Lion）](http://youtu.be/3Zn_SPvmz-o)
 
 ## 7.6 phpMyAdmin
 
@@ -12,10 +18,16 @@
 
 **p. 106** phpMyAdminのインストールにおいて、図7.4の設定などをし忘れたときは、`sudo apt-get purge phpmyadmin`として、一度アンインストールしてから、再インストールしてください。
 
-**p. 106** Macでは、/etc/php.iniのmysqli.default_socketを確認してください。`sudo / -name mysql.sock`などとしてmysql.sock（あるいはmysqld.sock）の場所を確認してから、`sudo vi /etc/php.ini`としてphp.iniに反映し、`sudo apachectl restart`として適用します。以下は例です。viの使い方はいろんなところで紹介されているのでここでは割愛します。
+#### Mac
+
+**p. 107** [**動画**：phpMyAdminのインストール（Mac OS X v10.8 Mountain Lion）](http://youtu.be/cLf5XuB3W0Y)
+
+Macでは/etc/php.iniにおける`mysqli.default_socket`の値（例：`/var/mysql/mysql.sock`）と、実際のファイル（例：/tmp/mysql.sock）が一致していないことがあります。この例のように一致していない場合は、次のように修正します（MySQL 5.6 on Mac OS X v10.8 Mountain Lionの場合）。
 
 ```
-mysqli.default_socket = /private/tmp/mysql.sock
+sudo mkdir /var/mysql
+sudo ln -s /tmp/mysql.sock /var/mysql/mysql.sock
+sudo apachectl restart
 ```
 
 ### コラム：パフォーマンスチューニング

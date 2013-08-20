@@ -138,3 +138,23 @@
 ##### PHPのHTTPクライアント
 
 * [**動画**：PHP PEARの利用（Mac OS X v10.8 Mountain Lion）](http://youtu.be/XsFjv3Drrek)
+
+## 第7章
+
+参考：[第7章についての補足](https://github.com/taroyabuki/webbook2/blob/master/update/update7.md)
+
+### 7.2 MySQL
+
+#### 7.2.1 MySQLのインストール
+
+##### Mac
+
+* [**動画**：MySQL 5.6のインストール（Mac OS X v10.8 Mountain Lion）](http://youtu.be/3Zn_SPvmz-o)
+
+### 7.6 phpMyAdmin
+
+#### 7.6.1 phpMyAdminのインストール
+
+##### Mac
+
+[**動画**：phpMyAdminのインストール（Mac OS X v10.8 Mountain Lion）](http://youtu.be/cLf5XuB3W0Y)

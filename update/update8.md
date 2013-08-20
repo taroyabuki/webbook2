@@ -6,8 +6,10 @@
 
 パッケージphp5-mysqlが必要です。7.6.1項で紹介するphpMyAdminといっしょにインストールされますが、`sudo apt-get install php5-mysql`としてインストールしてもかまいません。
 
-Macでは、/etc/php.iniのmysqli.default_socketを確認してください。`sudo / -name mysql.sock`などとしてmysql.sock（あるいはmysqld.sock）の場所を確認してから、`sudo vi /etc/php.ini`としてphp.iniに反映し、`sudo apachectl restart`として適用します。以下は例です。viの使い方はいろんなところで紹介されているのでここでは割愛します。
+Macで7.6.1項のphpMyAdminのインストールをやっていない場合、mysql.sockが不整合を起こしている可能性があります。/etc/php.iniにおいて、pdo_mysql.default_socketで指定されたファイルが実際にあることを確認してください。ない場合は次のように修正します（MySQL 5.6 on Mac OS X v10.8 Mountain Lionの場合）。
 
 ```
-pdo_mysql.default_socket=/private/tmp/mysql.sock
+sudo mkdir /var/mysql
+sudo ln -s /tmp/mysql.sock /var/mysql/mysql.sock
+sudo apachectl restart
 ```

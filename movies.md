@@ -28,16 +28,8 @@
 
 ### 2.3 Apache HTTP ServerとPHP
 
-#### 2.3.1 Ubuntu
-
 * [**動画**：ApacheとPHPのインストール（Ubuntu 12.04）](http://youtu.be/LBU6ihgCEuk)
-
-#### 2.3.2 Windows
-
 * [**動画**：XAMPP 1.8.3のインストール（Windows 7）](http://youtu.be/cBDShvp70iI)
-
-#### 2.3.3 Mac
-
 * [**動画**：ApacheとPHPの設定（Mac OS X v10.8 Mountain Lion）](http://youtu.be/k9eAmhgbILc)
 
 ### 2.4 GlassFishと統合開発環境
@@ -133,22 +125,12 @@
 
 #### 7.2.1 MySQLのインストール
 
-##### Ubuntu
-
-* [**動画**：MySQLとphpMyAdmin（7.6節）のインストール（Ubuntu 12.04）](http://youtu.be/2-ZEPX8oU3U)
-
-##### Mac
-
+* [**動画**：MySQLとphpMyAdmin（7.6節）のインストール（Ubuntu 12.04）](http://youtu.be/2-ZEPX8oU3U)（7.6.1項の動画と同じものです。）
 * [**動画**：MySQL 5.6のインストール（Mac OS X v10.8 Mountain Lion）](http://youtu.be/3Zn_SPvmz-o)
 
 ### 7.6 phpMyAdmin
 
 #### 7.6.1 phpMyAdminのインストール
 
-##### Ubuntu
-
-* [**動画**：MySQL（7.1節）とphpMyAdminのインストール（Ubuntu 12.04）](http://youtu.be/2-ZEPX8oU3U)
-
-##### Mac
-
+* [**動画**：MySQL（7.1節）とphpMyAdminのインストール（Ubuntu 12.04）](http://youtu.be/2-ZEPX8oU3U)（7.2.1項の動画と同じものです。）
 * [**動画**：phpMyAdminのインストール（Mac OS X v10.8 Mountain Lion）](http://youtu.be/cLf5XuB3W0Y)

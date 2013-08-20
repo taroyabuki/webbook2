@@ -4,6 +4,10 @@
 
 ### 7.2.1 MySQLのインストール
 
+#### Ubuntu
+
+**p. 94** [**動画**：MySQLとphpMyAdmin（7.6節）のインストール（Ubuntu 12.04）](http://youtu.be/2-ZEPX8oU3U)
+
 #### Windows
 
 **p. 94** Windows 7の標準ユーザがPATHを変更するには、「コントロールパネル→ユーザー アカウントと家族のための安全設定→ユーザー アカウント→環境変数の変更」です。管理者もこの方法でPATHを変更できます。コントロールパネルの検索窓に「環境変数」と入力してもいいでしょう。
@@ -17,6 +21,10 @@
 ### 7.6.1 phpMyAdminのインストール
 
 **p. 106** phpMyAdminのインストールにおいて、図7.4の設定などをし忘れたときは、`sudo apt-get purge phpmyadmin`として、一度アンインストールしてから、再インストールしてください。
+
+#### Ubuntu
+
+**p. 106** [**動画**：MySQL（7.1節）とphpMyAdminのインストール（Ubuntu 12.04）](http://youtu.be/2-ZEPX8oU3U)
 
 #### Mac
 

@@ -13,19 +13,14 @@
 1. [**動画**：仮想マシンの新規作成（VirtualBox 4.2.16）](http://youtu.be/HMGZSxsU_CQ)
 1. [**動画**：Ubuntu 12.04のインストール](http://youtu.be/9Bb2l05pHSA)
 
-以下は旧バージョンです。
-
-* **（旧）**[動画：Ubuntu 10.04（VirtualBox 4.0）](http://youtu.be/MYdxzHlSkL4)
-* **（旧）**[動画：Ubuntu 11.04（VirtualBox 4.0）](http://youtu.be/hGHUTp8jMK4)
+* （旧バージョン）[動画：Ubuntu 10.04（VirtualBox 4.0）](http://youtu.be/MYdxzHlSkL4)
+* （旧バージョン）[動画：Ubuntu 11.04（VirtualBox 4.0）](http://youtu.be/hGHUTp8jMK4)
 
 #### 2.2.2 Guest Additionsのインストール
 
 * 方法1：[**動画**：Guest Additionsのインストール（Ubuntu 12.04）](http://youtu.be/HXP9FJK6apk)
 * 方法2（簡単）：[**動画**：パッケージ`virtualbox-ose-guest-utils`のインストール（Ubuntu 12.04）](http://youtu.be/ey_V6nDIHME)
-
-以下は旧バージョンです。
-
-* **（旧）**[動画：VirtualBox 4.0 Guest Additionsのインストール（Ubuntu 10.04）](http://youtu.be/DlShag2A5Nk)
+* （旧バージョン）[動画：VirtualBox 4.0 Guest Additionsのインストール（Ubuntu 10.04）](http://youtu.be/DlShag2A5Nk)
 
 #### 2.2.3 キーボードの設定
 
@@ -94,30 +89,21 @@
 * [**動画**：Java Webアプリケーションの作成（Eclipse 3.5.1, Ubuntu 12.04）](http://youtu.be/_22aPaskXx0)
 * [**動画**：Java Webアプリケーションの作成（Eclipse 3.5.1, Windows 7）](http://youtu.be/y5J0h4UJPUw)
 * [**動画**：Java Webアプリケーションの作成（Eclipse 3.5.1, Mac）](http://youtu.be/RqRFsQjYq-E)
-
-以下は旧バージョンです。
-
-* **（旧）**[動画：Java Webアプリケーションの作成（NetBeans 6.9.1）](http://youtu.be/YwWZNSE3e94)
+* （旧バージョン）[動画：Java Webアプリケーションの作成（NetBeans 6.9.1）](http://youtu.be/YwWZNSE3e94)
 
 #### 2.5.2 PHPアプリケーション
 
 ##### NetBeans
 
 * [**動画**：PHPアプリケーションの作成（NetBeans 7.3.1）](http://youtu.be/sxnOdjB0qBM)
-
-以下は旧バージョンです。
-
-* **（旧）**[動画：PHPアプリケーションの作成（NetBeans 6.9.1）](http://youtu.be/3118hz3bZpA)
+* （旧バージョン）[動画：PHPアプリケーションの作成（NetBeans 6.9.1）](http://youtu.be/3118hz3bZpA)
 
 ##### Eclipse
 
 * [**動画**：PHPアプリケーションの作成（Eclipse 3.7.2, Ubuntu 12.04）](http://youtu.be/8blBY1pQplY)
 * [**動画**：PHPアプリケーションの作成（Eclipse 3.7.2, Windows）](http://youtu.be/0JfxMs3Jd-M)
 * [**動画**：PHPアプリケーションの作成（Eclipse 3.7.2, Mac）](http://youtu.be/Y7nChTOC5_U)
-
-以下は旧バージョンです。
-
-* **（旧）**[動画：PHPアプリケーションの作成（Eclipse 3.5.1, Mac）](http://youtu.be/DcPCQK0qqgY)
+* （旧バージョン）[動画：PHPアプリケーションの作成（Eclipse 3.5.1, Mac）](http://youtu.be/DcPCQK0qqgY)
 
 ## 第3章 ウェブページの書き方
 
@@ -147,6 +133,10 @@
 
 #### 7.2.1 MySQLのインストール
 
+##### Ubuntu
+
+* [**動画**：MySQLとphpMyAdmin（7.6節）のインストール（Ubuntu 12.04）](http://youtu.be/2-ZEPX8oU3U)
+
 ##### Mac
 
 * [**動画**：MySQL 5.6のインストール（Mac OS X v10.8 Mountain Lion）](http://youtu.be/3Zn_SPvmz-o)
@@ -155,6 +145,10 @@
 
 #### 7.6.1 phpMyAdminのインストール
 
+##### Ubuntu
+
+* [**動画**：MySQL（7.1節）とphpMyAdminのインストール（Ubuntu 12.04）](http://youtu.be/2-ZEPX8oU3U)
+
 ##### Mac
 
-[**動画**：phpMyAdminのインストール（Mac OS X v10.8 Mountain Lion）](http://youtu.be/cLf5XuB3W0Y)
+* [**動画**：phpMyAdminのインストール（Mac OS X v10.8 Mountain Lion）](http://youtu.be/cLf5XuB3W0Y)

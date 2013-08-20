@@ -35,6 +35,10 @@
 
 * [**動画**：ApacheとPHPのインストール（Ubuntu 12.04）](http://youtu.be/LBU6ihgCEuk)
 
+#### 2.3.2 Windows
+
+* [**動画**：XAMPP 1.8.3のインストール（Windows 7）](http://youtu.be/cBDShvp70iI)
+
 #### 2.3.3 Mac
 
 * [**動画**：ApacheとPHPの設定（Mac OS X v10.8 Mountain Lion）](http://youtu.be/k9eAmhgbILc)

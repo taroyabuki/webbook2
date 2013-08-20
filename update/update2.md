@@ -59,7 +59,11 @@ sudo chown root:adm /var/www
 
 ### 2.3.2 Windows
 
+**p. 21** [**動画**：XAMPP 1.8.3のインストール（Windows 7）](http://youtu.be/cBDShvp70iI)
+
 **p. 21** XAMPPはhttp://www.apachefriends.org/jp/xampp-windows.html で公開されています。
+
+**p. 22** ApacheとMySQLをサービスとしてインストールする際には、XAMPP Control Panelを管理者として実行してください（上記動画を参照）。
 
 ### 2.3.3 Mac
 

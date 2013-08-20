@@ -63,13 +63,15 @@ sudo chown root:adm /var/www
 
 ### 2.3.3 Mac
 
-**p. 22** [**動画**：ApacheとPHPの設定（Mac OS X v10.6 Snow Leopard）](http://youtu.be/heiXSqh3mDQ)
+**p. 22** [**動画**：ApacheとPHPの設定（Mac OS X v10.8 Mountain Lion）](http://youtu.be/k9eAmhgbILc)
+
+**p. 22** [sudo コマンドには非ブランク管理パスワードが必要](http://support.apple.com/kb/HT4103?viewlocale=ja_JP)
 
 **p. 22** Ubuntuの場合(p. 21)と同様、以下のようにしてドキュメントルートを書き込み可能にしておきます。
 
 ```bash
 sudo chmod 775 /Library/WebServer/Documents
-chown root:admin /Library/WebServer/Documents
+sudo chown root:admin /Library/WebServer/Documents
 ```
 
 エラーメッセージを表示させる必要が無い場合も、php.iniは作成してください（そうしないと、magic_quotes_gpcがOffになりません）。

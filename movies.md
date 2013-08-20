@@ -1,8 +1,19 @@
+補足資料も参照してください。
+
+* [2章](https://github.com/taroyabuki/webbook2/blob/master/update/update2.md)
+* [3章](https://github.com/taroyabuki/webbook2/blob/master/update/update3.md)
+* [4章](https://github.com/taroyabuki/webbook2/blob/master/update/update4.md)
+* [5章](https://github.com/taroyabuki/webbook2/blob/master/update/update5.md)
+* [6章](https://github.com/taroyabuki/webbook2/blob/master/update/update6.md)
+* [7章](https://github.com/taroyabuki/webbook2/blob/master/update/update7.md)
+* [8章](https://github.com/taroyabuki/webbook2/blob/master/update/update8.md)
+* [9章](https://github.com/taroyabuki/webbook2/blob/master/update/update9.md)
+* [付録A](https://github.com/taroyabuki/webbook2/blob/master/update/updateA.md)
+* [付録B](https://github.com/taroyabuki/webbook2/blob/master/update/updateB.md)
+
 # 解説動画
 
 ## 第2章 開発環境の構築
-
-参考：[第2章についての補足](https://github.com/taroyabuki/webbook2/blob/master/update/update2.md)
 
 ### 2.2 仮想マシンの構築
 
@@ -99,15 +110,11 @@
 
 ## 第3章 ウェブページの書き方
 
-参考：[第3章についての補足](https://github.com/taroyabuki/webbook2/blob/master/update/update3.md)
-
 ### 3.5 HTML Validator
 
 * [**動画**：HTML Validatorのインストールと利用（FIrefox 23）](http://youtu.be/9OtirlgPuv8)
 
 ## 第5章 ウェブの通信方式
-
-参考：[第5章についての補足](https://github.com/taroyabuki/webbook2/blob/master/update/update5.md)
 
 ### 5.2 HTTPクライアント
 
@@ -118,8 +125,6 @@
 * [**動画**：PHP PEARの利用（Mac OS X v10.8 Mountain Lion）](http://youtu.be/XsFjv3Drrek)
 
 ## 第7章
-
-参考：[第7章についての補足](https://github.com/taroyabuki/webbook2/blob/master/update/update7.md)
 
 ### 7.2 MySQL
 

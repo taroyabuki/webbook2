@@ -7,6 +7,7 @@
 #### 2.2.1 仮想マシンの新規作成
 
 1. [**動画**：VirtualBox 4.2.16のインストール（Windows 7）](http://youtu.be/6mVr4APoPN8)
+1. [**動画**：VirtualBox 4.2.16のインストール（Mac OS X v10.8 Mountain Lion）](http://youtu.be/1o0h83ZNlyQ)
 1. [**動画**：仮想マシンの新規作成（VirtualBox 4.2.16）](http://youtu.be/HMGZSxsU_CQ)
 1. [**動画**：Ubuntu 12.04のインストール](http://youtu.be/9Bb2l05pHSA)
 
@@ -18,7 +19,7 @@
 #### 2.2.2 Guest Additionsのインストール
 
 * 方法1：[**動画**：Guest Additionsのインストール（Ubuntu 12.04）](http://youtu.be/HXP9FJK6apk)
-* 方法2（簡単）：[**動画**：パッケージ`virtualbox-ose-guest-utils`のインストール](http://youtu.be/ey_V6nDIHME)
+* 方法2（簡単）：[**動画**：パッケージ`virtualbox-ose-guest-utils`のインストール（Ubuntu 12.04）](http://youtu.be/ey_V6nDIHME)
 
 以下は旧バージョンです。
 
@@ -36,13 +37,13 @@
 
 #### 2.3.3 Mac
 
-* [**動画**：ApacheとPHPの設定（Mac）](http://youtu.be/heiXSqh3mDQ)
+* [**動画**：ApacheとPHPの設定（Mac OS X v10.6 Snow Leopard）](http://youtu.be/heiXSqh3mDQ)
 
 ### 2.4 GlassFishと統合開発環境
 
 #### 2.4.1 Java Development Kit
 
-* [**動画**：JDKのインストール（Mac OS 10.7 Lion）](http://youtu.be/36R485Rul7I)）
+* [**動画**：JDKのインストール（Mac OS X v10.7 Lion）](http://youtu.be/36R485Rul7I)）
 
 #### 2.4.2 NetBeans
 
@@ -52,7 +53,7 @@
 
 ##### Java用のEclipse
 
-* [**動画**：GlassFish Tools Bundle For Eclipseのインストール（Ubuntu 12.04）](http://youtu.be/AeIDTPOmN8Q)
+* [**動画**：GlassFish Tools Bundle For Eclipseのインストール（Ubuntu 12.04）](http://youtu.be/NIgFt5u0fsY)
 * [**動画**：EclipseのウェブブラウザをFirefoxに設定する（Eclipse 3.5.1, Ubuntu）](http://youtu.be/AaSF57DE7R8)
 
 ##### PHP用のEclipse

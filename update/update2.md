@@ -6,6 +6,8 @@
 
 **p. 16** [**動画**：VirtualBox 4.2.16のインストール（Windows 7）](http://youtu.be/6mVr4APoPN8)
 
+**p. 16** [**動画**：VirtualBox 4.2.16のインストール（Mac OS X v10.8 Mountain Lion）](http://youtu.be/1o0h83ZNlyQ)
+
 **p. 16** [**動画**：仮想マシンの新規作成（VirtualBox 4.2.16）](http://youtu.be/HMGZSxsU_CQ)
 
 新しいバージョンのVirtualBoxでは、仮想マシンの作成手続きが、本書に掲載したものとは違っています。基本的には、デフォルトのまま作成手続きを進めてかまいません。
@@ -61,7 +63,7 @@ sudo chown root:adm /var/www
 
 ### 2.3.3 Mac
 
-**p. 22** [**動画**：ApacheとPHPの設定（Mac）](http://youtu.be/heiXSqh3mDQ)
+**p. 22** [**動画**：ApacheとPHPの設定（Mac OS X v10.6 Snow Leopard）](http://youtu.be/heiXSqh3mDQ)
 
 **p. 22** Ubuntuの場合(p. 21)と同様、以下のようにしてドキュメントルートを書き込み可能にしておきます。
 
@@ -76,8 +78,6 @@ chown root:admin /Library/WebServer/Documents
 
 2.4.2 NetBeansと2.4.3 Eclipseは、どちらか一方だけでかまいません。
 
-Ubuntuのコンソールで「ダウンロード」などど入力するのが面倒な人は、`LANG=C xdg-user-dirs-gtk-update`を実行して、特殊なディレクトリの名前を英語に変更してください。
-
 ### 2.4.1 Java Development Kit
 
 **p. 23** Java 7のパッケージが利用可能になったので、Java 6ではなくJava 7を使ってください（NetBeans 7.3のためには、Java 7が必要です）。
@@ -88,7 +88,7 @@ sudo apt-get install openjdk-7-jdk
 
 **p. 23** WindowsでJava 7を使う場合は、脚註7のURLではなく、[Java SE Downloads](http://www.oracle.com/technetwork/java/javase/downloads/index.html)からJDKをダウンロードしてください。
 
-**p. 23** [**動画**：JDKのインストール（Mac OS 10.7）](http://youtu.be/36R485Rul7I)）
+**p. 23** [**動画**：JDKのインストール（Mac OS X v10.7 Lion）](http://youtu.be/36R485Rul7I)）
 
 Mac OS 10.7以降にはJDKが含まれていません。Javaが必要になった時にインストールを促すダイアログが現れるので、その指示に従ってください。
 
@@ -104,13 +104,9 @@ NetBeansのインストール中に、JUnitについて訊かれたら、「JUni
 
 ##### Java用のEclipse
 
-**p. 24** [**動画**：GlassFish Tools Bundle For Eclipseのインストール（Ubuntu 12.04）](http://youtu.be/AeIDTPOmN8Q)
+**p. 24** [**動画**：GlassFish Tools Bundle For Eclipseのインストール（Ubuntu 12.04）](http://youtu.be/NIgFt5u0fsY)
 
-**p. 24** Ubuntu 12.04でダウンロードした`glassfish...install.jar`を実行する際は、TABキーによる補間が効かないようです。`ls ~/ダウンロード/glassfish（TABキー）`などとしてから修正するといいかもしれません。バージョンが変わっていなければ、以下のコマンドで実行できます。
-
-```bash
-java -jar ~/ダウンロード/glassfish-tools-bundle-for-eclipse-nojdk-1.2-linux-pack200-install.jar
-```
+**p. 24** Ubuntu 12.04でダウンロードした`glassfish...install.jar`を実行する際は、TABキーによる補間が効かないようです。動画のように、`java -jar `まで入力してから、ファイルをターミナルにドラッグ＆ドロップするのが簡単です。
 
 **p. 25** Ubuntu 12.04でGlassFish Tools Bundle For Eclipseを起動するときは、コンソールで「`~/glassfishBundle/eclipse`」とするのが簡単です。
 

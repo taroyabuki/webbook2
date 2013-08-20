@@ -47,7 +47,14 @@
 
 #### 2.4.1 Java Development Kit
 
-* [**動画**：JDKのインストール（Mac OS X v10.7 Lion）](http://youtu.be/36R485Rul7I)）
+##### Windows
+
+* [**動画**：JDK 1.7.0のインストール（Windows 7）](http://youtu.be/QoNMqVRPQW0)
+
+##### Mac
+
+* [**動画**：JDK 1.7.0のインストール（Mac OS X v10.8 Mountain Lion）](http://youtu.be/gqzkhL6ItFQ)
+* [**動画**：JDKのインストール（Mac OS X v10.7 Lion）](http://youtu.be/36R485Rul7I)
 
 #### 2.4.2 NetBeans
 

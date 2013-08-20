@@ -92,11 +92,20 @@ sudo chown root:admin /Library/WebServer/Documents
 sudo apt-get install openjdk-7-jdk
 ```
 
-**p. 23** WindowsでJava 7を使う場合は、脚註7のURLではなく、[Java SE Downloads](http://www.oracle.com/technetwork/java/javase/downloads/index.html)からJDKをダウンロードしてください。
+#### Windows
 
-**p. 23** [**動画**：JDKのインストール（Mac OS X v10.7 Lion）](http://youtu.be/36R485Rul7I)）
+**p. 23** [**動画**：JDK 1.7.0のインストール（Windows 7）](http://youtu.be/QoNMqVRPQW0)
 
-Mac OS 10.7以降にはJDKが含まれていません。Javaが必要になった時にインストールを促すダイアログが現れるので、その指示に従ってください。
+WindowsでJava 7を使う場合は、脚註7のURLではなく、[Java SE Downloads](http://www.oracle.com/technetwork/java/javase/downloads/index.html)からJDKをダウンロードしてください。
+
+#### Mac
+
+**p. 23**
+
+* [**動画**：JDK 1.7.0のインストール（Mac OS X v10.8 Mountain Lion）](http://youtu.be/gqzkhL6ItFQ)
+* [**動画**：JDKのインストール（Mac OS X v10.7 Lion）](http://youtu.be/36R485Rul7I)
+
+Mac OS X v10.7 Lion以降にはJDKが含まれていません。Javaが必要になった時にインストールを促すダイアログが現れるので、その指示に従ってください。
 
 ### 2.4.2 NetBeans
 

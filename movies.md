@@ -19,11 +19,10 @@
 
 #### 2.2.1 仮想マシンの新規作成
 
-1. [**動画**：VirtualBox 4.2.16のインストール（Windows 7）](http://youtu.be/6mVr4APoPN8)
-1. [**動画**：VirtualBox 4.2.16のインストール（Mac OS X v10.8 Mountain Lion）](http://youtu.be/1o0h83ZNlyQ)
-1. [**動画**：仮想マシンの新規作成（VirtualBox 4.2.16）](http://youtu.be/HMGZSxsU_CQ)
-1. [**動画**：Ubuntu 12.04のインストール](http://youtu.be/9Bb2l05pHSA)
-
+* [**動画**：VirtualBox 4.2.16のインストール（Windows 7）](http://youtu.be/6mVr4APoPN8)
+* [**動画**：VirtualBox 4.2.16のインストール（Mac OS X v10.8 Mountain Lion）](http://youtu.be/1o0h83ZNlyQ)
+* [**動画**：仮想マシンの新規作成（VirtualBox 4.2.16）](http://youtu.be/HMGZSxsU_CQ)
+* [**動画**：Ubuntu 12.04のインストール](http://youtu.be/9Bb2l05pHSA)
 * （旧バージョン）[動画：Ubuntu 10.04（VirtualBox 4.0）](http://youtu.be/MYdxzHlSkL4)
 * （旧バージョン）[動画：Ubuntu 11.04（VirtualBox 4.0）](http://youtu.be/hGHUTp8jMK4)
 

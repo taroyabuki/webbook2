@@ -26,7 +26,7 @@
 + [XAMPP](http://www.apachefriends.org/jp/xampp-windows.html)
 + [Java Development Kit](http://java.sun.com/javase/ja/6/download.html)
 + [NetBeans](http://netbeans.org/downloads/index.html?pagelang=ja)
-+ [GlassFish Tools Bundle for Eclipse](http://dlc.sun.com.edgesuite.net/glassfish/eclipse/)
++ [GlassFish Tools Bundle for Eclipse（バックアップ）](http://www.unfindable.net/tmp/glassfish-tools-bundle-for-eclipse-1.2.exe)
 + [Eclipse for PHP Developer](http://www.eclipse.org/downloads/)
 
 ## 第3章 ウェブページの書き方

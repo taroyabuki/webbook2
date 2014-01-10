@@ -16,6 +16,12 @@
 
 **p. 94** [**動画**：MySQL 5.6のインストール（Mac OS X v10.8 Mountain Lion）](http://youtu.be/3Zn_SPvmz-o)
 
+## 7.4 MySQLの文字コード
+
+### 7.4.1 クライアント側の文字コード
+
+MySQL 5.6以降では、mysql.exeをUTF-8で対話的に使えます（Windows Vista以降）。コマンドプロンプトのプロパティでフォントをMS ゴシックに変更してから、「chcp 65001」としてコマンドプロンプトの文字コードをUTF-8に変更してください。
+
 ## 7.6 phpMyAdmin
 
 ### 7.6.1 phpMyAdminのインストール

@@ -20,7 +20,7 @@
 
 ### 7.4.1 クライアント側の文字コード
 
-MySQL 5.6以降では、mysql.exeをUTF-8で対話的に使えます（Windows Vista以降）。コマンドプロンプトのプロパティでフォントをMS ゴシックに変更してから、「chcp 65001」としてコマンドプロンプトの文字コードをUTF-8に変更してください。
+MySQL 5.6以降では、mysql.exeをUTF-8で対話的に使えます（Windows Vista以降）。コマンドプロンプトのプロパティでフォントをMS ゴシックに変更してから、「`chcp 65001`」としてコマンドプロンプトの文字コードをUTF-8に変更してください。（参考：[mysql.exeでUTF-8を使う](http://blog.unfindable.net/archives/7144)）
 
 ## 7.6 phpMyAdmin
 

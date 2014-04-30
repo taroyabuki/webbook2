@@ -19,7 +19,8 @@ sudo reboot
 
 キーボードの設定を変更する。
 
-* Ubuntu 12.04では、キーボードの設定（図2.8）のウィンドウは、Dashホームで「ibus」を検索し、アイコン「キーボード・インプット」をクリックすると出てくる（[動画](http://youtu.be/nZZJxYX-FHk)）。* Ubuntu 14.04では、Dashホームで「fcitx」を検索し、「Fcitx 設定」をクリックすると出てくる。Ctrl+SpaceはNetBeansで使うため、他のキーを割り当てる。
+* Ubuntu 12.04では、キーボードの設定（図2.8）のウィンドウは、Dashホームで「ibus」を検索し、アイコン「キーボード・インプット」をクリックすると出てくる（[動画](http://youtu.be/nZZJxYX-FHk)）。
+* Ubuntu 14.04では、Dashホームで「fcitx」を検索し、「Fcitx 設定」をクリックすると出てくる。Ctrl+SpaceはNetBeansで使うため、他のキーを割り当てる。
 
 Apache HTTP ServerとPHPをインストールする。（[動画](http://youtu.be/LBU6ihgCEuk)）
 

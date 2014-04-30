@@ -91,8 +91,9 @@ sudo apt-get install phpmyadmin
 
 ## 第9章
 
-Lhaとnkfをインストールする。
+Lhaとnkfをインストールする。lha-sjisが無い場合はlhaやlhasaを試す。
 
 ```bash
-sudo apt-get install lha-sjis nkf
+sudo apt-get install lha-sjis
+sudo apt-get install nkf
 ```

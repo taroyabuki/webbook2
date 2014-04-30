@@ -6,10 +6,11 @@
 
 **p. 146** 
 
-`lha`と`nkf`は以下のコマンドでインストールしてください。
+`lha`と`nkf`は以下のコマンドでインストールしてください。lha-sjisが無い場合はlhaやlhasaを試してください。
 
 ```bash
-sudo apt-get install lha-sjis nkf
+sudo apt-get install lha-sjis
+sudo apt-get install nkf
 ```
 
 郵便番号データ（lzhファイル）はホームディレクトリにダウンロードしたと仮定しています。~/ダウンロードにあるときは、`lha x ~/ダウンロード/ken_all.lzh`として展開します（「ファイル」でダブルクリックして開き、CSVファイルを取り出してもかまいません）。

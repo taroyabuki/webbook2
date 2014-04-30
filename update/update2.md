@@ -50,6 +50,8 @@ Dashメニューの検索窓に「ibus」と入力すると、「Keyboard Input 
 
 **p. 20** 「端末」は「`Ctrl + Alt + T`」で起動します。
 
+**p. 21** Ubuntu 14.04では、Apacheのドキュメントルートは`/var/www/html`になっています。本書の内容やNetBeansの動作に合わせるために、`sudo gedit /etc/apache2/sites-enabled/000-default.conf`として設定ファイルを開き、`DocumentRoot /var/www/html`を`DocumentRoot /var/www`に変更してから`sudo service apache2 restart`としてApacheを再起動してください。
+
 **p. 21** ディレクトリ/var/wwwを書き込み可能にするためのコマンドは、本文の代わりに以下のものを使ってください（Ubuntu 12.04への対応ですが、10.04でも有効です）。
 
 ```bash

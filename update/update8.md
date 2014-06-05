@@ -13,3 +13,5 @@ sudo mkdir /var/mysql
 sudo ln -s /tmp/mysql.sock /var/mysql/mysql.sock
 sudo apachectl restart
 ```
+
+p. 136の脚註8 PHP 5.3.6以降では、PDOでMySQLに接続する際に文字コードを設定できるようになりました。参考：http://php.net/manual/ja/ref.pdo-mysql.connection.php

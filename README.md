@@ -2,8 +2,6 @@
 
 矢吹太朗『Webアプリケーション構築入門』（森北出版, 第2版, 2011）のサポートサイトです。
 
-最新情報等は[Facebook Page](https://www.facebook.com/WebAppBook2)に掲載します。
-
 ## オンラインで購入
 
 * [Amazon](http://www.amazon.co.jp/exec/obidos/ASIN/4627847327/inquisitor-22/)

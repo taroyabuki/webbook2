@@ -10,7 +10,7 @@ sudo apt-get -y upgrade
 sudo reboot
 ```
 
-Ubuntu 16.04（2016年5月時点）では，下の方法ではなく，「デバイス→Guest Additions CDイメージの挿入」を実行した方がよさそうです。
+Ubuntu 16.04（2016年5月時点）では，下の方法ではなく，「デバイス→Guest Additions CDイメージの挿入」を実行した方がよさそうである。
 
 VirtualBox Guest Utilsをインストールし，再起動する。（[動画](http://youtu.be/ey_V6nDIHME)）
 

@@ -10,9 +10,9 @@ sudo apt-get -y upgrade
 sudo reboot
 ```
 
-Ubuntu 16.04（2016年5月時点）では，下の方法ではなく，「デバイス→Guest Additions CDイメージの挿入」を実行した方がよさそうである。
+Ubuntu 16.04（2016年5月時点）では、下の方法ではなく、「デバイス→Guest Additions CDイメージの挿入」を実行した方がよさそうである。
 
-VirtualBox Guest Utilsをインストールし，再起動する。（[動画](http://youtu.be/ey_V6nDIHME)）
+VirtualBox Guest Utilsをインストールし、再起動する。（[動画](http://youtu.be/ey_V6nDIHME)）
 
 ```bash
 sudo apt-get -y install virtualbox-guest-utils
@@ -70,7 +70,7 @@ Firefox以外のブラウザを利用したい場合は、[Chrome](http://www.go
 
 ## 第4章
 
-新しいFirefoxには，`Ctrl+Shift+K`で起動するWebコンソールがあるため、[Firebug](https://addons.mozilla.org/ja/firefox/addon/firebug/)をインストールする必要はなくなった。
+新しいFirefoxには、`Ctrl+Shift+K`で起動するWebコンソールがあるため、[Firebug](https://addons.mozilla.org/ja/firefox/addon/firebug/)をインストールする必要はなくなった。
 
 ## 第5章
 

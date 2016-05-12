@@ -6,14 +6,26 @@
 
 **p. 146** 
 
-`lha`と`nkf`は以下のコマンドでインストールしてください。lha-sjisが無い場合はlhaやlhasaを試してください。
+郵便番号データの配布形式がlzhからzipに変わったため，`lha`をインストールする必要は無くなりました。
+
+`nkf`をインストールします。
 
 ```bash
-sudo apt-get install lha-sjis
-sudo apt-get install nkf
+sudo apt-get -y install nkf
 ```
 
-郵便番号データ（lzhファイル）はホームディレクトリにダウンロードしたと仮定しています。~/ダウンロードにあるときは、`lha x ~/ダウンロード/ken_all.lzh`として展開します（「ファイル」でダブルクリックして開き、CSVファイルを取り出してもかまいません）。
+郵便番号データ（zipファイル）をダウンロードします。
+
+```bash
+wget http://www.post.japanpost.jp/zipcode/dl/oogaki/zip/ken_all.zip
+```
+
+ダウンロードしたファイルを展開し，文字コードをUTF-8に変換します。
+
+```bash
+unzip ken_all.zip
+nkf -w ken_all.zip > ken_all_utf8.csv
+```
 
 ### 9.1.2 データのインポート
 
@@ -39,7 +51,7 @@ sudo apt-get install nkf
 
 ## 9.5 Ajaxによるリアルタイム検索
 
-**p. 155** ここで紹介したコードでは「search」ボタンは使えません。ボタンを使えるようにするためには、9.4節のコードが必要です。必要なコードを補ったものを、https://github.com/taroyabuki/webbook2/tree/master/src/09 で公開しています。
+**p. 155** ここで紹介したコードでは「search」ボタンは使えません。ボタンを使えるようにするためには、9.4節のコードが必要です。ここで公開しているファイルにはその修正を施しています。
 
 ### コラム：GlassFishの単体利用
 

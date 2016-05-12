@@ -17,3 +17,5 @@
 ## 3.5 HTML Validator
 
 **p. 37** [**動画**：HTML Validatorのインストールと利用（FIrefox 23）](http://youtu.be/9OtirlgPuv8)
+
+HTML Validator 0.966（2016年1月時点の最新版）は，HTML 5で書かれたページのリアルタイムチェックには対応しておらず，HTML Validatorのアイコンにはエラーの有無が反映されません。エラーの有無は，アイコンをクリックしてページのソースを表示させることで確認できます。

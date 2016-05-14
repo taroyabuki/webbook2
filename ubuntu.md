@@ -64,13 +64,13 @@ sudo apt-get -y install default-jdk
 
 ## 第3章
 
-[HTML Validator](http://users.skynet.be/mgueury/mozilla/)をインストールする。
+HTML Validatorはインストールせず、HTMLの文法チェックはNetBeansやEclipseの上で行う。
 
 Firefox以外のブラウザを利用したい場合は、[Chrome](http://www.google.co.jp/intl/ja/chrome/browser/)や[Chromium](http://www.chromium.org/Home)を導入する。Chromiumなら、`sudo apt-get -y install chromium-browser`でインストールできる。
 
 ## 第4章
 
-新しいFirefoxには、`Ctrl+Shift+K`で起動するWebコンソールがあるため、[Firebug](https://addons.mozilla.org/ja/firefox/addon/firebug/)をインストールする必要はなくなった。
+Firebugはインストールせず、`Ctrl+Shift+K`で起動するWebコンソールを使う。
 
 ## 第5章
 

@@ -1,14 +1,11 @@
 # 3章 ウェブページの書き方：補足
 
-## 3.1 ウェブブラウザ
-
-### 3.1.1 Firefox
-
-**p. 31** [HTML Validatorのウェブサイト](http://users.skynet.be/mgueury/mozilla/)
-
 ## 3.2 HTML入門
 
-**p. 31** Windowsでは、エクスプローラで拡張子が表示されるように設定しておくといいでしょう。参考：[ファイルの拡張子を表示するには?](http://support.microsoft.com/kb/978449/ja)
+**p. 31** Windowsでは、エクスプローラで拡張子が表示されるように設定しておくといいでしょう。
+
+* Windows 7の場合：[ファイルの拡張子を表示するには?](http://support.microsoft.com/kb/978449/ja)
+* Windows 8以上の場合：Explorerの表示メニューで「ファイルの拡張子」をオンにする。
 
 ## 3.3 統合開発環境とウェブサーバの利用
 
@@ -16,6 +13,8 @@
 
 ## 3.5 HTML Validator
 
-**p. 37** [**動画**：HTML Validatorのインストールと利用（FIrefox 23）](http://youtu.be/9OtirlgPuv8)
+HTML Validatorはインストールせず、HTMLの文法チェックはNetBeansやEclipseの上で行うようにしましょう。
 
-HTML Validator 0.966（2016年1月時点の最新版）は，HTML 5で書かれたページのリアルタイムチェックには対応しておらず，HTML Validatorのアイコンにはエラーの有無が反映されません。エラーの有無は，アイコンをクリックしてページのソースを表示させることで確認できます。
+### 3.5.1 XHTML
+
+`XHTML.html`の代わりに`HTML5.html`を使ってください。

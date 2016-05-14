@@ -1,12 +1,11 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="UTF-8" />
     <title>クリックしたときの動作</title>
     <!-- jQueryの読み込み（書籍の記法は最新のjQueryに対応しません。） -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-    <script type="text/javascript">
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <script>
       $(document).ready(function() { // ページが読み込まれたら
         $("#button").click(function() { // id=buttonがクリックされたときの動作を設定
           $("#target").show('slow'); // id属性値がtargetの要素を表示
@@ -19,4 +18,3 @@
     <div id="target" style="display: none; width: 150px; height: 150px; background-color: red;"></div>
   </body>
 </html>
-

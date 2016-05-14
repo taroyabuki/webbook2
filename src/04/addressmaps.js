@@ -1,6 +1,9 @@
+'use strict';
+/*global $, google */
+
 // geocodeのための、地図を生成するコールバック関数
 function createMap(result, status) {
-  if (status == google.maps.GeocoderStatus.OK) {
+  if (status === google.maps.GeocoderStatus.OK) {
     //console.log(result);
     var myPosition = result[0].geometry.location;
     var myOptions = {

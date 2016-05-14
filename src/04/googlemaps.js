@@ -1,3 +1,6 @@
+'use strict';
+/*global $, google */
+
 $(document).ready(function() {
   $("#button").click(function() {
     // input要素の値を取得し、マップの中心を決める
@@ -23,4 +26,3 @@ $(document).ready(function() {
     });
   });
 });
-

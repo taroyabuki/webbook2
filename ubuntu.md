@@ -1,4 +1,6 @@
-#Ubuntuでの環境構築のまとめ
+# Ubuntuでの環境構築のまとめ
+
+以下は、書籍の通りに進めたい場合のためのメモである。こだわりがないなら、ここに書かれている方法ではなく、[VagrantでWebアプリケーション構築入門](https://github.com/taroyabuki/webbook2server)の方法を推奨する。
 
 ## 第2章
 
@@ -28,10 +30,10 @@ Apache HTTP ServerとPHPをインストールする。**（Ubuntuのバージョ
 
 ```bash
 #Ubuntu 12.04, 14.04
-sudo apt-get -y install apache2 php5 php-pear
+sudo apt-get -y install apache2 php5
 
 #Ubuntu 16.04
-sudo apt-get -y install apache2 php php-pear
+sudo apt-get -y install apache2 php
 ```
 
 ドキュメントルートを書き込み可能にする。
@@ -46,6 +48,11 @@ sudo chown root:adm /var/www
 
 ここで`/etc/php5/apache2/php.ini`を編集し、Apacheを再起動する。 (p. 21)
 
+```bash
+sed -i -e 's/display_errors = Off/display_errors = On/' /etc/php5/apache2/php.ini
+service apache2 restart
+```
+
 最新版のGlassFishのために、JDK 7以降をインストールする。**（Ubuntuのバージョンによって変わることに注意）**
 
 ```bash
@@ -56,7 +63,7 @@ sudo apt-get -y install openjdk-7-jdk
 sudo apt-get -y install default-jdk
 ```
 
-以下のいずれかをインストールする。いずれもapt-getではなく、リンク先からダウンロードしてインストールする。
+以下のいずれかをインストールする。いずれも`apt-get`ではなく、リンク先からダウンロードしてインストールする。
 
 * [NetBeans](https://netbeans.org/downloads/)
 * [Java用Eclipse](http://dlc.sun.com.edgesuite.net/glassfish/eclipse/)
@@ -74,12 +81,10 @@ Firebugはインストールせず、`Ctrl+Shift+K`で起動するWebコンソ�
 
 ## 第5章
 
-プロキシサーバを利用している環境では、`sudo pear config-set http_proxy proxy.example.net:3128`などとしておく。
-
 PEAR HTTP_Requestをインストールする。
 
 ```bash
-sudo pear install http_request
+sudo apt-get -y install php-http-request
 ```
 
 ## 第6章
@@ -92,22 +97,30 @@ sudo apt-get -y install libcommons-lang-java
 
 ## 第7章
 
-MySQLをインストールする。
+MySQLをインストールする。（`root`のパスワードは`pass`）
 
 ```bash
+MYSQL_ROOT_PASS="pass"
+echo "mysql-server mysql-server/root_password password $MYSQL_ROOT_PASS" | sudo debconf-set-selections
+echo "mysql-server mysql-server/root_password_again password $MYSQL_ROOT_PASS" | sudo debconf-set-selections
 sudo apt-get -y install mysql-server mysql-client
 ```
 
 phpMyAdminをインストールする。
 
 ```bash
+MYSQL_ROOT_PASS="pass"
+echo "phpmyadmin phpmyadmin/reconfigure-webserver multiselect apache2" | sudo debconf-set-selections
+echo "phpmyadmin phpmyadmin/dbconfig-install boolean true" | sudo debconf-set-selections
+echo "phpmyadmin phpmyadmin/mysql/admin-pass password $MYSQL_ROOT_PASS" | sudo debconf-set-selections
+echo "phpmyadmin phpmyadmin/mysql/app-pass password ''" | sudo debconf-set-selections
 sudo apt-get -y install phpmyadmin
 ```
 
 ## 第9章
 
-nkfをインストールする。
+`unzip`と`nkf`をインストールする。
 
 ```bash
-sudo apt-get -y install nkf
+sudo apt-get -y install unzip nkf
 ```

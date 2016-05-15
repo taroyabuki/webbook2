@@ -1,16 +1,12 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
-    <script type="text/javascript">
-      google.load("jquery", "1.5.0");
-    </script>
-    <script type="text/javascript">
+    <meta charset="UTF-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+    <script>
       //<![CDATA[
       $(document).ready(function() {
-        $.getJSON('http://labs.unfindable.net/public_timeline/json.php?callback=?',
+        $.getJSON('http://localhost/phpweb/home_timeline.json.php?callback=?',
         function(statuses) {
           console.log(statuses); // 結果を表示してみると，配列になっていることがわかる
           for (var i = 0; i < statuses.length; i++) {

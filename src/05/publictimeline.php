@@ -4,7 +4,7 @@ header('Content-Type: text/plain; charset=utf-8');
 error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE); //for HTTP_Request
 require_once 'HTTP/Request.php';
 $http_request = new HTTP_Request();
-$http_request->setUrl('http://labs.unfindable.net/public_timeline/json.php');
+$http_request->setUrl('http://localhost/phpweb/home_timeline.json.php');
 $http_request->sendRequest();
 printf("%d %s\n", $http_request->getREsponseCode(),
         $http_request->getResponseReason());

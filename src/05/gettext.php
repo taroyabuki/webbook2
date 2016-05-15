@@ -2,7 +2,8 @@
 //UTF-8のテキストとしてウェブブラウザで表示する
 header('Content-Type: text/plain; charset=utf-8');
  
-error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE); //for HTTP_Request
+//HTTP_Requestについての警告を抑制する
+error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
 
 //HTTPリクエスト
 require_once('HTTP/Request.php');

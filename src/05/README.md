@@ -1,14 +1,25 @@
-# 5章 ウェブの通信方式
+# 5章 ウェブの通信方式：補足
 
 ## 5.1 HTTP
 
-**p. 61** この節では、HTTP通信の内容を調べるために、FirefoxのアドオンであるFirebugを使っています。Firebugは4.4節でインストールしています。4.4節を飛ばした場合でも、Firebugのインストールだけは済ませて先に進んでください。Ubuntu 14.04のFirefoxでは、`Ctrl+Shift+Q`で起動する「ネットワーク」を使ってもかまいません。図5.2のような情報は「ヘッダ」タブで、図5.3のような情報は「パラメータ」タブで見られます。
+**p. 61** 書籍で使っているFirebugの代わりに、Firefoxで`Ctrl+Shift+Q`として起動する「ネットワーク」を使ってください。図5.2のような情報は、最初のゲットメソッドを選択したときの「ヘッダ」タブで、図5.3のような情報は「パラメータ」タブで見られます。
 
 ## 5.2 HTTPクライアント
+
+### 5.2.1 フォーム
+
+* `google.html`
+* `form.html`
 
 ### 5.2.2 HTTPクライアントとなるプログラム
 
 #### PHPのHTTPクライアント
+
+Ubuntuでは、まず次のコマンドを試します。これでPEARのHTTP_Requestをインストールできれば簡単です。
+
+```bash
+sudo apt-get install php-http-request
+```
 
 **p. 71** Windowsでpearコマンドを実行したときに、「Permission denied」というエラーが出るときは、コマンドプロンプトを管理者として起動してください（右クリック→管理者として実行）
 
@@ -24,7 +35,7 @@ Mac OS X v10.7 Lion以降では、PEARを使うために、以下のような作
 
 ### gettext.php
 
-**p. 71** HTTP/Request.phpは非推奨になりましたが、それに関する警告等がうるさいときは、以下のコードを`require_once()`の前に追加してください。
+**p. 71** HTTP/Request.phpは非推奨になりましたが、それに関する警告等がうるさいときは、以下のコードを`require_once('HTTP/Request.php');`の前に追加してください。
 
 ```PHP
 error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
@@ -32,38 +43,34 @@ error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
 
 ## 5.3 Twitter API
 
-**p. 71** TwitterのAPIが変更されたので、「`https://api.twitter.com/1/statuses/public_timeline.xml`」の代わりに「`http://labs.unfindable.net/public_timeline/xml.php`」を、「`https://api.twitter.com/1/statuses/public_timeline.json`」の代わりに「`http://labs.unfindable.net/public_timeline/json.php`」を使ってください。（詳細：[Twitter APIのパブリックタイムラインが亡くなっていました](http://blog.unfindable.net/archives/5603)）
-
 ### 5.3.1 XMLの処理（Java）
 
-**p. 72** http://api.twitter.com/1/statuses/public_timeline.xml は以下のような構造になっています。
+**p. 72** TwitterのAPIが変更され、本書のコードは動かなくなりました。
 
-```
-＜statuses＞
-  ＜status＞
-    ...
-    ＜text＞プログラミングなう＜/text＞
-    ...
-    ＜user＞
-      ...
-      ＜name＞...＜/name＞
-      ...
-    ＜/user＞
-    ...
-  ＜/status＞
-  ...
-＜/statuses＞
+#### 5.3.2 JSONの処理
+
+**p. 73** TwitterのAPIが変更され、本書のコードは動かなくなりました。しかし、次のようにすれば、JSONの処理を体験できます。
+
+まず、プロジェクトphpwebの中に、OAuthのためのライブラリを用意します。
+
+```bash
+sudo apt-get -y install git php5-curl
+sudo service apache2 restart
+
+cd /var/www/html/phpweb
+git clone https://github.com/abraham/twitteroauth.git
 ```
 
-####5.3.2 JSONの処理
+1. https://apps.twitter.com/ で新しいアプリを作り、以下の4項目を取得する。
+ * Consumer Key
+ * Consumer Secret
+ * Access Token
+ * Access Token Secret
+1. `home_timeline.json.php.template`のファイル名を`home_timeline.json.php`に変更し、ファイル中に上記4項目を記述する。
+1. [http://localhost/phpweb/home_timeline.json.php](http://localhost/phpweb/home_timeline.json.php)が動作することを確認する。
+1. `publictimeline.php`と`publictimeline.html`の`https://api.twitter.com/1/statuses/public_timeline.json`を`http://localhost/phpweb/home_timeline.json.php`に置き換える（ここで配布しているファイルは置き換え済み）。
 
 ### publictimeline.php
-
-**p. 74** HTTP/Request.phpは非推奨になりましたが、それに関する警告等がうるさいときは、以下のコードを`require_once()`の前に追加してください。
-
-```PHP
-error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
-```
 
 **p. 74 (脚註14)** PHP 5.4以降では、以下のようにすることでintの範囲（32ビット版と64ビット版で異なる）を超える整数を文字列として取り出せます。
 

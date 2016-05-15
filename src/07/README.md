@@ -6,7 +6,15 @@
 
 #### Ubuntu
 
-**p. 94** [**動画**：MySQLとphpMyAdmin（7.6節）のインストール（Ubuntu 12.04）](http://youtu.be/2-ZEPX8oU3U)
+**p. 94** 次のようにインストールするのが簡単です。`root`のパスワードは`pass`になります。
+
+```bash
+apt-get update
+MYSQL_ROOT_PASS="pass"
+echo "mysql-server mysql-server/root_password password $MYSQL_ROOT_PASS" | debconf-set-selections
+echo "mysql-server mysql-server/root_password_again password $MYSQL_ROOT_PASS" | debconf-set-selections
+apt-get -y install mysql-server
+```
 
 #### Windows
 
@@ -30,7 +38,17 @@ MySQL 5.6以降では、mysql.exeをUTF-8で対話的に使えます（Windows V
 
 #### Ubuntu
 
-**p. 106** [**動画**：MySQL（7.1節）とphpMyAdminのインストール（Ubuntu 12.04）](http://youtu.be/2-ZEPX8oU3U)
+**p. 106** 次のようにインストールするのが簡単です。（MySQLの`root`のパスワードは`pass`と仮定しています。）
+
+```bash
+apt-get update
+MYSQL_ROOT_PASS="pass"
+echo "phpmyadmin phpmyadmin/reconfigure-webserver multiselect apache2" | debconf-set-selections
+echo "phpmyadmin phpmyadmin/dbconfig-install boolean true" | debconf-set-selections
+echo "phpmyadmin phpmyadmin/mysql/admin-pass password $MYSQL_ROOT_PASS" | debconf-set-selections
+echo "phpmyadmin phpmyadmin/mysql/app-pass password ''" | debconf-set-selections
+apt-get -y install phpmyadmin
+```
 
 #### Mac
 

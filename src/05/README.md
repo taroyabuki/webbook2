@@ -68,9 +68,16 @@ git clone https://github.com/abraham/twitteroauth.git
  * Consumer Secret
  * Access Token
  * Access Token Secret
-1. `home_timeline.json.php.template`のファイル名を`home_timeline.json.php`に変更し、ファイル中に上記4項目を記述する。
+1. `home_timeline.json.php.template`をもとに`home_timeline.json.php`を作り、ファイル中に上記4項目を記述する。
 1. [http://localhost/phpweb/home_timeline.json.php](http://localhost/phpweb/home_timeline.json.php)が動作することを確認する。
 1. `publictimeline.php`と`publictimeline.html`の`https://api.twitter.com/1/statuses/public_timeline.json`を`http://localhost/phpweb/home_timeline.json.php`に置き換える（ここで配布しているファイルは置き換え済み）。
+
+次のようにして、コンソール上でJSONを整形して表示できる。（`q`で終了）
+
+```
+sudo apt-get -y install jq
+curl http://localhost/phpweb/home_timeline.json.php | jq .
+```
 
 #### publictimeline.php
 

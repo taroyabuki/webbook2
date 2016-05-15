@@ -5,8 +5,7 @@ if (isset($_POST['username'], $_POST['password'])) {
   $password = $_POST['password'];
  
   //データベースに接続して検索
-  $db = new PDO('mysql:host=localhost;dbname=mydb', 'test', 'pass',
-                  array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'));
+  $db = new PDO('mysql:host=localhost;dbname=mydb;charset=utf8', 'test', 'pass');
   $stmt = $db->prepare(
                   'SELECT username FROM user WHERE username=? AND password=SHA1(?)');
   $stmt->execute(array($username, $password));
@@ -21,11 +20,10 @@ if (isset($_POST['username'], $_POST['password'])) {
   }
 }
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8" />
     <title>ログイン</title>
   </head>
   <body>
@@ -39,4 +37,3 @@ if (isset($_POST['username'], $_POST['password'])) {
     </form>
   </body>
 </html>
-

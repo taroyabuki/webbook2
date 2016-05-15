@@ -5,7 +5,6 @@ CREATE TABLE user(
   UNIQUE (username)
 );
  
-INSERT INTO user (username,password) VALUES ('taro',SHA1('pass'));
+INSERT INTO user (username, password) VALUES ('taro', SHA1('pass'));
  
 SELECT * FROM user;
-

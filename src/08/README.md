@@ -1,8 +1,17 @@
 # 8章 データベースを利用するウェブアプリ：補足
 
+## 8.1 データベースへのアクセス権
+
+```sql
+GRANT ALL ON mydb.* TO test@localhost IDENTIFIED BY 'pass';
+```
+
 ## 8.2 データベースの利用
 
 ### 8.2.3 PHPからデータベースへのアクセス
+
+* `messageform.php`
+* `messageviewer.php`
 
 パッケージphp5-mysqlが必要です。7.6.1項で紹介するphpMyAdminといっしょにインストールされますが、`sudo apt-get install php5-mysql`としてインストールしてもかまいません。
 
@@ -14,4 +23,4 @@ sudo ln -s /tmp/mysql.sock /var/mysql/mysql.sock
 sudo apachectl restart
 ```
 
-**p. 136** 脚註8 PHP 5.3.6以降では、PDOでMySQLに接続する際に文字コードを設定できるようになりました。参考：http://php.net/manual/ja/ref.pdo-mysql.connection.php
+**p. 136** 脚註8 PHP 5.3.6以降では、PDOでMySQLに接続する際に文字コードを設定できるようになりました。ここで配布しているファイルは，それに合わせています。参考：http://php.net/manual/ja/ref.pdo-mysql.connection.php

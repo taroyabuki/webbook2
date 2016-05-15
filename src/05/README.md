@@ -15,11 +15,13 @@
 
 #### PHPのHTTPクライアント
 
-Ubuntuでは、まず次のコマンドを試します。これでPEARのHTTP_Requestをインストールできれば簡単です。
+Ubuntuでは、まず次のコマンドを試します。
 
 ```bash
-sudo apt-get install php-http-request
+sudo apt-get -y install php-http-request
 ```
+
+これでPEARのHTTP_Requestをインストールできたら、`sudo service apache2 restart`でApacheを再起動しておきます。
 
 **p. 71** Windowsでpearコマンドを実行したときに、「Permission denied」というエラーが出るときは、コマンドプロンプトを管理者として起動してください（右クリック→管理者として実行）
 

@@ -4,32 +4,41 @@
 
 ### 9.1.1 データの準備
 
-**p. 146** 
+**p. 146**
 
-郵便番号データの配布形式がlzhからzipに変わったため，`lha`をインストールする必要は無くなりました。
+郵便番号データの配布形式がlzhからzipに変わったため、`lha`をインストールする必要は無くなりました。
 
-`nkf`をインストールします。
+`unzip`と`nkf`をインストールします。
 
 ```bash
-sudo apt-get -y install nkf
+sudo apt-get -y install unzip nkf
 ```
 
 郵便番号データ（zipファイル）をダウンロードします。
 
 ```bash
 wget http://www.post.japanpost.jp/zipcode/dl/oogaki/zip/ken_all.zip
+wget http://www.post.japanpost.jp/zipcode/dl/jigyosyo/zip/jigyosyo.zip
 ```
 
-ダウンロードしたファイルを展開し，文字コードをUTF-8に変換します。
+ダウンロードしたファイルを展開し、文字コードをUTF-8に変換します。
 
 ```bash
 unzip ken_all.zip
-nkf -w ken_all.zip > ken_all_utf8.csv
+unzip jigyosyo.zip
+nkf -w KEN_ALL.CSV > ken_all_utf8.csv
+nkf -w JIGYOSYO.CSV > jigyosyo_utf8.csv
 ```
 
 ### 9.1.2 データのインポート
 
-**p. 146** 「The used command is not allowed with this MySQL version.」というエラーが出たときは、一度コンソールに戻って、`mysql -uroot -ppass --local-infile`としてMySQLに接続してください。
+**p. 146** 「The used command is not allowed with this MySQL version.」というエラーが出たときは、一度コンソールに戻って、`mysql -uroot -ppass --local-infile`として再接続してからインポートしてください。
+
+ここで公開している`郵便番号データベース.sql`を使って、コンソールで次のコマンドを実行しても同じ結果になります。
+
+```bash
+mysql -uroot -ppass mydb  --local-infile < 郵便番号データベース.sql
+```
 
 ## 9.2 GETによる検索
 
@@ -48,6 +57,10 @@ nkf -w ken_all.zip > ken_all_utf8.csv
 ### 9.2.3 GETによる検索の動作確認と改良
 
 **p. 150** 環境によってはzips.jspやzips.phpの結果が文字化けしますが、この段階では気にしなくてかまいません。これは、文字コードを指定がブラウザに送られていないためなのです。9.3節以降では、文字コードを指定しているので文字化けは起こりません。
+
+## 9.4 Google Maps APIとのマッシュアップ
+
+4.5.2項で作成した`addressmap.js`が必要です。
 
 ## 9.5 Ajaxによるリアルタイム検索
 

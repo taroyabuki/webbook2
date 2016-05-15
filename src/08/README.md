@@ -1,5 +1,7 @@
 # 8章 データベースを利用するウェブアプリ：補足
 
+7章の方法で、データベース`mydb`内にテーブル`message`を作成しておく必要があります。
+
 ## 8.1 データベースへのアクセス権
 
 ```sql
@@ -23,4 +25,4 @@ sudo ln -s /tmp/mysql.sock /var/mysql/mysql.sock
 sudo apachectl restart
 ```
 
-**p. 136** 脚註8 PHP 5.3.6以降では、PDOでMySQLに接続する際に文字コードを設定できるようになりました。ここで配布しているファイルは，それに合わせています。参考：http://php.net/manual/ja/ref.pdo-mysql.connection.php
+**p. 136** 脚註8 PHP 5.3.6以降では、PDOでMySQLに接続する際に文字コードを設定できるようになりました。ここで配布しているファイルは、それに合わせています。参考：http://php.net/manual/ja/ref.pdo-mysql.connection.php

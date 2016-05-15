@@ -35,7 +35,7 @@ Mac OS X v10.7 Lion以降では、PEARを使うために、以下のような作
 1. 2.3.3項（p. 22）の要領で/etc/php.iniを編集し、「`include_path = ".:/php/includes:/usr/lib/php/pear"`」という行を追加する。
 1. 「`sudo apachectl graceful`」としてApacheを再起動する。
 
-### gettext.php
+##### gettext.php
 
 **p. 71** HTTP/Request.phpは非推奨になりましたが、それに関する警告等がうるさいときは、以下のコードを`require_once('HTTP/Request.php');`の前に追加してください。
 
@@ -49,7 +49,7 @@ error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
 
 **p. 72** TwitterのAPIが変更され、本書のコードは動かなくなりました。
 
-#### 5.3.2 JSONの処理
+### 5.3.2 JSONの処理
 
 **p. 73** TwitterのAPIが変更され、本書のコードは動かなくなりました。しかし、次のようにすれば、JSONの処理を体験できます。
 
@@ -72,7 +72,7 @@ git clone https://github.com/abraham/twitteroauth.git
 1. [http://localhost/phpweb/home_timeline.json.php](http://localhost/phpweb/home_timeline.json.php)が動作することを確認する。
 1. `publictimeline.php`と`publictimeline.html`の`https://api.twitter.com/1/statuses/public_timeline.json`を`http://localhost/phpweb/home_timeline.json.php`に置き換える（ここで配布しているファイルは置き換え済み）。
 
-### publictimeline.php
+#### publictimeline.php
 
 **p. 74 (脚註14)** PHP 5.4以降では、以下のようにすることでintの範囲（32ビット版と64ビット版で異なる）を超える整数を文字列として取り出せます。
 

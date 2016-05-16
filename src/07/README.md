@@ -50,7 +50,7 @@ echo "phpmyadmin phpmyadmin/mysql/app-pass password ''" | sudo debconf-set-selec
 sudo apt-get -y install phpmyadmin
 ```
 
-[http://localhost/phpmyadmin/](http://localhost/phpmyadmin/)で動作を確認します。（ユーザ名：`root`，パスワード：`pass`）
+[http://localhost/phpmyadmin/](http://localhost/phpmyadmin/)で動作を確認します。（ユーザ名：`root`、パスワード：`pass`）
 
 #### Mac
 

@@ -2,7 +2,7 @@ import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
-import org.apache.commons.lang.*;
+import org.apache.commons.lang3.*;
  
 @WebServlet(name = "Parameters", urlPatterns = {"/Parameters"})
 public class Parameters extends HttpServlet {
@@ -17,10 +17,9 @@ public class Parameters extends HttpServlet {
     PrintWriter out = response.getWriter();
     out.println("<html><body><dl>");
     out.println("<dt>First Name</dt>");
-    out.println("<dd>" + StringEscapeUtils.escapeXml(firstName) + "</dd>");
+    out.println("<dd>" + StringEscapeUtils.escapeXml10(firstName) + "</dd>");
     out.println("<dt>Last Name</dt>");
-    out.println("<dd>" + StringEscapeUtils.escapeXml(lastName) + "</dd>");
+    out.println("<dd>" + StringEscapeUtils.escapeXml10(lastName) + "</dd>");
     out.println("</dl></body></html>");
   }
 }
-

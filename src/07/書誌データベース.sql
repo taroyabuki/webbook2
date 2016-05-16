@@ -7,7 +7,7 @@ CREATE TABLE book(
   price INT DEFAULT 0 NOT NULL,
   UNIQUE (isbn)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
- 
+
 INSERT INTO book VALUES (1,'9784756144119','The Art of Computer Programming 1',
                          'アスキー',2004,10290);
 INSERT INTO book VALUES (2,'9784756142818','フリーソフトウェアと自由な社会',
@@ -16,12 +16,12 @@ INSERT INTO book VALUES (3,'9784894711631','計算機プログラムの構造と
                          'ピアソンエデュケーション',2000,4830);
 INSERT INTO book VALUES (4,'9784756136497','プログラミング作法','アスキー',2000,2940);
 INSERT INTO book VALUES (5,'9784756140845','ハッカーズ大辞典','アスキー',2002,3990);
- 
+
 CREATE TABLE creator(
   id INT AUTO_INCREMENT PRIMARY KEY,
   name VARCHAR(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
- 
+
 INSERT INTO creator (id,name) VALUES
 (1,'Donald E. Knuth'),
 (2,'有澤 誠'),
@@ -39,7 +39,7 @@ INSERT INTO creator (id,name) VALUES
 (14,'福崎 俊博'),
 (15,'Eric S. Raymond'),
 (16,'Guy L., Jr. Steele');
- 
+
 CREATE TABLE bookCreator(
   id int AUTO_INCREMENT PRIMARY KEY,
   bookId INT NOT NULL,
@@ -48,10 +48,9 @@ CREATE TABLE bookCreator(
   FOREIGN KEY (bookId) REFERENCES book(id),
   FOREIGN KEY (creatorId) REFERENCES creator(id)
 ) ENGINE=InnoDB;
- 
+
 INSERT INTO bookCreator (bookId,creatorId) VALUES
  (1,1), (1,2), (1,3), (1,4), (1,5),
  (1,6), (1,7), (2,8), (2,7), (3,9),
  (3,10), (3,11), (3,3), (4,12), (4,13),
  (4,14), (5,15), (5,14), (5,16);
-

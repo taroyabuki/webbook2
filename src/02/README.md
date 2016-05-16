@@ -151,9 +151,9 @@ Ubuntu 12.04でダウンロードした`glassfish...install.jar`を実行する�
 
 #### NetBeans
 
-**p. 26** [**動画**：Java Webアプリケーションの作成（NetBeans 7.3.1）](http://youtu.be/NzNJ6M33QAo)
+最初にできるファイルが`index.html`の場合と`index.jsp`の場合がありますが，いずれにしても，コードを右クリック→「ファイルの実行」で実行できます。
 
-プロジェクトの中にindex.jspがないときは、この動画を参考に作成してください。
+**p. 26** [**動画**：Java Webアプリケーションの作成（NetBeans 7.3.1）](http://youtu.be/NzNJ6M33QAo)
 
 #### Eclipse
 

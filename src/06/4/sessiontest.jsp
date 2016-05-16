@@ -6,13 +6,13 @@
     else t++; //アクセス回数を更新
     session.setAttribute(key, t); //セッションに保管
 %>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8" />
     <title>セッション</title>
   </head>
   <body>
     <p><%= t%>回目のアクセス</p>
   </body>
 </html>
-

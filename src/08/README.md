@@ -4,11 +4,21 @@
 
 ## 8.1 データベースへのアクセス権
 
+サーバとクライアントを別々にして開発する場合があるので、すべてのクライアント（`%`）からのアクセスを許可しておきましょう。（別々にする場合には、`/etc/mysql/my.cnf`の`bind-address`の値を`0.0.0.0`にしておく必要もあります。）
+
 ```sql
-GRANT ALL ON mydb.* TO test@localhost IDENTIFIED BY 'pass';
+GRANT ALL ON mydb.* TO test@'%' IDENTIFIED BY 'pass';
 ```
 
 ## 8.2 データベースの利用
+
+### 8.2.2 Javaからデータベースへのアクセス
+
+「The server time zone value 'JST' is unrecognized or represents more than one time zone. 」というエラーが出るときは，接続URLを次のように修正してください。ここで配布しているファイルは修正済みです。
+
+```java
+String url = "jdbc:mysql://localhost/mydb?characterEncoding=UTF-8&serverTimezone=JST";
+```
 
 ### 8.2.3 PHPからデータベースへのアクセス
 

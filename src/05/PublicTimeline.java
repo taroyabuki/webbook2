@@ -1,3 +1,5 @@
+//Twitter APIの仕様変更に伴い，このコードは動かなくなりました。
+
 import java.net.*;
 import org.w3c.dom.*;
 import org.xml.sax.*;
@@ -8,7 +10,7 @@ public class PublicTimeline {
   public static void main(String[] args) {
     try {
       // HTTP通信
-      URL url = new URL("http://labs.unfindable.net/public_timeline/xml.php");
+      URL url = new URL("http://api.twitter.com/1/statuses/public_timeline.xml");
       HttpURLConnection connection = (HttpURLConnection) url.openConnection();
  
       // ステータスコード

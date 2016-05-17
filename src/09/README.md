@@ -37,7 +37,7 @@ nkf -w JIGYOSYO.CSV > jigyosyo_utf8.csv
 ここで公開している`郵便番号データベース.sql`を使って、コンソールで次のコマンドを実行しても同じ結果になります。
 
 ```bash
-mysql -uroot -ppass mydb  --local-infile < 郵便番号データベース.sql
+curl https://raw.githubusercontent.com/taroyabuki/webbook2/master/src/09/%E9%83%B5%E4%BE%BF%E7%95%AA%E5%8F%B7%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9.sql | mysql -uroot -ppass --local-infile mydb
 ```
 
 ## 9.2 GETによる検索
@@ -55,6 +55,9 @@ mysql -uroot -ppass mydb  --local-infile < 郵便番号データベース.sql
 * [zips.php](https://github.com/taroyabuki/webbook2/blob/master/src/09/zips.php)
 
 ### 9.2.3 GETによる検索の動作確認と改良
+
+* [http://localhost:8080/javaweb/zips.jsp?q=150](http://localhost:8080/javaweb/zips.jsp?q=150)
+* [http://localhost/phpweb/zips.php?q=150](http://localhost/phpweb/zips.php?q=150)
 
 **p. 150** 環境によってはzips.jspやzips.phpの結果が文字化けしますが、この段階では気にしなくてかまいません。これは、文字コードを指定がブラウザに送られていないためなのです。9.3節以降では、文字コードを指定しているので文字化けは起こりません。
 

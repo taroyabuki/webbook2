@@ -1,6 +1,6 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="java.sql.*"%>
-<%@page import="org.apache.commons.lang.*"%>
+<%@page import="org.apache.commons.lang3.*"%>
 <%
   //検索キーワードを取得
   String q = request.getParameter("q");
@@ -8,7 +8,7 @@
      
     //データベースに接続
     Class.forName("com.mysql.jdbc.Driver").newInstance();
-    String url = "jdbc:mysql://localhost/mydb?characterEncoding=UTF-8";
+    String url = "jdbc:mysql://localhost/mydb?characterEncoding=UTF-8&serverTimezone=JST";
     Connection conn = DriverManager.getConnection(url, "test", "pass");
  
     //検索
@@ -30,9 +30,9 @@
       String office = rs.getString("office");
  
       out.println("<tr>"
-              + "<td>" + StringEscapeUtils.escapeHtml(code) + "</td>"
-              + "<td class='address'>" + StringEscapeUtils.escapeHtml(address) + "</td>"
-              + "<td>" + StringEscapeUtils.escapeHtml(office) + "</td>"
+              + "<td>" + StringEscapeUtils.escapeHtml4(code) + "</td>"
+              + "<td class='address'>" + StringEscapeUtils.escapeHtml4(address) + "</td>"
+              + "<td>" + StringEscapeUtils.escapeHtml4(office) + "</td>"
               + "</tr>");
     }
     out.println("</table>");
@@ -43,4 +43,3 @@
     conn.close();
   }
 %>
-

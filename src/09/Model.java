@@ -19,7 +19,7 @@ public class Model {
   public void execute() {
     try {
       Class.forName("com.mysql.jdbc.Driver").newInstance();
-      String url = "jdbc:mysql://localhost/mydb?characterEncoding=UTF-8";
+      String url = "jdbc:mysql://localhost/mydb?characterEncoding=UTF-8&serverTimezone=JST";
       Connection conn = DriverManager.getConnection(url, "test", "pass");
  
       PreparedStatement stmt = conn.prepareStatement("SELECT * FROM zip WHERE code LIKE ? ORDER BY code");
@@ -45,4 +45,3 @@ public class Model {
     }
   }
 }
-

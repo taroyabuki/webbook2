@@ -1,31 +1,27 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%@page import="org.apache.commons.lang.*"%>
+<%@page import="org.apache.commons.lang3.*"%>
 <%
     //テキストボックスに検索キーワードを再現する準備
     String paramq = request.getParameter("q");
     if (paramq != null) {
-      paramq = StringEscapeUtils.escapeXml(paramq);
+      paramq = StringEscapeUtils.escapeHtml4(paramq);
     } else {
       paramq = "";
     }
 %>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8" />
     <style type="text/css">
       html, body { height: 100%; }
       td { font-size: smaller; }
     </style>
-    <script type="text/javascript"
-            src="http://maps.google.com/maps/api/js?sensor=false"></script>
-    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
-    <script type="text/javascript">
-      google.load("jquery", "1.5.0");
-    </script>
-    <script type="text/javascript" src="addressmaps.js"></script>
-    <script type="text/javascript">
+    <script src="http://maps.google.com/maps/api/js"></script>
+    <!-- jQueryの読み込み（書籍の記法は最新のjQueryに対応しません。） -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+    <script src="addressmaps.js"></script>
+    <script>
       $(document).ready(function() {
         var address = $(".address:first").text();
         drawMap(address); // 地図を生成する
@@ -44,4 +40,3 @@
     <jsp:include page="zips.jsp" />
   </body>
 </html>
-

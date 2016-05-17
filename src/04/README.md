@@ -31,7 +31,7 @@
 * `console.html`
 * `jsobject.html`
 
-Firebugはインストールせず，以下のツールで代替する。
+Firebugはインストールせず、以下のツールで代替する。
 
 * FirefoxのWebコンソール（`Ctrl+Shift+K`）
 * Chromeのデベロッパーツール（`Ctrl+Shift+K`）

@@ -23,7 +23,7 @@ SHOW VARIABLES LIKE '%char%';
 
 
 -- 7.5 データの操作
---- 7.5.1 データの生成
+-- 7.5.1 データの生成
 
 INSERT INTO message VALUES (1,'taro','test');
 

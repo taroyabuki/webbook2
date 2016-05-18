@@ -37,7 +37,7 @@ sudo sh -c 'echo 127.0.1.1 $(hostname) >> /etc/hosts'
 sudo apt-get -y install apache2 php libapache2-mod-php
 ```
 
-ドキュメントルートを書き込み可能にする。（安易だが，わかりやすくするために，誰でも書き込めるようにする。）
+ドキュメントルート（12.04では`/var/www`，14.04以降では`var/www/html`）を書き込み可能にする。（安易だが，わかりやすくするために，誰でも書き込めるようにする。）
 
 ```bash
 sudo chmod -R 777 /var/www

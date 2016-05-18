@@ -2,7 +2,7 @@
 
 CREATE DATABASE mydb DEFAULT CHARACTER SET utf8;
 
-USE mydb
+USE mydb;
 
 -- DROP DATABASE mydb;
 

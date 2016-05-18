@@ -37,11 +37,15 @@ Mac OS X v10.7 Lion以降では、PEARを使うために、以下のような作
 
 ##### gettext.php
 
-**p. 71** HTTP/Request.phpは非推奨になりましたが、それに関する警告等がうるさいときは、以下のコードを`require_once('HTTP/Request.php');`の前に追加してください。
+**p. 71**
+
+(Ubuntu 12.04, 14.04) PEAR HTTP/Requestは非推奨になりましたが、それに関する警告等がうるさいときは、以下のコードを`require_once('HTTP/Request.php');`の前に追加してください。
 
 ```PHP
 error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
 ```
+
+(Ubuntu 16.04) PEAR HTTP/Requestは使えなくなったので，`gettext.php`の代わりに`gettext2.php`を使ってください。
 
 ## 5.3 Twitter API
 
@@ -70,9 +74,11 @@ git clone https://github.com/abraham/twitteroauth.git
  * Access Token Secret
 1. `home_timeline.json.php.template`をもとに`home_timeline.json.php`を作り、ファイル中に上記4項目を記述する。
 1. [http://localhost/phpweb/home_timeline.json.php](http://localhost/phpweb/home_timeline.json.php)が動作することを確認する。
-1. `publictimeline.php`と`publictimeline.html`の`https://api.twitter.com/1/statuses/public_timeline.json`を`http://localhost/phpweb/home_timeline.json.php`に置き換える（ここで配布しているファイルは置き換え済み）。
+1. `publictimeline.html`の`https://api.twitter.com/1/statuses/public_timeline.json`を`http://localhost/phpweb/home_timeline.json.php`に置き換える（ここで配布しているファイルは置き換え済み）。
+1. (Ubuntu 12.04, 14.04) `publictimeline.php`についても上と同じ修正を施す。
+1. (Ubuntu 16.04) PEAR HTTP/Requestが使えなくなったため，`publictimeline.php`の代わりに`home_timeline.php`を使う。
 
-次のようにして、コンソール上でJSONを整形して表示できる。（`q`で終了）
+次のようにして、コンソール上でJSONを整形して表示できます。（`q`で終了）
 
 ```
 sudo apt-get -y install jq

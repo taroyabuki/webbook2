@@ -12,7 +12,9 @@
 
 ## [動作を確認したバージョン](https://github.com/taroyabuki/webbook2/blob/master/softwares.md)
 
-## [Ubuntuでの環境構築のまとめ](https://github.com/taroyabuki/webbook2/blob/master/ubuntu.md)
+## [VagrantでWebアプリケーション構築入門](https://github.com/taroyabuki/webbook2server)
+
+サーバ構築に関する部分の大部分をVagrantで自動化しました。動作も全体的に軽くなっています。
 
 ## [解説動画](https://github.com/taroyabuki/webbook2/blob/master/movies.md)
 

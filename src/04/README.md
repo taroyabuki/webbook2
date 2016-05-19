@@ -8,7 +8,7 @@
 
 ### 4.2.1
 
-**p. 53** 本で紹介したjQueryの読み込み方は廃止された。jQueryは以下のように読み込む。
+**p. 53** 書籍で紹介したjQueryの読み込み方は廃止された。jQueryは以下のように読み込む。
 
 ```html
 <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>

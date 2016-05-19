@@ -14,9 +14,7 @@
 
 ## [VagrantでWebアプリケーション構築入門](https://github.com/taroyabuki/webbook2server)
 
-**（推奨）**サーバ構築に関する部分の大部分をVagrantで自動化しました。操作も全体的に軽くなっています。
-
-書籍どおりの方法を試したい場合は，[Ubuntuでの環境構築のまとめ](https://github.com/taroyabuki/webbook2/blob/master/ubuntu.md)を参照してください。
+サーバ構築に関する部分の大部分をVagrantで自動化しました。動作も全体的に軽くなっています。
 
 ## [解説動画](https://github.com/taroyabuki/webbook2/blob/master/movies.md)
 

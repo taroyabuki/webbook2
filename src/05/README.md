@@ -85,6 +85,18 @@ sudo apt-get -y install jq
 curl http://localhost/phpweb/home_timeline.json.php | jq .
 ```
 
+**p. 73（脚註13）** JavaにはJavaScriptのエンジンが含まれているため，それを使ってJSONを処理できます。上述のhttp://localhost/phpweb/home_timeline.json.php が動く環境で，`HomeTimeline.java`を試してください。Apache HTTP ComponentsのFluent APIを使ってHTTP通信を，Java 8のラムダ式を使ってループ処理を簡略化したのが`HomeTimeline2.java`です。`HomeTimeline2.java`は，Maven Javaアプリケーション・プロジェクトを作り，以下のような要素を`pom.xml`の`project`要素に追加することで実行できます。
+
+```xml
+<dependencies>
+  <dependency>
+    <groupId>org.apache.httpcomponents</groupId>
+    <artifactId>fluent-hc</artifactId>
+    <version>4.5.2</version>
+  </dependency>
+</dependencies>
+```
+
 #### publictimeline.php
 
 **p. 74 (脚註14)** PHP 5.4以降では、以下のようにすることでintの範囲（32ビット版と64ビット版で異なる）を超える整数を文字列として取り出せます。

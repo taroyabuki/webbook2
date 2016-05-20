@@ -1,6 +1,6 @@
 # Ubuntuでの環境構築のまとめ
 
-以下は、書籍の通りに進めたい場合のためのメモである。こだわりがないなら、ここに書かれている方法ではなく、「[VagrantでWebアプリケーション構築入門](https://github.com/taroyabuki/webbook2server)」の方法を推奨する。
+以下は、書籍の通りに進めたい場合のためのメモである。特別な理由のない方には、ここに書かれている方法ではなく、「[VagrantでWebアプリケーション構築入門](https://github.com/taroyabuki/webbook2server)」の方法を推奨する。
 
 ## 第2章
 

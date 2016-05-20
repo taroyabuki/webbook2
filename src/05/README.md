@@ -45,7 +45,7 @@ Mac OS X v10.7 Lion以降では、PEARを使うために、以下のような作
 error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
 ```
 
-(Ubuntu 16.04) PEAR HTTP/Requestは使えなくなったので，`gettext.php`の代わりに`gettext2.php`を使ってください。
+(Ubuntu 16.04) PEAR HTTP/Requestは使えなくなったので、`gettext.php`の代わりに`gettext2.php`を使ってください。
 
 ## 5.3 Twitter API
 
@@ -76,7 +76,7 @@ git clone https://github.com/abraham/twitteroauth.git
 1. [http://localhost/phpweb/home_timeline.json.php](http://localhost/phpweb/home_timeline.json.php)が動作することを確認する。
 1. `publictimeline.html`の`https://api.twitter.com/1/statuses/public_timeline.json`を`http://localhost/phpweb/home_timeline.json.php`に置き換える（ここで配布しているファイルは置き換え済み）。
 1. (Ubuntu 12.04, 14.04) `publictimeline.php`についても上と同じ修正を施す。
-1. (Ubuntu 16.04) PEAR HTTP/Requestが使えなくなったため，`publictimeline.php`の代わりに`home_timeline.php`を使う。
+1. (Ubuntu 16.04) PEAR HTTP/Requestが使えなくなったため、`publictimeline.php`の代わりに`home_timeline.php`を使う。
 
 次のようにして、コンソール上でJSONを整形して表示できます。（`q`で終了）
 
@@ -85,7 +85,7 @@ sudo apt-get -y install jq
 curl http://localhost/phpweb/home_timeline.json.php | jq .
 ```
 
-**p. 73（脚註13）** JavaにはJavaScriptのエンジンが含まれているため，それを使ってJSONを処理できます。上述のhttp://localhost/phpweb/home_timeline.json.php が動く環境で，`HomeTimeline.java`を試してください。[Apache HTTP ComponentsのFluent API](https://hc.apache.org/httpcomponents-client-ga/tutorial/html/fluent.html)を使ってHTTP通信を，Java 8のラムダ式を使ってループ処理を簡略化したのが`HomeTimeline2.java`です。`HomeTimeline2.java`は，Maven Javaアプリケーション・プロジェクトを作り，以下のような要素を`pom.xml`の`project`要素に追加することで実行できます。
+**p. 73（脚註13）** JavaにはJavaScriptのエンジンが含まれているため、それを使ってJSONを処理できます。上述のhttp://localhost/phpweb/home_timeline.json.php が動く環境で、`HomeTimeline.java`を試してください。[Apache HTTP ComponentsのFluent API](https://hc.apache.org/httpcomponents-client-ga/tutorial/html/fluent.html)を使ってHTTP通信を、Java 8のラムダ式を使ってループ処理を簡略化したのが`HomeTimeline2.java`です。`HomeTimeline2.java`は、Maven Javaアプリケーション・プロジェクトを作り、以下のような要素を`pom.xml`の`project`要素に追加することで実行できます。
 
 ```xml
 <dependencies>

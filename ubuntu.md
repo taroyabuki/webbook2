@@ -56,7 +56,7 @@ sudo sed -i -e 's/display_errors = Off/display_errors = On/' /etc/php/7.0/apache
 sudo service apache2 restart
 ```
 
-最新版のGlassFishのために、JDK 7以降をインストールする。**（Ubuntuのバージョンによって変わることに注意）**
+JDK 7以降をインストールする（ここで公開しているコードには、JDK 8を必要とするものもある。コードが動かないときは、書籍のコードを使ってほしい）。**（Ubuntuのバージョンによって変わることに注意）**
 
 ```bash
 #Ubuntu 12.04

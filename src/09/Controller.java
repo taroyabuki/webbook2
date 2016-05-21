@@ -21,4 +21,3 @@ public class Controller extends HttpServlet {
     getServletContext().getRequestDispatcher("/view.jsp").forward(request, response);
   }
 }
-

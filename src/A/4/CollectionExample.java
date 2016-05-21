@@ -3,14 +3,15 @@ import java.util.*;
 public class CollectionExample {
  
   public static void main(String[] args) {
-    List<String> members = new ArrayList<String>();
+    //Java 7で導入されたダイヤモンド演算子
+    List<String> members = new ArrayList<>();
     members.add("Taro");
     members.add("K");
     members.add("Alice");
     members.add("Bob");
     System.out.println(Arrays.toString(members.toArray()));
  
-    List<String> people = new LinkedList<String>();
+    List<String> people = new LinkedList<>();
     people.add("Taro");
     people.add("K");
     people.add("Alice");
@@ -31,8 +32,13 @@ public class CollectionExample {
       String name = people.get(i);
       System.out.println(name);
     }
+    
+    //Java 8で導入されたforEachとラムダ記法
+    people.forEach((name) -> {
+      System.out.println(name);
+    });
  
-    Set<String> citizens = new HashSet<String>();
+    Set<String> citizens = new HashSet<>();
     citizens.add("Taro");
     citizens.add("K");
     citizens.add("Alice");
@@ -40,7 +46,7 @@ public class CollectionExample {
       System.out.println("YES");
     }
  
-    Map<String, String> dictionary = new HashMap<String, String>();
+    Map<String, String> dictionary = new HashMap<>();
     dictionary.put("intellect", "知性");
     dictionary.put("conscience", "良心");
     dictionary.put("tradition", "伝統");
@@ -51,7 +57,7 @@ public class CollectionExample {
     Arrays.sort(samples);
     System.out.println(Arrays.toString(samples)); // 出力値：[1, 2, 3, 4, 5]
  
-    List<Integer> list = new LinkedList<Integer>();
+    List<Integer> list = new LinkedList<>();
     list.add(5);
     list.add(1);
     list.add(10);
@@ -59,4 +65,3 @@ public class CollectionExample {
     System.out.println(Arrays.toString(list.toArray())); // 出力値：[1, 5, 10]
   }
 }
-

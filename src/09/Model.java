@@ -20,26 +20,25 @@ public class Model {
     try {
       Class.forName("com.mysql.jdbc.Driver").newInstance();
       String url = "jdbc:mysql://localhost/mydb?characterEncoding=UTF-8&serverTimezone=JST";
-      Connection conn = DriverManager.getConnection(url, "test", "pass");
- 
-      PreparedStatement stmt = conn.prepareStatement("SELECT * FROM zip WHERE code LIKE ? ORDER BY code");
-      stmt.setString(1, q + "%");
-      stmt.setMaxRows(20);
-      ResultSet rs = stmt.executeQuery();
- 
-      results = new LinkedList<String[]>();
-      while (rs.next()) {
-        String result[] = {rs.getString("code"),
-          rs.getString("address1")
-          + rs.getString("address2")
-          + rs.getString("address3")
-          + rs.getString("address4"),
-          rs.getString("office")};
-        results.add(result);
+      try ( //Java 7で導入されたtry-with-resources
+        Connection conn = DriverManager.getConnection(url, "test", "pass");
+        PreparedStatement stmt = conn.prepareStatement(
+                "SELECT * FROM zip WHERE code LIKE ? ORDER BY code")) {
+        stmt.setString(1, q + "%");
+        stmt.setMaxRows(20);
+        try (ResultSet rs = stmt.executeQuery()) {
+          results = new LinkedList<>(); //Java 7で導入されたダイヤモンド演算子
+          while (rs.next()) {
+            String result[] = {rs.getString("code"),
+              rs.getString("address1")
+                    + rs.getString("address2")
+                    + rs.getString("address3")
+                    + rs.getString("address4"),
+              rs.getString("office")};
+            results.add(result);
+          }
+        }
       }
-      rs.close();
-      stmt.close();
-      conn.close();
     } catch (Exception ex) {
       ex.printStackTrace();
     }

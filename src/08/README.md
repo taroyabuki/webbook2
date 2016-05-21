@@ -5,7 +5,7 @@
 ## 8.1 データベースへのアクセス権
 
 データベースのサーバとクライアントを別々にして開発する場合があるので、すべてのクライアント（`%`）からのアクセスを許可しておきましょう。（別々にする場合には、`/etc/mysql/my.cnf`の`bind-address`の値を`0.0.0.0`にしておく必要もありますが、その作業はここでは割愛します。）
-データベースのサーバとクライアントを別々にして開発する場合があるので、すべてのクライアント（`%`）からのアクセスを許可しておきましょう。別々にする場合には、`/etc/mysql/my.cnf`（Ubuntu 12.04と14.04）や`/etc/mysql/mysql.conf.d/mysqld.cnf`（Ubuntu 16.04）において，`bind-address`の値を`0.0.0.0`にしておく必要もありますが、その作業はここでは割愛します。
+データベースのサーバとクライアントを別々にして開発する場合があるので、すべてのクライアント（`%`）からのアクセスを許可しておきましょう。別々にする場合には、`/etc/mysql/my.cnf`（Ubuntu 12.04と14.04）や`/etc/mysql/mysql.conf.d/mysqld.cnf`（Ubuntu 16.04）において、`bind-address`の値を`0.0.0.0`にしておく必要もありますが、その作業はここでは割愛します。
 
 ```sql
 GRANT ALL ON mydb.* TO test@'%' IDENTIFIED BY 'pass';
@@ -20,6 +20,8 @@ GRANT ALL ON mydb.* TO test@'%' IDENTIFIED BY 'pass';
 ```java
 String url = "jdbc:mysql://localhost/mydb?characterEncoding=UTF-8&serverTimezone=JST";
 ```
+
+**p. 136 脚註5** Java 7で導入されたtry-with-resourcesを使うと、`try(...)`の中で確保したリソースの解法を省略できます。例として、[9.6.2項のModel.java](https://github.com/taroyabuki/webbook2/blob/master/src/09/Model.java)をtry-with-resourcesを使って書き直しました。
 
 ### 8.2.3 PHPからデータベースへのアクセス
 
@@ -36,4 +38,4 @@ sudo ln -s /tmp/mysql.sock /var/mysql/mysql.sock
 sudo apachectl restart
 ```
 
-**p. 136** 脚註8 PHP 5.3.6以降では、PDOでMySQLに接続する際に文字コードを設定できるようになりました。ここで配布しているファイルは、それに合わせています。参考：http://php.net/manual/ja/ref.pdo-mysql.connection.php
+**p. 136 脚註8** PHP 5.3.6以降では、PDOでMySQLに接続する際に文字コードを設定できるようになりました。ここで配布しているファイルは、それに合わせています。参考：http://php.net/manual/ja/ref.pdo-mysql.connection.php

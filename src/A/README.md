@@ -12,23 +12,21 @@
 
 ## A.4 コレクション
 
-**p. 172** Java 7で導入されたダイヤモンド演算子によって、
+**p. 172** Java 7で導入されたダイヤモンド演算子を使うと、
 
 ```Java
 List<String> members = new ArrayList<String>();
 ```
 
-のように書いていた部分が、
+のように書いていた部分は次のように書けます。
 
 ```Java
 List<String> members = new ArrayList<>();
 ```
 
-のように書けるようになりました。
-
 ### A.4.4 ループの書き方
 
-**p. 173** Java 8で導入されたforEachとラムダ記法によって、ループを次のように書けるようになりました。（型を書かなくてよいので便利です。）
+**p. 173** Java 8で導入されたforEachとラムダ記法を使うと、ループは次のようも書けます。（型を書かなくてよいので便利です。）
 
 ```Java
 people.forEach((name) -> {
@@ -40,7 +38,7 @@ people.forEach((name) -> {
 
 ### A.5.3 コレクションの活用
 
-**p. 182**Java 8で導入されたラムダ記法によって、ソートは簡単に書けるようになりました。
+**p. 182**Java 8で導入されたラムダ記法を使うと、ソートは次のようにも書けます。
 
 ```Java
 Collections.sort(people, (Person a, Person b) -> a.getAge() - b.getAge());

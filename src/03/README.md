@@ -9,11 +9,11 @@
 
 ## 3.3 統合開発環境とウェブサーバの利用
 
-**p. 35** ウェブブラウザのアドレス欄は、NetBeans上でJavaで試している場合は`http://localhost:8080/javaweb/hello.html`、Eclipse上でJavaで試している場合は`http://localhost:8084/javaweb/hello.html`、PHPで試している場合は`http://localhost/phpweb/hello.html`になります。
+**p. 35** ウェブブラウザのアドレス欄は、NetBeans上でJavaで試している場合は`http://localhost:8080/javaweb/hello.html`、PHPで試している場合は`http://localhost/phpweb/hello.html`になります。
 
 ## 3.5 HTML Validator
 
-HTML Validatorはインストールせず、HTMLの文法チェックはNetBeansやEclipseの上で行うようにしましょう。
+HTML Validatorはインストールせず、HTMLの文法チェックはNetBeans上で行うようにしましょう。
 
 ### 3.5.1 XHTML
 

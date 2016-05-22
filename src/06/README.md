@@ -6,9 +6,13 @@
 
 **p. 86 (サニタイジング)** Apache Commons Langは、バージョン2系列からバージョン3系列になりました。本書で採用していたのはバージョン2系列ですが、ここで配布するコードではバージョン3系列を採用しています。
 
-Apache Commons Langのバージョン3系列は、「`sudo apt-get install libcommons-lang3-java`」でインストールできます。
+Apache Commons Langのバージョン3系列は、次のようにインストールします。
 
-コード中の「`org.apache.commons.lang.*`」は「`org.apache.commons.lang3.*`」に変更してください。
+```bash
+sudo apt-get install libcommons-lang3-java
+```
+
+コード中の「`org.apache.commons.lang.*`」は「`org.apache.commons.lang3.*`」に変更してください。（ここで配布しているファイルは変更済み）
 
 **p. 87** 動作確認のためのURL：[http://localhost:8080/javaweb/Parameters?firstname=Taro&lastname=Yabuki](http://localhost:8080/javaweb/Parameters?firstname=Taro&lastname=Yabuki)
 

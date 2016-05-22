@@ -78,17 +78,13 @@ JDK 8をインストールする。
 sudo apt-get -y install openjdk-8-jdk
 ```
 
-以下のいずれかをインストールする。いずれも`apt-get`ではなく、リンク先からダウンロードしてインストールする。
-
-* [NetBeans](https://netbeans.org/downloads/)
-* [Java用Eclipse](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/mars2)
-* [PHP用Eclipse](http://www.eclipse.org/downloads/packages/eclipse-php-developers/mars2)
+[NetBeans](https://netbeans.org/downloads/)の「すべて」をダウンロードし，インストールする。（`apt-get`は使わない。）
 
 
 
 ## 第3章
 
-HTML Validatorはインストールせず、HTMLの文法チェックはNetBeansやEclipseの上で行う。
+HTML Validatorはインストールせず、HTMLの文法チェックはNetBeans上で行う。
 
 Firefox以外のブラウザを利用したい場合は、[Chrome](https://www.google.co.jp/chrome/)やChromiumを導入する。Chromiumなら、`sudo apt-get -y install chromium-browser`でインストールできる。
 

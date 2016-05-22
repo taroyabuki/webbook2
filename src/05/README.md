@@ -15,37 +15,22 @@
 
 #### PHPのHTTPクライアント
 
-Ubuntuでは、まず次のコマンドを試します。
+Ubuntu 12.04と14.04では、次のコマンドでPEAR HTTP/Requestをインストールします。Ubuntu 16.04ではPEAR HTTP/Requestを使えないので、`gettext2.php`の方法を使ってください。
 
 ```bash
 sudo apt-get -y install php-http-request
+sudo service apache2 restart
 ```
-
-これでPEARのHTTP_Requestをインストールできたら、`sudo service apache2 restart`でApacheを再起動しておきます。
-
-**p. 71** Windowsでpearコマンドを実行したときに、「Permission denied」というエラーが出るときは、コマンドプロンプトを管理者として起動してください（右クリック→管理者として実行）
-
-pearのチャネルを更新するときは、`pear channel-update pear.php.net`とします。Windowsの場合はコマンドプロンプトを管理者として起動してください。GNU/LinuxやMacでは、先頭に「`sudo `」を付けてください。
-
-**p. 71** [**動画**：PHP PEARの利用（Mac OS X v10.8 Mountain Lion）](http://youtu.be/XsFjv3Drrek)
-
-Mac OS X v10.7 Lion以降では、PEARを使うために、以下のような作業が必要です。
-
-1. 「`sudo php /usr/lib/php/install-pear-nozlib.phar`」としてPEARをインストールする。
-1. 2.3.3項（p. 22）の要領で/etc/php.iniを編集し、「`include_path = ".:/php/includes:/usr/lib/php/pear"`」という行を追加する。
-1. 「`sudo apachectl graceful`」としてApacheを再起動する。
 
 ##### gettext.php
 
 **p. 71**
 
-(Ubuntu 12.04, 14.04) PEAR HTTP/Requestは非推奨になりましたが、それに関する警告等がうるさいときは、以下のコードを`require_once('HTTP/Request.php');`の前に追加してください。
+(Ubuntu 12.04, 14.04) PEAR HTTP/Requestは非推奨になりましたが、それに関する警告等がうるさいときは、以下のコードを`require_once('HTTP/Request.php');`の前に追加してください。（ここで公開しているファイルでは追加済みです。）
 
 ```PHP
 error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
 ```
-
-(Ubuntu 16.04) PEAR HTTP/Requestは使えなくなったので、`gettext.php`の代わりに`gettext2.php`を使ってください。
 
 ## 5.3 Twitter API
 
@@ -74,9 +59,9 @@ git clone https://github.com/abraham/twitteroauth.git
  * Access Token Secret
 1. `home_timeline.json.php.template`をもとに`home_timeline.json.php`を作り、ファイル中に上記4項目を記述する。
 1. [http://localhost/phpweb/home_timeline.json.php](http://localhost/phpweb/home_timeline.json.php)が動作することを確認する。
-1. `publictimeline.html`の`https://api.twitter.com/1/statuses/public_timeline.json`を`http://localhost/phpweb/home_timeline.json.php`に置き換える（ここで配布しているファイルは置き換え済み）。
-1. (Ubuntu 12.04, 14.04) `publictimeline.php`についても上と同じ修正を施す。
-1. (Ubuntu 16.04) PEAR HTTP/Requestが使えなくなったため、`publictimeline.php`の代わりに`home_timeline.php`を使う。
+1. `publictimeline.html`の`https://api.twitter.com/1/statuses/public_timeline.json`を`http://localhost/phpweb/home_timeline.json.php`に置き換える。（ここで配布しているファイルは置き換え済み）
+1. **(Ubuntu 12.04, 14.04)** `publictimeline.php`についても上と同じ修正を施す。
+1. **(Ubuntu 16.04)** PEAR HTTP/Requestが使えなくなったため、`publictimeline.php`の代わりに`home_timeline.php`を使う。
 
 次のようにして、コンソール上でJSONを整形して表示できます。（`q`で終了）
 
@@ -85,7 +70,9 @@ sudo apt-get -y install jq
 curl http://localhost/phpweb/home_timeline.json.php | jq .
 ```
 
-**p. 73 脚註13** JavaにはJavaScriptのエンジンが含まれているため、それを使ってJSONを処理できます。上述のhttp://localhost/phpweb/home_timeline.json.php が動く環境で、`HomeTimeline.java`を試してください。[Apache HTTP ComponentsのFluent API](https://hc.apache.org/httpcomponents-client-ga/tutorial/html/fluent.html)を使ってHTTP通信を、Java 8のラムダ式を使ってループ処理を簡略化したのが`HomeTimeline2.java`です。`HomeTimeline2.java`は、Maven Javaアプリケーション・プロジェクトを作り、以下のような要素を`pom.xml`の`project`要素に追加することで実行できます。
+**p. 73 脚註13** JavaにはJavaScriptのエンジンが含まれているため、それを使ってJSONを処理できます。上述のhttp://localhost/phpweb/home_timeline.json.php が動く環境で、`HomeTimeline.java`を試してください。
+
+`HomeTimeline.java`が冗長だと感じる場合は、`HomeTimeline2.java`を試してください。[Apache HTTP ComponentsのFluent API](https://hc.apache.org/httpcomponents-client-ga/tutorial/html/fluent.html)を使ってHTTP通信を、Java 8のラムダ式を使ってループ処理を簡略化したものです。Maven Javaアプリケーション・プロジェクトを作り、以下のような要素を`pom.xml`の`project`要素に追加することで実行できます。
 
 ```xml
 <dependencies>

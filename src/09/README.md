@@ -14,9 +14,10 @@
 sudo apt-get -y install unzip nkf
 ```
 
-郵便番号データ（zipファイル）をダウンロードします。
+郵便番号データ（zipファイル）をダウンロードします。（作業はホームディレクトリで行うと仮定しています。）
 
 ```bash
+cd
 wget http://www.post.japanpost.jp/zipcode/dl/oogaki/zip/ken_all.zip
 wget http://www.post.japanpost.jp/zipcode/dl/jigyosyo/zip/jigyosyo.zip
 ```
@@ -34,7 +35,7 @@ nkf -w JIGYOSYO.CSV > jigyosyo_utf8.csv
 
 **p. 146** 「The used command is not allowed with this MySQL version.」というエラーが出たときは、一度コンソールに戻って、`mysql -uroot -ppass --local-infile`として再接続してからインポートしてください。
 
-ここで公開している`zips.sql`を使って、コンソールで次のコマンドを実行しても同じ結果になります。（Windowsは例外です。書籍の方法でインポートしてください。）
+Ubuntuのコンソールで次のコマンドを実行しても同じ結果になります。
 
 ```bash
 curl https://raw.githubusercontent.com/taroyabuki/webbook2/master/src/09/zips.sql | mysql -uroot -ppass --local-infile mydb
@@ -63,11 +64,11 @@ curl https://raw.githubusercontent.com/taroyabuki/webbook2/master/src/09/zips.sq
 
 ## 9.4 Google Maps APIとのマッシュアップ
 
-4.5.2項で作成した`addressmap.js`が必要です。
+4.5.2項で作成した[`addressmap.js`](https://github.com/taroyabuki/webbook2/blob/master/src/04/addressmaps.js)が必要です。
 
 ## 9.5 Ajaxによるリアルタイム検索
 
-**p. 155** ここで紹介したコードでは「search」ボタンは使えません。ボタンを使えるようにするためには、9.4節のコードが必要です。ここで公開しているファイルにはその修正を施しています。
+**p. 155** ここで紹介したコードでは「search」ボタンは使えません。ボタンを使えるようにするためには、9.4節のコードが必要です。（ここで公開しているファイルは修正済みです。）
 
 ### コラム：GlassFishの単体利用
 

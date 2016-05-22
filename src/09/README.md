@@ -34,7 +34,7 @@ nkf -w JIGYOSYO.CSV > jigyosyo_utf8.csv
 
 **p. 146** 「The used command is not allowed with this MySQL version.」というエラーが出たときは、一度コンソールに戻って、`mysql -uroot -ppass --local-infile`として再接続してからインポートしてください。
 
-ここで公開している`zips.sql`を使って、コンソールで次のコマンドを実行しても同じ結果になります。
+ここで公開している`zips.sql`を使って、コンソールで次のコマンドを実行しても同じ結果になります。（Windowsは例外です。書籍の方法でインポートしてください。）
 
 ```bash
 curl https://raw.githubusercontent.com/taroyabuki/webbook2/master/src/09/zips.sql | mysql -uroot -ppass --local-infile mydb

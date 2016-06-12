@@ -6,7 +6,7 @@
 * Windows ~~XP, Vista, 7,~~ **10 (Vagrant)**
 * Mac OS X ~~10.6, 10.7,~~ **10.11 (Vagrant)**
 
-* VirtualBox ~~3.2, 4.0, 4.1, 4.2,~~ 5.0**
+* VirtualBox ~~3.2, 4.0, 4.1, 4.2,~~ **5.0**
 * **Vagrant 1.8.1**
 * ~~XAMPP 1.7.3, 1.7.7, 1.8.1~~
 

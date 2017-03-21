@@ -7,14 +7,14 @@
 ## 第1章 本書の目指すもの
 
 + [<img src="http://ec2.images-amazon.com/images/I/51JAKEE21DL._SL75_.jpg" alt=""></img>Morville『アンビエント・ファインダビリティ—ウェブ，検索，そしてコミュニケーションをめぐる旅』（オライリー・ジャパン, 2006）](http://www.amazon.co.jp/exec/obidos/ASIN/4873112834/inquisitor-22/)
-+ [<img src="http://ec2.images-amazon.com/images/I/51W7A0HWEPL._SL75_.jpg" alt=""></img>Morvilleほか『Web情報アーキテクチャ—最適なサイト構築のための論理的アプローチ』（オライリー・ジャパン, 第2版, 2003）](http://www.amazon.co.jp/exec/obidos/ASIN/487311134X/inquisitor-22/)
++ [<img src="http://ec2.images-amazon.com/images/I/514usUAw-9L._SL75_.jpg" alt=""></img>Morvilleほか『Web情報アーキテクチャ—見つけやすく理解しやすい情報設計』（オライリー・ジャパン, 第4版, 2016）](http://www.amazon.co.jp/exec/obidos/ASIN/4873117720/inquisitor-22/)<strong>（改訂されました。）</strong>
 + [Internet Archive](http://www.archive.org/)
 + [<img src="http://ec2.images-amazon.com/images/I/41W69WGATNL._SL75_.jpg" alt=""></img>Kernighanほか『プログラミング言語C』（共立出版, 第2版, 1989）](http://www.amazon.co.jp/exec/obidos/ASIN/4320026926/inquisitor-22/)
 + [エルピーアイジャパン『Linux標準教科書』](http://www.lpi.or.jp/linuxtext/text.shtml)
 + [Google Web Toolkit](http://code.google.com/webtoolkit/)
 + [<img src="http://ec2.images-amazon.com/images/I/5111CwoAMLL._SL75_.jpg" alt=""></img>DuBoisほか『MySQL 5.0 Certification Study Guide』（MySQL Press, 2005）](http://www.amazon.co.jp/exec/obidos/ASIN/0672328127/inquisitor-22/)
-+ [<img src="http://ec2.images-amazon.com/images/I/51eR2vEeDjL._SL75_.jpg" alt=""></img>Sklar『初めてのPHP5』（オライリー・ジャパン, 増補改訂版, 2012）](http://www.amazon.co.jp/gp/product/4873115809/?tag=inquisitor-22)<strong>（改訂されました。第4刷に反映）</strong>
-+ [<img src="http://ec2.images-amazon.com/images/I/41Bf6ZV1fRL._SL75_.jpg" alt=""></img>Lerdorfほか『プログラミングPHP』（オライリー・ジャパン, 第2版, 2007）](http://www.amazon.co.jp/exec/obidos/ASIN/4873113423/inquisitor-22/)
++ [<img src="http://ec2.images-amazon.com/images/I/51VvVTeZbvL._SL75_.jpg" alt=""></img>Sklar『初めてのPHP』（オライリー・ジャパン, 2017）](http://www.amazon.co.jp/gp/product/4873115809/?tag=inquisitor-22)<strong>（改訂されました。）</strong>
++ [<img src="http://ec2.images-amazon.com/images/I/51gLSSmCnjL._SL75_.jpg" alt=""></img>Lerdorfほか『プログラミングPHP』（オライリー・ジャパン, 第3版, 2014）](http://www.amazon.co.jp/exec/obidos/ASIN/4873116686/inquisitor-22/)<strong>（改訂されました。）</strong>
 + [Mono](http://www.mono-project.com/)
 + [<img src="http://ec2.images-amazon.com/images/I/51RJRGOEv5L._SL75_.jpg" alt=""></img>矢吹太朗『Microsoft Visual Web Developer 2008 Express Edition入門』（日経BPソフトプレス, 2008）](http://www.amazon.co.jp/exec/obidos/ASIN/489100584X/inquisitor-22/)
 
@@ -42,10 +42,10 @@
 + [W3C CSS 検証サービス](http://jigsaw.w3.org/css-validator/)
 + [初心者のためのホームページ作り](http://www.scollabo.com/banban/)
 + [<img src="http://ecx.images-amazon.com/images/I/51GU1NOlL1L._SL75_.jpg" alt=""></img>大藤幹『詳解 HTML & XHTML & CSS辞典』（秀和システム, 第5版, 2011）](http://www.amazon.co.jp/exec/obidos/ASIN/4798031127/inquisitor-22/)<strong>（改訂されました。第3刷に反映）</strong>
-+ [<img src="http://ec2.images-amazon.com/images/I/412Z7VZFGDL._SL75_.jpg" alt=""></img>Norman『誰のためのデザイン？』（新曜社, 1990）](http://www.amazon.co.jp/exec/obidos/ASIN/478850362X/inquisitor-22/)
++ [<img src="http://ec2.images-amazon.com/images/I/51uEWA1B3EL._SL75_.jpg" alt=""></img>Norman『誰のためのデザイン？』（新曜社, 増補・改訂版, 2015）](http://www.amazon.co.jp/exec/obidos/ASIN/4788514346/inquisitor-22/)<strong>（改訂されました。）</strong>
 + [ニールセン博士のAlertbox](http://www.usability.gr.jp/alertbox/)
 + [<img src="http://ec2.images-amazon.com/images/I/515dWeUst-L._SL75_.jpg" alt=""></img>Tidwell『デザイニングインターフェース』（オライリー・ジャパン, 第2版, 2011）](http://www.amazon.co.jp/gp/product/4873115310/?tag=inquisitor-22)<strong>（改訂されました。第4刷に反映）</strong>
-+ [<img src="http://ec2.images-amazon.com/images/I/51W7A0HWEPL._SL75_.jpg" alt=""></img>Morvilleほか『Web情報アーキテクチャ』（オライリー・ジャパン, 第2版, 2003）](http://www.amazon.co.jp/exec/obidos/ASIN/487311134X/inquisitor-22/)
++ [<img src="http://ec2.images-amazon.com/images/I/514usUAw-9L._SL75_.jpg" alt=""></img>Morvilleほか『Web情報アーキテクチャ—見つけやすく理解しやすい情報設計』（オライリー・ジャパン, 第4版, 2016）](http://www.amazon.co.jp/exec/obidos/ASIN/4873117720/inquisitor-22/)<strong>（改訂されました。）</strong>
 + [<img src="http://ec2.images-amazon.com/images/I/513MTFrDvRL._SL75_.jpg" alt=""></img>神崎正英『ユニバーサルHTML/XHTML』（毎日コミュニケーションズ，2000）](http://www.amazon.co.jp/exec/obidos/ASIN/4839904545/inquisitor-22/)
 + [ウェブコンテンツ・アクセシビリティ・ガイドライン 1.0](http://www.zspc.com/documents/wcag10/)
 + [<img src="http://ec2.images-amazon.com/images/I/41TdlrnzFcL._SL75_.jpg" alt=""></img>大藤幹『世界の「最先端」事例に学ぶCSSベスト・プラクティス』（毎日コミュニケーションズ, 2007）](http://www.amazon.co.jp/exec/obidos/ASIN/483992676X/inquisitor-22/)
@@ -94,8 +94,8 @@
 
 ## 第6章 ダイナミックなページ生成
 
-+ [<img src="http://ec2.images-amazon.com/images/I/51eR2vEeDjL._SL75_.jpg" alt=""></img>Sklar『初めてのPHP5』（オライリー・ジャパン, 増補改訂版, 2012）](http://www.amazon.co.jp/gp/product/4873115809/?tag=inquisitor-22)<strong>（改訂されました。第4刷に反映）</strong>
-+ [<img src="http://ec2.images-amazon.com/images/I/41Bf6ZV1fRL._SL75_.jpg" alt=""></img>Lerdorfほか『プログラミングPHP』（オライリー・ジャパン, 第2版, 2007）](http://www.amazon.co.jp/exec/obidos/ASIN/4873113423/inquisitor-22/)
++ [<img src="http://ec2.images-amazon.com/images/I/51VvVTeZbvL._SL75_.jpg" alt=""></img>Sklar『初めてのPHP』（オライリー・ジャパン, 2017）](http://www.amazon.co.jp/gp/product/4873115809/?tag=inquisitor-22)<strong>（改訂されました。）</strong>
++ [<img src="http://ec2.images-amazon.com/images/I/51gLSSmCnjL._SL75_.jpg" alt=""></img>Lerdorfほか『プログラミングPHP』（オライリー・ジャパン, 第3版, 2014）](http://www.amazon.co.jp/exec/obidos/ASIN/4873116686/inquisitor-22/)<strong>（改訂されました。）</strong>
 + [<img src="http://ec3.images-amazon.com/images/I/51fbxZn8HnL._SL75_.jpg" alt=""></img>小川雄大ほか『パーフェクトPHP』（技術評論社, 2010）](http://www.amazon.co.jp/exec/obidos/ASIN/4774144371/inquisitor-22/)
 + [Apache Commons Lang](http://commons.apache.org/lang/)
 
@@ -104,7 +104,7 @@
 + [MySQL](http://www.mysql.com/downloads/mysql/)
 + [MySQL for Mac](http://dev.mysql.com/doc/refman/5.1/ja/mac-os-x-installation.html)
 + [<img src="http://ecx.images-amazon.com/images/I/51S6FYKYW0L._SL75_.jpg" alt=""></img>増永良文『データベース入門』（サイエンス社, 2006）](http://www.amazon.co.jp/exec/obidos/ASIN/4781911404/inquisitor-22/)
-+ [<img src="http://ecx.images-amazon.com/images/I/41YDTX2MHKL._SL75_.jpg" alt=""></img>増永良文『リレーショナルデータベース入門』（サイエンス社, 新訂版, 2003）](http://www.amazon.co.jp/exec/obidos/ASIN/4781910246/inquisitor-22/)
++ [<img src="http://ecx.images-amazon.com/images/I/517YUf4wvnL._SL75_.jpg" alt=""></img>増永良文『リレーショナルデータベース入門』（サイエンス社, 第3版, 2017）](http://www.amazon.co.jp/exec/obidos/ASIN/4781913903/inquisitor-22/)<strong>（改訂されました。）</strong>
 + [<img src="http://ec2.images-amazon.com/images/I/51MCSBFC6XL._SL75_.jpg" alt=""></img>Beaulieu『初めてのSQL』（オライリー・ジャパン, 2006）](http://www.amazon.co.jp/exec/obidos/ASIN/4873112818/inquisitor-22/)
 + [<img src="http://ec2.images-amazon.com/images/I/514qaBWNxyL._SL75_.jpg" alt=""></img>Faroultほか『アート・オブ・SQL』（オライリー・ジャパン, 2007）](http://www.amazon.co.jp/exec/obidos/ASIN/4873113369/inquisitor-22/)
 + [<img src="http://ec2.images-amazon.com/images/I/51n7bs6Hr2L._SL75_.jpg" alt=""></img>Celko『SQLパズル』（翔泳社, 第2版, 2007）](http://www.amazon.co.jp/exec/obidos/ASIN/4798114138/inquisitor-22/)
@@ -120,7 +120,7 @@
 + [<img src="http://ec2.images-amazon.com/images/I/41e8l8sJnaL._SL75_.jpg" alt=""></img>Pachev『詳解 MySQL』（オライリー・ジャパン, 2007）](http://www.amazon.co.jp/exec/obidos/ASIN/4873113431/inquisitor-22/)
 + [MySQL Internals](http://forge.mysql.com/wiki/MySQL_Internals)
 + [MySQL Reference Manuals](http://dev.mysql.com/doc/)
-+ [<img src="http://ec2.images-amazon.com/images/I/51oarbWYKbL._SL75_.jpg" alt=""></img>鈴木啓修『MySQL全機能バイブル』（技術評論社, 2009）](http://www.amazon.co.jp/exec/obidos/ASIN/4774139750/inquisitor-22/)
++ [<img src="http://ec2.images-amazon.com/images/I/51pj9W0WxzL._SL75_.jpg" alt=""></img>鈴木啓修ほか『MariaDB&amp;MySQL全機能バイブル』（技術評論社, 2014）](http://www.amazon.co.jp/exec/obidos/ASIN/4774170208/inquisitor-22/)<strong>（改訂されました。）</strong>
 + [<img src="http://ec2.images-amazon.com/images/I/41G%2BsXdBymL._SL75_.jpg" alt=""></img>Dubois. MySQL Cookbook.（O'Reilly & Associates, Inc., 2nd edition, 2006）](http://www.amazon.co.jp/exec/obidos/ASIN/059652708X/inquisitor-22/)
 
 ## 第8章 データベースを利用するウェブアプリ
@@ -141,8 +141,8 @@
 
 ## 付録A CプログラマのためのJava
 
-+ [<img src="http://ec2.images-amazon.com/images/I/51ixZgujIZL._SL75_.jpg" alt=""></img>Goslingほか『プログラミング言語Java』（ピアソンエデュケーション, 第4版, 2007）](http://www.amazon.co.jp/exec/obidos/ASIN/4894717166/inquisitor-22/)
-+ [<img src="http://ec2.images-amazon.com/images/I/51sc1ff5eML._SL75_.jpg" alt=""></img>井上誠一郎ほか『パーフェクトJava』（技術評論社, 2009）](http://www.amazon.co.jp/exec/obidos/ASIN/4774139904/inquisitor-22/)
++ [<img src="http://ec2.images-amazon.com/images/I/4159TpiR%2BgL._SL75_.jpg" alt=""></img>Goslingほか『プログラミング言語Java』（ピアソンエデュケーション, 第4版, 2014）](http://www.amazon.co.jp/exec/obidos/ASIN/4501552603/inquisitor-22/)
++ [<img src="http://ec2.images-amazon.com/images/I/51Or5uklizL._SL75_.jpg" alt=""></img>井上誠一郎ほか『パーフェクトJava』（技術評論社, 第2版, 2014）](http://www.amazon.co.jp/exec/obidos/ASIN/4774166855/inquisitor-22/)<strong>（改訂されました。）</strong>
 + [String](http://web.archive.org/web/20090412024300/http://java.sun.com/javase/ja/6/docs/ja/api/java/lang/String.html)
 + [Java Platform, Standard Edition 6 API 仕様](http://web.archive.org/web/20101026145248/http://java.sun.com/javase/ja/6/docs/ja/api/)
 + [StringBuilder](http://web.archive.org/web/20081022222658/http://java.sun.com/javase/ja/6/docs/ja/api/java/lang/StringBuilder.html)

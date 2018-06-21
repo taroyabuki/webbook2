@@ -128,7 +128,7 @@
 + [PHP Data Objects](http://jp.php.net/manual/ja/book.pdo.php)
 + [情報処理推進機構『安全なウェブサイトの作り方』（改訂第6版, 2012）](http://www.ipa.go.jp/security/vuln/websecurity.html)<strong>（改訂されました。第4刷に反映）</strong>
 + [情報処理推進機構『安全なSQLの呼び出し方』（2010）](http://www.ipa.go.jp/security/vuln/websecurity.html)
-+ [<img src="http://ec2.images-amazon.com/images/I/41lX6Fg5KpL._SL75_.jpg" alt=""></img>徳丸浩『体系的に学ぶ 安全なWebアプリケーションの作り方』（ソフトバンククリエイティブ, 2011）](http://www.amazon.co.jp/exec/obidos/ASIN/4797361190/inquisitor-22/)
++ [<img src="http://images-jp.amazon.com/images/P/4797393165.09._SL75_.jpg" alt=""></img>徳丸浩『体系的に学ぶ 安全なWebアプリケーションの作り方』（ソフトバンククリエイティブ, 第2版, 2018）](http://www.amazon.co.jp/exec/obidos/ASIN/4797393165/inquisitor-22/)<strong>（改訂されました。）</strong>
 
 ## 第9章 ウェブアプリの実例
 

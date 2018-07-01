@@ -31,9 +31,8 @@
 
         <h2>オンラインで購入</h2>
         <ul>
-          <li><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4627847327/inquisitor-22/">Amazon</a></li>
-          <li><a href="http://hb.afl.rakuten.co.jp/hgc/0e202fa1.0c39fc04.0e202fa2.b39f0cc2/?pc=http%3a%2f%2fbooks.rakuten.co.jp%2frb%2f11124318%2f%3fscid%3daf_ich_link_txt&amp;amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f14439334%2f">楽天</a></li>
-          <li><a href="http://honto.jp/netstore/pd-book_03397461.html">honto</a></li>
+          <li><a href="//www.amazon.co.jp/exec/obidos/ASIN/4627847327/inquisitor-22/">Amazon</a></li>
+          <li><a href="//honto.jp/netstore/pd-book_03397461.html">honto</a></li>
         </ul>
         <h2><a href="https://github.com/taroyabuki/webbook2/blob/master/errata.md">正誤表</a></h2>
         <h2><a href="https://github.com/taroyabuki/webbook2/blob/master/softwares.md">動作を確認したバージョン</a></h2>
@@ -55,7 +54,6 @@
         <h2><a href="https://github.com/taroyabuki/webbook2/tree/master/src">ソースコード</a></h2>
         <h2><a href="https://github.com/taroyabuki/webbook2/blob/master/figures.pptx?raw=true">図録（PowerPoint）</a></h2>
         <h2><a href="https://github.com/taroyabuki/webbook2/blob/master/links.md">参考文献とリンク</a></h2>
-        <h2>関連する話題</h2><ul id="blogs"></ul>
       </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/taroyabuki">taroyabuki</a></p>
@@ -63,18 +61,5 @@
       </footer>
     </div>
     <script src="javascripts/scale.fix.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <script>
-      $(document).ready(function() {
-        $.getJSON('http://www.unfindable.net/web-app-book2/related-blogs.json.php?callback=?',
-                function(result) {
-                  var blogs = result.blogs;
-                  for (var i = 0; i < blogs.length; i++) {
-                    var blog = blogs[i];
-                    $("#blogs").append("<li><a href='" + blog.url + "'>" + blog.title + "</a></li>");
-                  }
-                });
-      });
-    </script>
   </body>
 </html>

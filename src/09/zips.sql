@@ -1,10 +1,7 @@
 -- 権限の設定
-
 GRANT ALL ON mydb.* TO test@'%' IDENTIFIED BY 'pass';
 
-
 -- テーブルの作成
-
 DROP TABLE IF EXISTS zip;
 
 CREATE TABLE zip(
@@ -24,21 +21,18 @@ CREATE TABLE zip(
   KEY (code)
 ) DEFAULT CHARACTER SET utf8;
 
+-- インポート時の文字コード
+SET character_set_database=cp932;
 
 -- 住所の郵便番号のインポート
-
-LOAD DATA LOCAL INFILE "~/ken_all_utf8.csv" INTO TABLE zip
+LOAD DATA LOCAL INFILE "KEN_ALL.CSV" INTO TABLE zip
 FIELDS TERMINATED BY ',' ENCLOSED BY '"'
 (jis,oldcode,code,address1ruby,address2ruby,address3ruby,address1,address2,address3);
 
-
 -- 大口事業所等個別番号のインポート
-
-LOAD DATA LOCAL INFILE "~/jigyosyo_utf8.csv" INTO TABLE zip
+LOAD DATA LOCAL INFILE "JIGYOSYO.CSV" INTO TABLE zip
 FIELDS TERMINATED BY ',' ENCLOSED BY '"'
 (jis,officeruby,office,address1,address2,address3,address4,code,oldcode);
 
-
 -- 結果の確認
-
 SELECT * FROM zip limit 10\G

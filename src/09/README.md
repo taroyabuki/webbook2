@@ -8,34 +8,34 @@
 
 郵便番号データの配布形式がlzhからzipに変わったため、`lha`をインストールする必要は無くなりました。
 
-`unzip`と`nkf`をインストールします。
+`unzip`と`curl`をインストールします。
 
 ```bash
-sudo apt-get -y install unzip nkf
+sudo apt-get -y install unzip curl
 ```
 
 郵便番号データ（zipファイル）をダウンロードします。（作業はホームディレクトリで行うと仮定しています。）
 
 ```bash
 cd
-wget http://www.post.japanpost.jp/zipcode/dl/oogaki/zip/ken_all.zip
-wget http://www.post.japanpost.jp/zipcode/dl/jigyosyo/zip/jigyosyo.zip
+curl -O http://www.post.japanpost.jp/zipcode/dl/oogaki/zip/ken_all.zip
+curl -O http://www.post.japanpost.jp/zipcode/dl/jigyosyo/zip/jigyosyo.zip
 ```
 
-ダウンロードしたファイルを展開し、文字コードをUTF-8に変換します。
+ダウンロードしたファイルを展開します。
 
 ```bash
 unzip ken_all.zip
 unzip jigyosyo.zip
-nkf -w KEN_ALL.CSV > ken_all_utf8.csv
-nkf -w JIGYOSYO.CSV > jigyosyo_utf8.csv
 ```
 
 ### 9.1.2 データのインポート
 
 **p. 146** 「The used command is not allowed with this MySQL version.」というエラーが出たときは、一度コンソールに戻って、`mysql -uroot -ppass --local-infile`として再接続してからインポートしてください。
 
-Ubuntuのコンソールで次のコマンドを実行しても同じ結果になります。
+郵便番号データはShift_JISのCSVファイルなので，インポート前に`SET character_set_database=cp932;`として文字コードを設定します。
+
+Ubuntuのコンソールで次のコマンドを実行してインポートすることもできます。
 
 ```bash
 curl https://raw.githubusercontent.com/taroyabuki/webbook2/master/src/09/zips.sql | mysql -uroot -ppass --local-infile mydb
@@ -62,13 +62,10 @@ curl https://raw.githubusercontent.com/taroyabuki/webbook2/master/src/09/zips.sq
 
 **p. 150** 環境によってはzips.jspやzips.phpの結果が文字化けしますが、この段階では気にしなくてかまいません。これは、文字コードを指定がブラウザに送られていないためなのです。9.3節以降では、文字コードを指定しているので文字化けは起こりません。
 
-## 9.4 Google Maps APIとのマッシュアップ
+## 9.4 Google Maps APIとのマッシュアップ，9.5 Ajaxによるリアルタイム検索
 
-4.5.2項で作成した[`addressmap.js`](https://github.com/taroyabuki/webbook2/blob/master/src/04/addressmaps.js)が必要です。
-
-## 9.5 Ajaxによるリアルタイム検索
-
-**p. 155** ここで紹介したコードでは「search」ボタンは使えません。ボタンを使えるようにするためには、9.4節のコードが必要です。（ここで公開しているファイルは修正済みです。）
+Google Maps APIが使いにくくなったため、代わりにYahoo! JavaScriptマップAPIを使います。
+そのためのサンプルを、https://github.com/taroyabuki/webdevelop で公開しています。（Dockerで環境構築をしていますが、本書の環境でも問題なく動作します．）
 
 ### コラム：GlassFishの単体利用
 

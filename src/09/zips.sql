@@ -19,7 +19,7 @@ CREATE TABLE zip(
   officeruby TEXT NOT NULL,
   office TEXT NOT NULL,
   KEY (code)
-) DEFAULT CHARACTER SET utf8;
+) DEFAULT CHARSET=utf8;
 
 -- インポート時の文字コード
 SET character_set_database=cp932;

@@ -22,7 +22,7 @@ CREATE TABLE zip(
   officeruby TEXT NOT NULL,
   office TEXT NOT NULL,
   KEY (code)
-) DEFAULT CHARACTER SET utf8;
+) DEFAULT CHARSET=utf8;
 
 
 -- 住所の郵便番号のインポート

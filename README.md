@@ -1,19 +1,16 @@
-<a href="//www.amazon.co.jp/exec/obidos/ASIN/4627847327/inquisitor-22/"><img src="cover.jpg?raw=true" alt="カバー" /></a>
+[森北出版](https://www.morikita.co.jp) ／ [Webアプリケーション構築入門（第2版）](https://www.morikita.co.jp/books/mid/084732)
 
-矢吹太朗『Webアプリケーション構築入門』（森北出版, 第2版, 2011）のサポートサイトです。
+# 矢吹太朗『Webアプリケーション構築入門』（森北出版, 第2版, 2011）サポートサイト
 
-## オンラインで購入
+[書店へのリンク集（版元ドットコム）](https://www.hanmoto.com/bd/isbn/9784627847323)
 
-* [Amazon](//www.amazon.co.jp/exec/obidos/ASIN/4627847327/inquisitor-22/)
-* [honto](//honto.jp/netstore/pd-book_03397461.html)
+<img src="cover.jpg?raw=true" alt="カバー" /></a>
 
 ## [正誤表](errata.md)
 
+## [Dockerを使うウェブアプリケーション開発環境](https://github.com/taroyabuki/webdevelop)
+
 ## [動作を確認したバージョン](softwares.md)
-
-## [VagrantでWebアプリケーション構築入門](//github.com/taroyabuki/webbook2server)
-
-サーバ構築に関する部分の大部分をVagrantで自動化しました。動作も全体的に軽くなっています。
 
 ## [解説動画](movies.md)
 

@@ -1,12 +1,12 @@
 # Ubuntuでの環境構築のまとめ
 
-以下は、書籍の通りに進めたい場合のためのメモである。特別な理由のない方には、ここに書かれている方法ではなく、「[VagrantでWebアプリケーション構築入門](https://github.com/taroyabuki/webbook2server)」の方法を推奨する。
+以下は、書籍の通りに進めたい場合のためのメモである。特別な理由のない方には、ここに書かれている方法ではなく、「[Dockerを使うウェブアプリケーション開発環境（PHP）](https://github.com/taroyabuki/webdevelop)」の方法を推奨する。
 
 
 
 ## 第2章
 
-**（バージョン依存）**パッケージを更新する。
+**（バージョン依存）** パッケージを更新する。
 
 ```bash
 #Ubuntu 12.04
@@ -24,7 +24,7 @@ sudo apt-get update
 sudo apt-get update
 ```
 
-**（バージョン依存）**VirtualBox Guest Utilsをインストールし、再起動する。Ubuntu 16.04（2016年5月時点）では、この方法ではなく、「デバイス→Guest Additions CDイメージの挿入」を実行した方がよさそうである。
+**（バージョン依存）** VirtualBox Guest Utilsをインストールし、再起動する。Ubuntu 16.04（2016年5月時点）では、この方法ではなく、「デバイス→Guest Additions CDイメージの挿入」を実行した方がよさそうである。
 
 ```bash
 sudo apt-get -y install virtualbox-guest-utils
@@ -36,7 +36,7 @@ sudo reboot
 * Ubuntu 12.04では、Dashホームで「ibus」を検索し、アイコン「キーボード・インプット」をクリックする。
 * Ubuntu 14.04と16.04では、Dashホームで「fcitx」を検索し、「Fcitx 設定」をクリックする。
 
-**（バージョン依存）**Apache HTTP ServerとPHPをインストールする。（16.04では`sudo`時の警告を消すための設定もついでにしている。）
+**（バージョン依存）** Apache HTTP ServerとPHPをインストールする。（16.04では`sudo`時の警告を消すための設定もついでにしている。）
 
 ```bash
 #Ubuntu 12.04
@@ -56,7 +56,7 @@ sudo apt-get -y install apache2 php libapache2-mod-php
 sudo chmod -R 777 /var/www
 ```
 
-**（バージョン依存）**エラーが表示されるように`php.ini`を編集し、Apacheを再起動する。（p. 21の作業の代わり）
+**（バージョン依存）** エラーが表示されるように`php.ini`を編集し、Apacheを再起動する。（p. 21の作業の代わり）
 
 ```bash
 #Ubuntu 12.04
@@ -98,13 +98,13 @@ Firebugはインストールせず、`Ctrl+Shift+K`で起動するWebコンソ�
 
 ## 第5章
 
-**（Ubuntu 12.04, 14.04）**PEAR HTTP_Requestをインストールする。（PEAR HTTP_RequestはUbuntu 16.04では使えない。）
+**（Ubuntu 12.04, 14.04）** PEAR HTTP_Requestをインストールする。（PEAR HTTP_RequestはUbuntu 16.04では使えない。）
 
 ```bash
 sudo apt-get -y install php-http-request
 ```
 
-**（バージョン依存）**Twitter APIのためのabraham/twitteroauthに必要なパッケージをインストールする。
+**（バージョン依存）** Twitter APIのためのabraham/twitteroauthに必要なパッケージをインストールする。
 
 
 ```bash
@@ -141,7 +141,7 @@ echo "mysql-server mysql-server/root_password_again password $MYSQL_ROOT_PASS" |
 sudo apt-get -y install mysql-server mysql-client
 ```
 
-**（バージョン依存）**phpMyAdminをインストールする。
+**（バージョン依存）** phpMyAdminをインストールする。
 
 ```bash
 #共通

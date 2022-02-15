@@ -67,8 +67,6 @@ curl https://raw.githubusercontent.com/taroyabuki/webbook2/master/src/09/zips.sq
 Google Maps APIが使いにくくなったため、代わりに~~Yahoo! JavaScriptマップAPI~~地理院タイルを使います。
 そのためのサンプルを、https://github.com/taroyabuki/webdevelop で公開しています。（Dockerで環境構築をしていますが、本書の環境でも問題なく動作します．）
 
-![動作画面](gsizipsmaps2.png)
-
 ### コラム：GlassFishの単体利用
 
 **p. 161** インストーラではなくzip archiveを使ってGlassFishを導入した時は`http://localhost:4848/`にアクセス、左の列の「Enterprise Server」をクリック、「管理者パスワード」をクリックし、適当なパスワードを設定します。

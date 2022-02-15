@@ -47,13 +47,13 @@ curl https://raw.githubusercontent.com/taroyabuki/webbook2/master/src/09/zips.sq
 
 **p. 148** 郵便番号を送信していない時に空のtable要素が生成されるのが気になる時は以下のようにコードを修正してください。
 
-* [zips.jsp](https://github.com/taroyabuki/webbook2/blob/master/src/09/zips.jsp)
+* [zips.jsp](zips.jsp)
 
 ### 9.2.1 PHPでの実装
 
 **p. 149** 郵便番号を送信していない時に空のtable要素が生成されるのが気になる時は以下のようにコードを修正してください。
 
-* [zips.php](https://github.com/taroyabuki/webbook2/blob/master/src/09/zips.php)
+* [zips.php](zips.php)
 
 ### 9.2.3 GETによる検索の動作確認と改良
 

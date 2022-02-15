@@ -17,4 +17,4 @@ HTML Validatorはインストールせず、HTMLの文法チェックはNetBeans
 
 ### 3.5.1 XHTML
 
-`XHTML.html`の代わりに`HTML5.html`を使ってください。
+[XHTML.html](5/XHTML.html)の代わりに[HTML5.html](5/HTML5.html)を使ってください。

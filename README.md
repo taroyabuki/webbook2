@@ -8,7 +8,7 @@
 
 ## [正誤表](errata.md)
 
-## [Dockerを使うウェブアプリケーション開発環境](https://github.com/taroyabuki/webdevelop)
+## [Dockerを使うウェブアプリケーション開発環境（PHP）](https://github.com/taroyabuki/webdevelop)
 
 ## [動作を確認したバージョン](softwares.md)
 

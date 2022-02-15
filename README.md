@@ -4,7 +4,7 @@
 
 [書店へのリンク集（版元ドットコム）](https://www.hanmoto.com/bd/isbn/9784627847323)
 
-<img src="cover.jpg?raw=true" alt="カバー" /></a>
+<img src="cover.jpg?raw=true" alt="カバー" />
 
 ## [正誤表](errata.md)
 

@@ -64,7 +64,7 @@ curl https://raw.githubusercontent.com/taroyabuki/webbook2/master/src/09/zips.sq
 
 ## 9.4 Google Maps APIとのマッシュアップ，9.5 Ajaxによるリアルタイム検索
 
-Google Maps APIが使いにくくなったため、代わりにYahoo! JavaScriptマップAPIを使います。
+Google Maps APIが使いにくくなったため、代わりに~~Yahoo! JavaScriptマップAPI~~地理院タイルを使います。
 そのためのサンプルを、https://github.com/taroyabuki/webdevelop で公開しています。（Dockerで環境構築をしていますが、本書の環境でも問題なく動作します．）
 
 ### コラム：GlassFishの単体利用

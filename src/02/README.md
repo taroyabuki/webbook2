@@ -2,5 +2,5 @@
 
 以下のいずれかの方法で開発環境を構築してください。
 
-* [VagrantでWebアプリケーション構築入門](https://github.com/taroyabuki/webbook2server)**（推奨）**
+* [Dockerを使うウェブアプリケーション開発環境（PHP）](https://github.com/taroyabuki/webdevelop)**（推奨）**
 * [Ubuntuでの環境構築のまとめ](https://github.com/taroyabuki/webbook2/blob/master/ubuntu.md)

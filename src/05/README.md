@@ -8,21 +8,21 @@
 
 ### 5.2.1 フォーム
 
-* `google.html`
-* `form.html`
+* [google.html](google.html)
+* [form.html](form.html)
 
 ### 5.2.2 HTTPクライアントとなるプログラム
 
 #### PHPのHTTPクライアント
 
-Ubuntu 12.04と14.04では、次のコマンドでPEAR HTTP/Requestをインストールします。Ubuntu 16.04ではPEAR HTTP/Requestを使えないので、`gettext2.php`の方法を使ってください。
+Ubuntu 12.04と14.04では、次のコマンドでPEAR HTTP/Requestをインストールします。Ubuntu 16.04ではPEAR HTTP/Requestを使えないので、gettext2.phpの方法を使ってください。
 
 ```bash
 sudo apt-get -y install php-http-request
 sudo service apache2 restart
 ```
 
-##### gettext.php
+##### [gettext.php](gettext.php)
 
 **p. 71**
 

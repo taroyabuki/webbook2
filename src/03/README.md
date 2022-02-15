@@ -4,7 +4,7 @@
 
 **p. 31** Windowsでは、エクスプローラで拡張子が表示されるように設定しておくといいでしょう。
 
-* Windows 7の場合：[ファイルの拡張子を表示するには?](http://support.microsoft.com/kb/978449/ja)
+* Windows 7の場合：[ファイルの拡張子を表示するには?](https://web.archive.org/web/20150501012100/https://support.microsoft.com/ja-jp/kb/978449)
 * Windows 8以上の場合：Explorerの表示メニューで「ファイルの拡張子」をオンにする。
 
 ## 3.3 統合開発環境とウェブサーバの利用

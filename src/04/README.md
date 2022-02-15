@@ -2,7 +2,7 @@
 
 ## 4.1
 
-`alert.html`
+[alert.html](alert.html)
 
 ## 4.2
 
@@ -16,20 +16,20 @@
 
 ### 4.2.2
 
-`selector.html`
+[selector.html](selector.html)
 
 ### 4.2.3
 
-`ready.html`
+[ready.html](ready.html)
 
 ### 4.2.4
 
-`click.html`
+[click.html](click.html)
 
 ## 4.4
 
-* `console.html`
-* `jsobject.html`
+* [console.html](console.html)
+* [jsobject.html](jsobject.html)
 
 Firebugはインストールせず、以下のツールで代替する。いずれもF12で起動。
 
@@ -39,15 +39,15 @@ Firebugはインストールせず、以下のツールで代替する。いず�
 
 ## 4.5
 
-Google Maps APIが使いにくくなったため、代わりにYahoo! JavaScriptマップAPIを使う。
+Google Maps APIが使いにくくなったため、代わりに~~Yahoo! JavaScriptマップAPI~~地理院タイルを使う。
 そのためのサンプルを、https://github.com/taroyabuki/webdevelop で公開している。（Dockerで環境構築をしているが、本書の環境でも問題なく動作する．）
 
 ### 4.5.1
 
-* `googlemaps.html`→[yahoomaps.html](https://github.com/taroyabuki/webdevelop/blob/master/html/phpweb/yahoomaps.html)
-* `googlemaps.js`→[yahoomaps.js](https://github.com/taroyabuki/webdevelop/blob/master/html/phpweb/yahoomaps.js)
+* googlemaps.html→[gsimaps.html](https://github.com/taroyabuki/webdevelop/blob/master/html/phpweb/gsimaps.html)
+* googlemaps.js→[gsimaps.js](https://github.com/taroyabuki/webdevelop/blob/master/html/phpweb/gsimaps.js)
 
 ### 4.5.2
 
-* `addressmaps.html`→[yaddressmaps.html](https://github.com/taroyabuki/webdevelop/blob/master/html/phpweb/yaddressmaps.html)
-* `addressmaps.js`→[yaddressmaps.js](https://github.com/taroyabuki/webdevelop/blob/master/html/phpweb/yaddressmaps.js)
+* addressmaps.html→[gsiaddressmaps.html](https://github.com/taroyabuki/webdevelop/blob/master/html/phpweb/gsiaddressmaps.html)
+* addressmaps.js→[gsiaddressmaps.js](https://github.com/taroyabuki/webdevelop/blob/master/html/phpweb/gsiaddressmaps.js)

@@ -26,7 +26,7 @@ String url = "jdbc:mysql://localhost/mydb?characterEncoding=UTF-8&serverTimezone
 
 PHPからMySQLに接続するためのライブラリが必要なので、7.6.1項のphpMyAdminのインストールを先に済ませてください。
 
-* `messageform.php`
-* `messageviewer.php`
+* [messageform.php](messageform.php)
+* [messageviewer.php](messageviewer.php)
 
 **p. 136 脚註8** PHP 5.3.6以降では、PDOでMySQLに接続する際に文字コードを設定できるようになりました。ここで配布しているファイルは、それに合わせています。参考：http://php.net/manual/ja/ref.pdo-mysql.connection.php

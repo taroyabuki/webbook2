@@ -4,7 +4,7 @@
 
 [書店へのリンク集（版元ドットコム）](https://www.hanmoto.com/bd/isbn/9784627847323)
 
-<img src="cover.jpg?raw=true" alt="カバー" />
+![書影](https://www.morikita.co.jp/storage/images/cvr/084732cvr.jpg)
 
 ## [正誤表](errata.md)
 
@@ -32,3 +32,9 @@
 ## [図録（PowerPoint）](figures.pptx?raw=true)
 
 ## [参考文献とリンク](links.md)
+
+## ライセンス
+
+Copyright (c) 2022 Taro Yabuki
+
+Released under the [MIT license](LICENSE)
